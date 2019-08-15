@@ -16,7 +16,7 @@ def config_arg_parser():
     Set Parameters to argument parser
     :return: parser arguments
     """
-    parser = argparse.ArgumentParser(description='Dataset compiler.')
+    parser = argparse.ArgumentParser(description='Dataset Preprocessor')
     parser.add_argument('-dir_path', required=True, help="Raw data directory path")
     parser.add_argument('-language', required=True, help="Dataset language")
     return parser.parse_args()

@@ -15,15 +15,14 @@ import treetaggerwrapper
 from random import randint
 from nltk.corpus import stopwords
 from time import gmtime, strftime
-# from spacy.lang.en import English
-# from spacy.lang.es import Spanish
+from spacy.lang.en import English
+from spacy.lang.es import Spanish
 from nltk.stem import PorterStemmer
 from nltk.stem import SnowballStemmer
 from spellchecker import SpellChecker
 from nltk.tokenize import word_tokenize
 from nltk.tokenize import sent_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
-# pip install http://pypi.python.org/packages/source/h/htmllaundry/htmllaundry-2.0.tar.gz
 from htmllaundry import strip_markup
 import warnings
 warnings.filterwarnings('ignore')
@@ -112,19 +111,20 @@ def config_arg_parser():
     Set Parameters to argument parser
     :return: parser arguments
     """
-    parser = argparse.ArgumentParser(description='')
+    parser = argparse.ArgumentParser(description='Feature Extraction')
     parser.add_argument('-doc_dir', required=True, help="")
-    parser.add_argument('-language', required=True, help='')
-    parser.add_argument('-dataset_type', required=True, help='')
-    parser.add_argument('-feature_name', required=True, help='name of features to extract, e.g. n_grams, emoticons, '
+    parser.add_argument('-language', required=True, help='Dataset language')
+    parser.add_argument('-dataset_type', required=True, help='Type of the dataset, e.g. train or test')
+    parser.add_argument('-feature_name', required=True, help='Name of features to extract, e.g. n_grams, emoticons, '
                                                              'misspell_ratio, stopwords_ratio, pos_features, '
                                                              'lexical_features, punctuation_features, '
                                                              'vocabulary_richness, readability_scores')
-    parser.add_argument('-ngram', required=False, type=int, default=1, help='')
-    parser.add_argument('-min_df', required=False, type=float, default=1.0, help='')
-    parser.add_argument('-max_df', required=False, type=float, default=1.0, help='')
-    parser.add_argument('-max_features', required=False, type=int, default=None, help='')
-    parser.add_argument('-text_preprocessing', required=True,  default='stemm', help='lemma or stemm')
+    parser.add_argument('-ngram', required=False, type=int, default=1, help='Number for ngram, e.g. 1,2 or 3')
+    parser.add_argument('-min_df', required=False, type=float, default=1.0, help='Minimal document frequency')
+    parser.add_argument('-max_df', required=False, type=float, default=1.0, help='Maximal document frequency')
+    parser.add_argument('-max_features', required=False, type=int, default=None, help='Maximal features')
+    parser.add_argument('-text_preprocessing', required=True,  default='stemm', help='Text preprocessing type,'
+                                                                                     'e.g. lemma or stemm')
     return parser.parse_args()
 
 

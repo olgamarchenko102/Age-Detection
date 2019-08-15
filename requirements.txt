@@ -1,0 +1,17 @@
+python== 3.7.3
+anaconda==2019.07
+pip==19.1.1
+setuptools==41.0.1
+pandas==0.24.2
+pyenchant==2.0.0
+textstat==0.5.6
+treetaggerwrapper==2.3
+nltk==3.4.4
+scikit-learn==0.21.2
+htmllaudry==2.1
+ReliefF==0.1.2
+numpy==1.16.4
+spacy==2.1.6
+textblob==0.15.2
+matplotlib==3.0.2
+

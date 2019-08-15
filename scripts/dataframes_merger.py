@@ -16,7 +16,7 @@ def config_arg_parser():
     Set parameters of argument parser
     :return: parser arguments
     """
-    parser = argparse.ArgumentParser(description='')
+    parser = argparse.ArgumentParser(description='Dataframes merger')
     parser.add_argument('-dir_path', required=True, help="Path to the directory with feature collections, that should be merged")
     return parser.parse_args()
 

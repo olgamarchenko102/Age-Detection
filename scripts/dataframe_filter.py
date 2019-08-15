@@ -13,7 +13,7 @@ def config_arg_parser():
     Set Parameters to argument parser
     :return: parse arguments
     """
-    parser = argparse.ArgumentParser(description='')
+    parser = argparse.ArgumentParser(description='Dataframe Filter')
     parser.add_argument('-feature_collection_path', required=True, help="Feature collection csv-file path")
     parser.add_argument('-feature_list', required=True, help='List of the features to select')
     return parser.parse_args()

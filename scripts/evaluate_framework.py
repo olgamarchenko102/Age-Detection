@@ -27,10 +27,10 @@ def config_arg_parser():
     Set Parameters to argument parser
     :return: parser arguments
     """
-    parser = argparse.ArgumentParser(description='')
-    parser.add_argument('-train_path', required=True, help="path to train data set feature collection")
-    parser.add_argument('-test_path', required=True, help="path to test data set feature collection")
-    parser.add_argument('-setting_file', required=True, help="path to json file with hyperparameters for classificators")
+    parser = argparse.ArgumentParser(description='Evaluation Framework')
+    parser.add_argument('-train_path', required=True, help="Path to train data set feature collection")
+    parser.add_argument('-test_path', required=True, help="Path to test data set feature collection")
+    parser.add_argument('-setting_file', required=True, help="Path to json file with hyperparameters for classificators")
     return parser.parse_args()
 
 

@@ -17,7 +17,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import GridSearchCV
 from sklearn.feature_selection import VarianceThreshold
-from sklearn.feature_selection import SelectKBest, f_classifa
+from sklearn.feature_selection import SelectKBest, f_classif
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 warnings.filterwarnings('ignore')
 
@@ -29,18 +29,21 @@ def config_arg_parser():
     Set Parameters to argument parser
     :return: parser arguments
     """
-    parser = argparse.ArgumentParser(description='')
-    parser.add_argument('-train_path', required=True, help="train feature collection path")
-    parser.add_argument('-language', required=True, help='language of the dataset')
-    parser.add_argument('-classifier', required=True, help='classifier name, e.g. knn, svm-linear, svm, random_forest, logistic_regression')
-    parser.add_argument('-cross_val', required=True, type=int, help='n-fold crossvalidation value', default=4)
-    parser.add_argument('-scaler_name', required=False, help='scaler name')
-    parser.add_argument('-normalize', required=True, default=True, help='normalise feature values, e.g. True r False')
-    parser.add_argument('-feature_selector', required=False, default='relieff',  help='name of the feature selector method')
-    parser.add_argument('-kBest__n_features', required=False, type=int, default=3, help='number of best features to select')
-    parser.add_argument('-variance_thr', type=float, required=False, help='value for variance threshold', default=0.0) #0.8*(1- 0.8)
-    parser.add_argument('-relieff__n_features_to_keep', required=False, type=int, default=1, help='number of features to select')
-    parser.add_argument('-relieff__n_neighbors', type=int, required=False, help='', default=3)
+    parser = argparse.ArgumentParser(description='Grid Search')
+    parser.add_argument('-train_path', required=True, help="Train feature collection path")
+    parser.add_argument('-language', required=True, help='Tanguage of the dataset')
+    parser.add_argument('-classifier', required=True, help='Classifier name, e.g. knn, svm-linear, '
+                                                           'svm, random_forest, logistic_regression')
+    parser.add_argument('-cross_val', required=True, type=int,
+                        help='n-fold crossvalidation value', default=4)
+    parser.add_argument('-scaler_name', required=False, help='Scaler name')
+    parser.add_argument('-normalize', required=True, default=True, help='Normalise feature values, '
+                                                                        'e.g. True r False')
+    parser.add_argument('-feature_selector', required=False, default='relieff',  help='Name of the feature selector method')
+    parser.add_argument('-kBest__n_features', required=False, type=int, default=3, help='Number of best features to select')
+    parser.add_argument('-variance_thr', type=float, required=False, help='Value for variance threshold', default=0.0) #0.8*(1- 0.8)
+    parser.add_argument('-relieff__n_features_to_keep', required=False, type=int, default=1, help='Number of features to select')
+    parser.add_argument('-relieff__n_neighbors', type=int, required=False, help='Number of neighbors for relieff', default=3)
     return parser.parse_args()
 
 
