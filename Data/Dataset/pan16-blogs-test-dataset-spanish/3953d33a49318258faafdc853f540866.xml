@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><author age_group="xx" gender="xx" lang="ES" type="blog" url="www.esloquebuscaba.hol.es">
+	<documents count="10">
+		<document id="f0f893459de803cc752ee183992e7637" url="http://www.esloquebuscaba.hol.es/2013/05/asp-net-metodos-css-jquery/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=asp-net-metodos-css-jquery"><![CDATA[Una vez se tiene un conjunto de resultados o “matched set”, el siguiente paso es hacer algo con él. Por ejemplo, puede que desees aplicar una clase CSS o un estilo a los elementos que contiene el conjunto de resultados. O puede que desees añadir un comportamiento, como  añadir un controlador de clic que ejecuta [&#8230;]
+]]>
+		</document>
+		<document id="d6f027268034c45700a8f9b0fc4e98de" url="http://www.esloquebuscaba.hol.es/2013/06/anadir-una-lista-de-tus-ultimos-tweets-en-tu-blog/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=anadir-una-lista-de-tus-ultimos-tweets-en-tu-blog"><![CDATA[En esta post vamos explicar como crear un pequeño widget que muestra tus últimos tweets en wordpress, blogger, drupal, joomla, o cualquier pagina web que acepte HTML. Así, cada vez que publiques un tweet desde tu cuenta de twitter, este se verá reflejado instantáneamente en tu sitio web personal. Los usuarios de nuestra web no [&#8230;]
+]]>
+		</document>
+		<document id="f8241152cbb6038a525c69310f9853f5" url="http://www.esloquebuscaba.hol.es/2013/06/configurar-subdominios-en-un-entorno-local/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=configurar-subdominios-en-un-entorno-local"><![CDATA[Como todos ya sabréis, lo ideal en el desarrollo de aplicaciones web es trabajar en un entorno local y una vez finalizado, subir el contenido a un entorno remoto. Sin embargo, una vez tenemos instalados en local un servidor HTTP, una base de datos, o mejor aún, un todo en uno como XAMPP, con el tiempo [&#8230;]
+]]>
+		</document>
+		<document id="2f2f829529829dcee018f751b84d1043" url="http://www.esloquebuscaba.hol.es/2013/06/facebook-no-detecta-las-miniaturas-de-mis-posts/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=facebook-no-detecta-las-miniaturas-de-mis-posts"><![CDATA[El motivo principal por el que las publicaciones que se realizan en Facebook obtienen más o menos comentarios y &#8220;Me gusta&#8221; es por la miniatura (o thumbnail) que aparece junto a la publicación, ya que seleccionando la adecuada, captará la atención de los usuarios. Al introducir un enlace en Facebook, éste recoge una lista de [&#8230;]
+]]>
+		</document>
+		<document id="81e67d29b761a8bcca983aad4d4e0497" url="http://www.esloquebuscaba.hol.es/2013/06/problemas-comunes-en-prestashop/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=problemas-comunes-en-prestashop"><![CDATA[Para los que no sepan que es Prestashop, es una nueva herramienta para generar y administrar tiendas on-line de manera sencilla. Seguramente, conozcas más herramientas de éste tipo como OsCommerce, Zend Cart, Magento, etc…sin embargo, es muy probable que pienses que o bien se han quedado desfasadas, o bien, no son nada sencillas de instalar y [&#8230;]
+]]>
+		</document>
+		<document id="5e6b68c4ef95eaec946d3eddc4321850" url="http://www.esloquebuscaba.hol.es/2013/07/dynamic-target-tracking-camera-system-keeps-its-eye-on-the-ball/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dynamic-target-tracking-camera-system-keeps-its-eye-on-the-ball"><![CDATA[En la Universidad de Tokio están desarrollando un sistema de seguimiento capaz de mantener centrado en pantalla un objeto que se mueve a gran velocidad. Según sus creadores en un par de años podremos disfrutar de este sistema en retransmisiones deportivas.
+]]>
+		</document>
+		<document id="f7204742a42138e66c17ec492e032b7c" url="http://www.esloquebuscaba.hol.es/2013/07/prestashop-habilitar-el-reporte-de-errores/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=prestashop-habilitar-el-reporte-de-errores"><![CDATA[En este post se explica como habilitar el reporte de errores en las diversas versiones de Prestashop existentes. El reporte de errores nos puede ser de gran utilidad, por ejemplo, en los siguientes casos: En ocasiones pueden aparecen pantallas en blanco o se producen errores en la tienda que no nos proporcionan información del motivo del error [&#8230;]
+]]>
+		</document>
+		<document id="86d9cf2d95d14fbe236cb9dcfa2dbbe8" url="http://www.esloquebuscaba.hol.es/2013/07/wordpress-limitar-el-numero-de-posts-por-pagina/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=wordpress-limitar-el-numero-de-posts-por-pagina"><![CDATA[Para limitar el número de posts por página solamente hay que añadir las siguientes líneas al fichero &#8220;functions.php&#8221; de vuestra plantilla o tema WordPress. Por ejemplo, si vuestro tema se llama &#8220;mitema&#8220;, el fichero &#8220;functions.php&#8221; debería encontrarse en &#8220;wp-content/themes/mitema/functions.php&#8220;. [crayon-52ce7ece68ae2070795077/] Lo que hace el código de arriba es mostrar 2 posts por página cuando se [&#8230;]
+]]>
+		</document>
+		<document id="876150fa7809efe2790d2248122782b4" url="http://www.esloquebuscaba.hol.es/2013/09/asp-net-otras-funcionalidades-jquery/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=asp-net-otras-funcionalidades-jquery"><![CDATA[Antes de meternos más a fondo en jQuery, es necesario comprender algunas de sus funcionalidades más importantes ya que más pronto o más tarde las vamos a necesitar. Para empezar,  vamos a hablar del método &#8220;each&#8220;. Método &#8220;each&#8221; El método &#8220;each&#8220; se repite sobre una colección de elementos. Esto nos viene de maravilla si deseamos aplicar un [&#8230;]
+]]>
+		</document>
+		<document id="14d31aaf1def32bb12636db3fbddae0d" url="http://www.esloquebuscaba.hol.es/2013/10/prestashop-problema-con-el-campo-referencia-de-un-producto/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=prestashop-problema-con-el-campo-referencia-de-un-producto"><![CDATA[Cuando en una tienda virtual hay que introducir un nuevo producto, es muy común entre los usuarios de Prestashop el utilizar la funcionalidad de duplicar un producto ya existente, modificar los campos necesarios (nombre, referencia, descripciones, etiquetas,&#8230;) y guardar el nuevo producto. Hasta ahí todo correcto. ¿Cuál es el problema? Que al modificar el campo Referencia [&#8230;]
+]]>
+		</document>
+	</documents>
+</author>

@@ -1,0 +1,372 @@
+<author type="socialmedia" lang="en" gender="xx" age_group="xx" url="">
+	<documents count="24">
+		<document id="3ebc3f2551123adc5bd518f9c41afe09" url=""><![CDATA[Password Recovery Tips for Windows Vista Users<br/><br/>Although many Windows Vista users switched to Windows XP or the hottest Windows 7, there are some users stick to this operating system. Recently I often come across problems like “How can I reset or recover my forgotten Vista password?” So here will lost 5 helpful Windows Vista password recovery tips.
+<br />Tip 1: Use Rekeysoft Windows Password Recovery
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS9mb3Jnb3Qtd2luZG93cy1wYXNzd29yZC5odG1s" target="_blank">Rekeysoft Windows Password Recovery</a> offers you the easiest and safest way to reset the forgotten Windows login password on Windows Vista. With this effective tool, it’s no need to re-install Windows system or resort to others when you forgot Vista password. All you need to do is to reset it in 4 simple steps.
+<br /><br />1. Download and install Rekeysoft Windows Password Recovery.
+<br /><br />2. Create a Windows Vista password reset USB /CD/DVD.
+<br /><br />3. Boot the Vista machine from USB/CD/DVD.
+<br /><br />4. Reset Windows Vista password in a few clicks.
+<br />Tip 2: Use password reset disk
+<br /><br />Windows Vista incorporates built-in features to enable you create a password reset disk in case you may forgot the password in future. If you have a password reset disk in hand, please follow the steps listed below.
+<br /><br />1. Input an incorrect password on the Vista logon screen, and then press Enter.
+<br /><br />2. Click “Reset password” link when it appears.
+<br /><br />3. A password reset wizard will come up. Insert your password reset disk in computer.
+<br /><br />4. Click Next on the wizard and follow its steps to reset Vista password to a new one.
+<br />Tip 3: Use alternate admin account
+<br /><br />If you have more than one administrator account in Vista a, you can use it to reset your own account’s password.
+<br /><br />1. Login to the administrator account.
+<br /><br />2. Click on Start, Control Panel and User Accounts.
+<br /><br />3. Select your user account and click “Change Password.” Enter a new password or select “Remove the Password”.
+<br />Tip 4: Use Ophcrack
+<br /><br />Ophcrack is a free <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS8_" target="_blank">Windows password recovery</a> based on rainbow tables. It is a very efficient implementation of rainbow tables done by the inventors of the method.
+<br /><br />1. Load the Ophcrack CD to the computer, install and run it.
+<br /><br />2. Click on Load and select the appropriate password LM (LAN Manager) hash to use or choose PWDUMP File if the hash was dumped and saved using pwdump2.
+<br /><br />3. Otherwise choose encrypted SAM to allow Ophcrack to dump the hashes from the SAM and SYSTEM files retrieved from a Windows machine while booting on another disk.
+<br /><br />4. Click Tables, and select the location or folder to store the rainbow hash tables downloaded or installed by the installer.
+<br /><br />5. Select the type of tables you wish to use.
+<br /><br />6. Click Launch to start the cracking process.
+<br />Tip 5: Reinstall Windows
+<br /><br />This is the last option to use if you can’t log in to your computer through any other method. This will delete all information on your computer.
+<br /><br />1. Insert the Windows boot disk into the computer’s CD-ROM or DVD drive.
+<br /><br />2. Restart the computer. Press any key when the computer prompts you to do so.
+<br /><br />3. Follow the directions on the screen to reinstall Windows and set up a new administrator account.
+]]>
+		</document>
+		<document id="6d2cc6477437ab0e115ec70d4fbf8895" url=""><![CDATA[How to Solve Windows Password Recovery Issue on Windows XP?<br/><br/>It’s important to change the password for your computer often, particularly if you use it in public areas or it is a computer that other people routinely access. If you want to change or reset your Windows XP password to a new one, you can do so in just a couple minutes through the XP utility designed to accomplish this task. Now, this article is going to introduce you 3 kinds of ways to solve Windows password recovery issues on XP.
+<br /><br />Method 1: Use the Control Panel to Reset XP Password
+<br />It is easy to reset Windows XP password in Control Panel if you have another admin account to login in the PC.
+<br />Step 1: Click “Start,” then click “Control Panel.” Open the “User Accounts” section.
+<br />Step 2: Select your user account from the list under the label “or pick an account to change.”
+<br />Step 3: Click the “Change my password” link. Enter your current password and the password you wish to change it to.
+<br />Step 4: Click the “Change Password” button to immediately apply the settings and reset your password to the new one.
+<br /><br />Method 2: Typing with “net user” to reset XP Password
+<br />Step 1: Log in to the Windows XP system as Administrator or another account with administrative powers on the computer.
+<br />Step 2: Press “Start” and type “cmd.” Press “Enter.”
+<br />Step 3: Input the command “net user ” where is the account name of the user whose password you want to change and is what you would like to set the password to. Press “Enter.”
+<br />Step 4: Log out of the system with the administrative account. Log in with the user account that you changed the password for to ensure that it works correctly.
+<br /><br />Method 3: Reset XP Password with a Password Recovery Tool
+<br />Some friends asked in the forum about how to get a recovery tool, because they lost the password and couldn’t log into it. That really doesn’t matter. Rekeysoft Windows Password Recovery is well-known <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS8_" target="_blank">Windows password recovery</a> tool which can help you both reset XP password and <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS9yZXNldC13aW5kb3dzLTctcGFzc3dvcmQuaHRtbA__" target="_blank">reset Windows 7 password</a> or other kinds of Windows OS. You can download the full version from its official site and then run it. To do this, firstly you need to create a password reset disk with this tool by a bootable CD/DVD/USB. Then, take it to reset your lost XP password with ease.
+]]>
+		</document>
+		<document id="aa9395d9e93d14ab5bc82187aec918ce" url=""><![CDATA[How to Reset My Password On Acer Laptop?<br/><br/>Windows operating systems allow you to set up an administrator password, which prevents unauthorized users from downloading applications and making system changes without your permission. If you have forgotten your administrator password, you can reset it easily and create a new one that you can use to log into Windows. Since Acer Aspire computers use Windows operating systems, resetting your password is a simple process you can accomplish in minutes.
+<br /><br />Case 1: If you have created a password reset disk, you can take the reset disk to reset Windows password on Acer laptop. Step-by-step guide is following:
+<br /><br />Step 1: Restart the Acer Aspire. When Windows boots up, select the username you want to reset the password for and press “Enter.”
+<br /><br />Step 2: Click “Use your password reset disk” to launch the password reset wizard. The password reset wizard enables you to create a new password for your user account.
+<br /><br />Step 3: Click “Next” on the password reset wizard and insert the password reset disk. Click “Next.” Type your new password in the “Type a new password” box and type the password again in the confirmation box.
+<br /><br />Step 4: Type a hint to you use in case you forget your password next time. Click “Finish” to activate your new password. Restart your computer and log on to Windows using your new password.
+<br /><br />Case 2: If you have the admin right to login, then you can reset acer password like this:
+<br /><br />Step 1: Press the “Ctrl” + “Alt” + “Delete” keys on the keyboard simultaneously. A new window will appear.
+<br /><br />Step 2: Click on “Change a password” in this window.
+<br /><br />Step 3: Type your current password into the “Old password” field.
+<br /><br />Step 4: Type the new password into the “New password” and “Confirm password” fields.
+<br /><br />Case 3: If there is no password reset disk or another available admin account or an installation disc, you need a <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5wYXNzd29yZHVubG9ja2VyLmNvbS93aW5kb3dzLXBhc3N3b3JkLXJlY292ZXJ5Lmh0bWw_" target="_blank">Windows password recovery</a> tool instead.
+<br /><br />Windows Password Unlocker is widely recommended to <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5wYXNzd29yZHVubG9ja2VyLmNvbS9rbm93bGVkZ2UvcmVzZXQtYWNlci13aW5kb3dzLTctcGFzc3dvcmQuaHRtbA__" target="_blank">reset Acer  password</a> on all the popular Windows OS. It Supports various brands of desktops, laptops and tablet PCs, like Dell, Hp, Sony, Toshiba, Acer, Samsung and ThinkPad, etc.
+]]>
+		</document>
+		<document id="b15a71c33d234e07b08e6d1f8deab7ef" url=""><![CDATA[A Brief Introduction About GPT<br/><br/>As disk capacity has increased to over a terabyte, a new partition architecture developed in the late 1990’s called GPT (GUID Partition Table) was created to accommodate the larger partition sizes.  In addition to size, GPT disks also offer more partitions and greater resilience to corruption.  This article examines MBR and GPT-based Windows disks discussing, their benefits and disadvantages.
+<br /><br />Microsoft adopted the GPT disk partitioning scheme in 2001 from Intel’s EFI (Extensible Firmware Interface) specifications.  It accommodates disk partition sizes up to 18 EB (Exabyte’s) or 1 million terabytes.  Each GUID (globally unique ID) partition contains a 36-character field to allow a readable name to be associated with each partition.
+<br /><br />The original method of partitioning disks is referred to as MBR (Master Boot Record) which was developed during the 1980’s.  Although widely accepted, this scheme has many shortcomings including partitions being limited to 2TB (terabytes) in size. Another shortcoming of MBR-based disk partitions is the limitation of 3 primary partitions and 1 extended partition.  The extended partition can be further divided into multiple logical partitions.  By limiting the number of partitions on a disk, you effectively reduce the number of partitions to organize or manage the data.
+<br /><br />The 2 approaches differ with how they track the mapping of physical disk sectors to logical block numbers.  With GPT-based disks, Microsoft supports up to 128 partitions per disk.  There are several partitions reserved for dynamic disks and EFI-boot support so only 124 partitions are available for data.
+<br /><br />GPT disks are gaining popularity with their benefits in terms of partition size, number of partitions, and resilience.  Windows Failover Clusters now support GPT-based disks which will broaden their use in enterprise data centers. So while bigger isn’t always better, the many advantages of GPT-based drives make them an attractive alternative.
+<br /><br />Watch for future articles on <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yZWNvdmVyd2luZG93c3Bhc3N3b3JkLmNvbS93aW5kb3dzLTctcGFzc3dvcmQtcmVjb3ZlcnkuaHRtbA__" target="_blank">Windows 7 password recovery</a>.
+]]>
+		</document>
+		<document id="dfacd35ba349630fa24dad8d4a953b7d" url=""><![CDATA[A Question About Windows 8 Password Retrieval<br/><br/>Here is a question about Windows 8 Password Retieval asked in Microsoft Answers.
+<br /><br />Question:
+<br /><br />I can’t start my laptop after installing windows 8 because it asks me for a password that I can’t remember.
+<br /><br />It was a while ago that i installed it, but I tried using it last night and I can’t get past the sign in page.
+<br /><br />Please help me.
+<br /><br />Answer:
+<br /><br />You may have to boot with the installation DVD, and process through and select Advanced or Troubleshoot on the screens that come up, until you get to the last one. There you can boot in Safe Mode.
+<br /><br />You can then try Control Panel…User Accounts, and attempt to fix the problem.
+<br /><br />You may be able to change the password just by deleting it, or create a new one.
+<br /><br />You may have to create a new account with administrator priviledges… select no login or passwords for this account.
+<br /><br />They can be added later when things are working better.
+<br /><br />If this works, you can leave it this way and use this account, or try to re-establish your original.
+<br /><br />I can’t guarantee this will work, but it is the only option I can think of.
+<br /><br />PS…this worked for some one else.
+<br /><br />Note: <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yZWNvdmVyd2luZG93c3Bhc3N3b3JkLmNvbS93aW5kb3dzLTctcGFzc3dvcmQtcmVjb3ZlcnkuaHRtbA__" target="_blank">Windows 7 password reset</a> is a solved problem.
+]]>
+		</document>
+		<document id="31c0854bebfcfedcadaac4f2d924de85" url=""><![CDATA[How to Quickly Switch Users in Windows 7?<br/><br/>Windows 7 like its predecessors, Vista and XP, allow users to quickly switch between user accounts while logged in. This is a great feature because you could essentially keep two different accounts logged in without having to loose the things you are working on Windows 7 like its predecessors, Vista and XP, allow users to quickly switch between user accounts while logged in. This is a great feature because you could essentially keep two different accounts logged in without having to loose the things you are working on or waste time logging out and logging back in.or waste time logging out and logging back in.
+<br /><br />User Accounts Must be Active
+<br />If you share your Windows 7 computer with other members of the family you most likely employ user accounts for each member of the family so that preferences, files, and other items are limited to each account. If you only use one account in Windows 7 then this feature wont apply.
+<br /><br />How to Quickly Switch Users in Windows 7?
+<br />To quickly switch between accounts, follow the instructions below.
+<br /><br />1. While logged in to your account, click the Windows Orb to open the Start Menu.
+<br /><br />2. Click the small arrow next to the Shut Down button to expand the menu.
+<br /><br />3. Click Switch User from the menu.
+<br /><br />After you click Switch User you will be taken to the Windows Log-in screen where you will be able to select the account you wish to switch to.
+<br /><br />When you are done using the second account you have the option of switching back to the first account while keeping the second account in the background or logging out the second account altogether.
+<br /><br />Sometimes, we may face the issue that we can not logon with a wrong password. for <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yZWNvdmVyd2luZG93c3Bhc3N3b3JkLmNvbS9sb3N0LXdpbmRvd3MtNy1wYXNzd29yZC5odG1s" target="_blank">lost Windows 7 password</a>, what would you do? If you lost the user password, it is easy to use the admin account to <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yZWNvdmVyd2luZG93c3Bhc3N3b3JkLmNvbS9yZXNldC13aW5kb3dzLTctcGFzc3dvcmQuaHRtbA__" target="_blank">reset Windows 7 password</a>. Of course, you can take a password reset disk, a Windows password recovery tool or other third party.
+]]>
+		</document>
+		<document id="ffb24ba6efb4b94ea69ce09664292f32" url=""><![CDATA[How to Enable and Set Password Expiration in Windows 7?<br/><br/>You may know that to give your computer a better security, it is suggested that Windows users change the login password every month. To let computer notify you to do <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS93aW5kb3dzLTctcGFzc3dvcmQtcmVzZXQtZGlzay5odG1s" target="_blank">Windows 7 password reset</a> regularly, you can set password expiration in Windows 7.
+<br /><br />Enable password expiration
+<br /><br />1.      Open the Local Users and Groups administration panel. Do this in these easy ways: Start –&gt; then enter lusrmgr.msc into the start menu search box. or right click computer -&gt;management-&gt; Local Users and Groups
+<br /><br />2.      Double click to select your user.
+<br /><br />3.      Uncheck the option “Password never expires”.
+<br /><br />4.      Click OK, and it is done.
+<br /><br />Set password expiration time
+<br /><br />Method 1
+<br /><br />Step 1 In start search box, type Local Security Policy and press enter.
+<br /><br />Step 2 Local Security Policy editor will appear. In the left pane, expand Account Policies -&gt; Password Policy, and then double Maximum Password age option.
+<br /><br />Step 3 Change the age and apply.
+<br /><br />This security setting determines the period of time (in days) that a password can be used before the system requires the user to change it. You can set passwords to expire after a number of days between 1 and 999, or you can specify that passwords never expire by setting the number of days to 0. It is best to have passwords expire every 30 to 90 days, depending on your environment.
+<br /><br />Method 2
+<br /><br />Step 1 Type cmd in Start search box and press enter.
+<br /><br />Step 2 Type “net accounts” and press Enter to see the current “Maximum password age”.
+<br /><br />Step 3 To enable password expiration and set expiration time for all users, type the command “net accounts / maxpwage:xx” and press Enter.
+<br /><br />Note: As said above, you‘d better replace xx with number from 30 to 90.
+<br /><br />Step 4 Close the command prompt.
+<br /><br />When the password is expired, at the logon screen, it will ask you to input the old password, and <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS9yZXNldC13aW5kb3dzLTctcGFzc3dvcmQuaHRtbA__" target="_blank">reset Windows 7 password</a> to a new one.
+]]>
+		</document>
+		<document id="2289ed083c7a1afa2b4e4347faac686f" url=""><![CDATA[How Do I Recover Deleted Files?<br/><br/>Question: How Do I Recover Deleted Files?
+<br />Have you ever accidentally deleted a file or an email only to realize you didn’t know how to get it back? Deleted files can be frustrating, but don’t panic. You can recover deleted files, it just takes patients.
+<br /><br />Answer: You can recover deleted files by restoring the deleted files from the Recycle Bin (Depending upon your operating system, your deleted files are temporarily sent to the Recycle Bin or the Trash Bin.) or you may be able to recover deleted files using a file recovery program.
+<br /><br />Here’s the method you should use to recover deleted files:
+<br />1. How to recover the deleted files from the Recycle Bin?
+<br />The Recycle Bin should be the first place you look to recover deleted files. If you haven’t yet emptied the Recycle Bin, your deleted files will still be located here. You can recover deleted files from the Recycle Bin by simply restoring the files to their original locations.
+<br /><br />2. How to recover the deleted files with a Free File Recovery Program?
+<br />If the files you’re looking for have already been emptied from the Recycle Bin, you can attempt to recover them using a file recovery program. You can improve the ability of a file recovery program to recover deleted files by installing and running the program as soon as possible after deleting a file.
+<br /><br />Unlike file recovery, Windows password recovery can be worse annoying if you can not login your computer. I am a Windows 7 user and i have set password protection. However, it bothered  me much before that someday i <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yZWNvdmVyd2luZG93c3Bhc3N3b3JkLmNvbS9yZXNldC13aW5kb3dzLTctcGFzc3dvcmQuaHRtbA__" target="_blank">forgot Windows 7 password</a> and could not gain access into my pc, which made me crazy that my thesis has been locked. Finally, i was told to download an efficient tool – Windows Password Breaker for my <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yZWNvdmVyd2luZG93c3Bhc3N3b3JkLmNvbS93aW5kb3dzLTctcGFzc3dvcmQtcmVjb3ZlcnkuaHRtbA__" target="_blank">Windows 7 password recovery</a>.
+]]>
+		</document>
+		<document id="487bf54e14b3db6fa3a676a2309ebdb" url=""><![CDATA[Facebook to Reveal App Center<br/><br/>Facebook recently announced in its Developer Blog that its own App portal called the App Center. With the new App Center, users can now access existing apps for Android, iOS and browsers plus paid HTML5 apps. Facebook hopes to boost its platform log plus increase their income with this new App Center.
+<br /><br />The center isn’t yet open to users and won’t be for several weeks. For now Facebook is just calling on developers to review guidelines and submit data to the hub so their apps can be featured. There will also be an option for developers to submit paid apps to the App Center.
+<br /><br />The Facebook App Center will be accessible via a web page and iOS and Android apps. Obviously, Facebook has established several guidelines for developers to meet so that their apps can be included in the portal. One of those requirements is that the apps have to provide Facebook login features. This requirement applies to both IOS and Android apps. While free Web apps should have Facebooks Connect login platform support. Facebook also proposes a number of qualities in the apps, such as a high user rating and a good user interface.
+<br /><br />Facebook will also offer paid HTML5 apps via App Center. Developers must know that the social network will keep about 30% of all income generated from these paid apps. The introduction of the Facebook App Center should lead to a growth in the number of mobile apps that use Facebook, whatever platform it is running on. With Facebook now almost having 1 billion active users, the introduction of the App Center will definitely appeal to them.
+<br /><br />(<a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yZWNvdmVyd2luZG93c3Bhc3N3b3JkLmNvbS9sb3N0LXdpbmRvd3MtNy1wYXNzd29yZC5odG1s" target="_blank">Lost Windows 7 password</a>? How to regain access to your PC<img class="smiley" src="http://www.pan.net/smilies/unsure.gif" alt=":)" />
+]]>
+		</document>
+		<document id="c0a80e5c8896276c2a80d5502253a7e4" url=""><![CDATA[Best Three PDF Password Recovery Tools<br/><br/>In password recovery filed, though it is less popular than <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS8_" target="_blank">Windows password recovery</a>, PDF password recovery is often needed as well. People may get a password protected PDF file, or have created one but forgot PDF password, in these conditions, a PDF password recovery tool is needed.
+<br />This passage will list top 3 programs for you to recover PDF password.
+<br />1. PDF Crack —Free of Charge
+<br />PDF Crack is a free program to recover PDF password, an actual password “recovery” and not a simple PDF password removal or reset. Different from plenty of commercial PDF password recovery software available to unlock lost password for PDF files, this is a free Windows binary version of the open source PDF crack utility for Linux.
+<br />2. Advanced PDF Password Recovery — Quite Famous
+<br />Advanced PDF Password Recovery is designed to get access password-decrypted PDF files swiftly and efficiently. With this software, you can easily recover PDF password with all versions of Adobe Acrobat or any other PDF application. Meanwhile, this toolkit supports GPU acceleration and optionally removes JScript code, form fields and digital signatures.
+<br />3. PDF Password Unlocker — Instant and Easy to Use
+<br />PDF Password Unlocker is an easy-to-use and handy software to recover PDF password, which you can regain lost or password-protected password within a few minutes in despite of the length and complexity of password. What’s more, three types of attacks are available for PDF password recovery: Brute-force attack, Brute-force with mask attack and Dictionary attack. You can select one of them as your cases. It is also worth to mention that a vivid and friendly interface appears when access in the application.
+<br />According to the above mentioned information, you will surely find a favorite tool to <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5wYXNzd29yZHVubG9ja2VyLmNvbS9ndWlkZS9wZGYtcGFzc3dvcmQtcmVjb3ZlcnkuaHRtbA__" target="_blank">recover PDF password</a> at ease.
+]]>
+		</document>
+		<document id="6456468bf46a6e1f228209936e287d4d" url=""><![CDATA[How to Disable Password Expiration in Windows 7?<br/><br/>Windows 7 comes with many security features including password expiration. This password expiration can help you reduce security risks by forcing you to change their password periodically. But sometimes you may feel annoyed to learn that you password is going to expire. If so, you can turn off the password expiration in Windows 7 as follows.
+<br /><br />From  Command Prompt
+<br /><br />Step 1.Open Command Prompt. To do this, type “cmd” in the Start search box, and then right-click the Command Prompt at top and click “Run as Administrator.” Allow the program to run with Administrative privileges if asked.
+<br /><br />Step 2.Type the following command to disable password expiration.
+<br />wmic path Win32_UserAccount where Name=’user’ set PasswordExpires=false
+<br /><br />Replace “user” with the account name of the user whose password expiration setting you are changing.
+<br /><br />From the Local Users and Groups
+<br /><br />Step 1. Click Start –&gt; then enter lusrmgr.msc into the start menu search box.
+<br /><br />Step 2. Double click to select your user
+<br /><br />Step  3. Check the box next to “Password never expires”
+<br /><br />More Tips:
+<br />1. Make sure your Windows 7 password is easy for you to remember yet difficult for others to guess.
+<br />2. Don’t forget to create a <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS93aW5kb3dzLTctcGFzc3dvcmQtcmVzZXQtZGlzay5odG1s" target="_blank">Windows 7 password reset</a> disk for storing your password information sothat you can easily change it after forgetting it in future.
+<br />3. Forgot Windows 7 password without a password reset disk? You can turn to <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS93aW5kb3dzLTctcGFzc3dvcmQtcmVjb3ZlcnkuaHRtbA__" target="_blank">Windows 7 password recovery</a> apps.
+]]>
+		</document>
+		<document id="9236114bbbab0732a78e26f991aff59f" url=""><![CDATA[How to Secure Your Windows 8 with a Password or Gestures?<br/><br/>Just as with earlier versions of Windows, you can login using a password. What’s different in Windows 8 is that you can use a mouse or your finger to draw a gesture onto an image to do so. This is thought to be more secure than using a password – people generally aren’t very good at choosing secure passwords, but the number of permutations of gestures on a photo are vast, and so much more difficult to second-guess.  If you do choose gesture based login, though, make sure that nobody is watching the patterns you create, as they may be able to copy them.  (How to <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS9yZXNldC13aW5kb3dzLTctcGFzc3dvcmQuaHRtbA__" target="_blank">reset Windows 7 password</a><img class="smiley" src="http://www.pan.net/smilies/unsure.gif" alt=":)" />
+<br /><br />1. To set this up, go to the Settings charm and choose More PC Settings. Next, choose Users from the left-hand PC Settings options, and select Create a Picture Password.
+<br /><br />2. Now you’ll need to verify yourself by entering your current password – just to prove you have the authority to create this new login. That done, you are taken to a new screen, which explains how picture passwords work. Read the text, then select Choose picture.
+<br /><br />3. Next scroll through the photos you have till you find the one you want to use, and click Open. The next screen lets you move the picture around a little, and when you are happy, you can choose Use this picture. Now comes the important part. Draw three gestures on the picture, they can be any combination of circles, straight lines and taps. Complete the process by repeating the gestures. You have to be quite precise. Now whenever you login, you’ll have to repeat the three gestures.
+<br /><br />Windows Defender
+<br /><br />Windows Defender is Microsoft’s very own anti-malware client, and it’s been updated in Windows 8 so that it will protect against viruses and spyware, and provide real-time detection. You can scan your computer and any attached devices any time you want, too.
+]]>
+		</document>
+		<document id="ee548213ecf4f6dae36b2f94720b6e9a" url=""><![CDATA[Windows 8 Anti-Spyware App Windows Defender<br/><br/>Tech site PC World said on Friday that Windows 8 will come with an upgraded version of the anti-spyware app Windows Defender, one that now has antivirus functions.
+<br /><br />“Windows Defender now provides similar protection – and a similar look and feel – to that of the free Microsoft Security Essentials antivirus program, which Microsoft has offered to users as an optional download since 2009,” PC World said.
+<br /><br />While Windows Defender will provide “basic” protection against viruses and malware, PC World said this may render optional the buying of yearly antivirus subscriptions or downloading a free AV app.
+<br /><br />However, it said users can still disable Windows Defender and use another antivirus utility.
+<br /><br />Windows 8 will also have better download screening, using a SmartScreen filter like that in Internet Explorer 9 to help detect and block potentially malicious programs.
+<br /><br />“(T)he function complements IE’s website filtering, which works to block phishing and malicious sites. Starting with Windows 8, the program-monitoring portion of the SmartScreen Filter is built into Windows itself, and it will work whether you’re using IE, Firefox, Chrome, or any other browser,” the site said.
+<br /><br />An added bonus of sorts for Windows users is that with SmartScreen filtering potentially unwanted apps, Microsoft will remove the previous Security Warning alerts when one first opens a downloaded program.
+<br /><br />“This is a welcome change, as it cuts down on the number of alerts you have to click through–with Windows 8, you’ll see an alert only when something’s amiss,” it said.
+<br /><br />To better protect your data, set a strong password for your account. But what if you forgot Windows 7 password? Click here for <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS93aW5kb3dzLTctcGFzc3dvcmQtcmVjb3ZlcnkuaHRtbA__" target="_blank">Windows 7 password recovery</a> solutions.
+]]>
+		</document>
+		<document id="4798a58f7a8cb4f0ac06f857e143b0e4" url=""><![CDATA[How to Add or Remove Items from Start Menu?<br/><br/>When you click start button in windows 7, you see a Start menu. From Start Menu, you can easily get access to Control Panel to change settings and customize functionality of your computer, such as personalization, <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yZWNvdmVyd2luZG93c3Bhc3N3b3JkLmNvbS93aW5kb3dzLTctcGFzc3dvcmQtcmVjb3ZlcnkuaHRtbA__" target="_blank">windows 7 password reset</a>, and so on. But it is inconvenient when the Start Menu lists too many less used items.
+<br />How to remove items from Start Menu? Do as follows:
+<br />a. Right-click on the Start button and select Properties.
+<br />b. On the Screen that appears, go to the Start Menu tab and click Customize.
+<br />c. In the dialog box that appears, find the item you do not need, choose Don’t display this item, and click OK.
+<br />In Customize Start Menu dialogue box, you can also add items to the Start Menu – display Computer, Control Panel, Documents, Downloads, Games, Music, Personal Folder, Pictures, or Videos as a link or menu on the Start Menu.
+<br />It is suggested that Computer, Control Panel and run command are kept on the Start Menu.
+<br />This is a simple, interesting and useful trick that you can perform on your system by using the run command.
+<br />1. Open the run box.
+<br />2. Type three dots i.e. “…” in the run command. My personal folder opens.
+<br />Next type two dots i.e. “..” in the run command. Check what happens.
+<br />Finally type a single dot i.e. “.” in the run command. Check what happens.
+]]>
+		</document>
+		<document id="961fb4a2fdb375b5b37da4e0348d1bff" url=""><![CDATA[Password That Can Be Set on Windows 7 Computer<br/><br/>The most common password used in windows 7 computer is the user account password, which can be set under User Account in Control Panel. Besides windows user password, there are other types of passwords on the computer. Let’s learn it one by one.
+<br />If just when you start the computer, it asks for a password, this password may be power-on password, hard disk password or system password.
+<br />How to set power-on password and hard disk password?
+<br />1. Power on computer;
+<br />2. Press F2 or other keys to login BIOS screen and select password tab;
+<br />3. Choose Password and press Enter key with arrow keys;
+<br />4. Input power on password or hard disk password, and press Enter key. Then confirm password as the wizard;
+<br />5. Save all changes and logout BIOS screen by pressing F10 key;
+<br />6. Restart computer.
+<br />Tip: Different motherboards have various BIOS structure, just find to set password.
+<br />How to set system password?
+<br />1 To set system password, you need to set supervisor password as power-on password at first.
+<br />2 Then go to security option under Advanced BIOS Features, change it from Setup to System.
+<br />If you choose Setup, it will ask for password when you enter BIOS, which is BIOS password.  If you select System, it will require a password once you boot the computer, which is system password.
+<br />All the above three kinds of passwords will be removed if supervisor password is cleared. But it is not an easy task to remove supervisor password if you forgot it, compared with the method to <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS9yZXNldC13aW5kb3dzLTctcGFzc3dvcmQuaHRtbA__" target="_blank">reset windows 7 password</a> for user account. Therefore, keep supervisor password in mind.
+]]>
+		</document>
+		<document id="de60e7addc68df8338dcadc0d92cd2cc" url=""><![CDATA[Keep Long Live Your Laptop Battery!<br/><br/>Laptop batteries are like people–eventually and inevitably, they die. And like people, they don’t obey Moore’s Law–You can’t expect next year’s batteries to last twice as long as this year’s. Battery technology may improve a bit over time (after all, there’s plenty of financial incentive for better batteries), but, while interesting possibilities may pop up, don’t expect major battery breakthroughs in the near future.
+<br /><br />Don’t Run It Down to Empty
+<br />Squeezing every drop of juice out of a lithium ion battery (the type used in today’s laptops) strains and weakens it. Doing this once or twice won’t kill the battery, but the cumulative effect of frequently emptying your battery will shorten its lifespan.
+<br /><br />Keep It Cool
+<br />Heat breaks down the battery, and reduces its overall life.
+<br /><br />When you use your laptop, make sure the vents are unblocked. Never work with the laptop on pillows or cushions. If possible, put it on a raised stand that allows for plenty of airflow.
+<br />Also, clean the vents every so often with a can of compressed air. You can buy this for a few dollars at any computer store. Be sure to follow the directions on the can, and do this only when the notebook is off.
+<br /><br />Give It a Rest
+<br />If you’re going to be working exclusively on AC power for a week or more, remove the battery first.
+<br />Otherwise, you’ll be wearing out the battery–constantly charging and discharging it–at a time when you don’t need to use it at all. You’re also heating it up (see “Keep It Cool,” above).
+<br /><br />By the way, if you forgot your bios password, it is helpful for you to take off the battery to regain access into it.  But if you <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS9mb3Jnb3Qtd2luZG93cy03LXBhc3N3b3JkLmh0bWw_" target="_blank">forgot Windows 7 password</a> or other kinds of  Windows OS, it is better to do <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS93aW5kb3dzLTctcGFzc3dvcmQtcmVjb3ZlcnkuaHRtbA__" target="_blank">Windows 7 password recovery</a> with a  proven Windows password recovery tool.
+]]>
+		</document>
+		<document id="65523699f71c34baa0e7f0aa2348d969" url=""><![CDATA[Forgot Login Password of My Laptop?<br/><br/>Q:  My O.S is windows 7. I kept important data on desktop and also in C drive in which the O.S installed. Now I forgot password. Can anyone suggest how to get that password or recover that data without doing damage to that data?  It’s urgent.
+<br /><br />Come across a similar problem? Don’t worry! Here it will shows you how to regain access to your PC when you <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS9mb3Jnb3Qtd2luZG93cy03LXBhc3N3b3JkLmh0bWw_" target="_blank">forgot Windows 7 password</a>. As there is important data stored on the C drive, Windows reinstallation and system restore are beyond your consideration. And you are urgent to fix this problem, so my suggestion is to use a program called Rekeysoft Windows Password Recovery.
+<br /><br />Rekeysoft Windows Password Recovery provides you an easy and instant way to get back in your locked PC by resetting the lost login password or creating a new admin account. 100% security is guaranteed. No any data loss or damage. More important, the password reset rate of this program is nearly 100%. For any problem, please contact its free technical support.
+<br /><br />To reset forgotten Windows 7 password with Rekeysoft Windows Password Recovery, you need to prepare two PCs. One is the computer that you forgot login password of and the other can be any PC as long as you can log in as admin for software download and installation. Additionally, a USB flash drive or CD/DVD is also required.
+<br /><br />Time required: about 5 minutes
+<br /><br />Steps for Windows Password Recovery
+<br /><br />Step 1. Download and install Rekeysoft Windows Password Recovery in the PC that you can log in as admin.
+<br />Step 2. Launch Rekeysoft Windows Password Recovery, and burn a bootable Windows password recovery with a USB drive or CD/DVD.
+<br />Step 3. Boot the PC that you forgot login password of from the burned Windows password recovery disk.
+<br />Step 4. You’ll see Rekeysoft Windows Password Recovery in WinPE mode. Now you can reset the <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS9ob3ctdG8tYnlwYXNzLWxvc3Qtd2luZG93cy03LXBhc3N3b3JkLmh0bWw_" target="_blank">lost Windows 7 password</a> or create a new admin account to get back in your locked PC.
+<br />Step 5. Restart computer and you’ll be able to log into your PC without password. Please remove the burned disk during restarting.
+]]>
+		</document>
+		<document id="53a32a4e88ef166fc6c66f0330afd4e8" url=""><![CDATA[How to Reset Windows 7 Password by Using Its Installation Di<br/><br/>Passwords are good but they can be easily forgotten. A forgotten password sometimes brings you troubles, even disasters. Luckily, there always exits some approaches to recover or reset a forgotten password. Here’s a look at how to <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS9yZXNldC13aW5kb3dzLTctcGFzc3dvcmQuaHRtbA__" target="_blank">reset Windows 7 password</a> with an installation disc.
+<br /><br />You might have been told to use a password reset disk or another admin account to reset a forgotten Windows 7 password. But for most users, these are unless when they get the Windows password forgotten. The password reset disk must be created before your password is forgotten while most users forgot the only administrator password. If you are one of those users, please try to use your installation disc instead. Don’t have one? Still doesn’t matter. Rekeysoft Windows Password Recovery is always available.
+<br /><br />Reset Windows 7 password with an installation disc
+<br /><br />By using this method, all you need is a copy of the Windows installation disk and Sticky Keys trick (an accessibility feature that allows a user to tap the Shift, Ctrl, Alt, or Windows key once to achieve the same effect as holding the key down).
+<br /><br />1. Boot your computer from the installation disc.
+<br /><br />2. After loading the setup files, select your language and click Next -&gt; click the Repair your computer link on the Install Windows screen -&gt; select the operating system to repair and click Next -&gt; click Command Prompt to open a command prompt window.
+<br /><br />3. On the command prompt, type “copy c:windowssystem32sethc.exe c:” and press Enter. And then type “copy /y c:windowssystem32cmd.exe c:windowssystem32sethc.exe” and press Enter.
+<br /><br />4. Reboot the computer. On the logon screen, tap Shift five times and you’ll see an administrator mode command prompt.
+<br /><br />5. Now you can reset the password. Just type “net user MyUserName MyNewPassword” (replace the MyUserName and MyUserPassword with the combination you want) and press Enter.
+<br /><br />6. Exit the Command Prompt, and log into the computer using your new password.
+<br /><br />Notes:
+<br /><br />1. To prevent other users from using the same trick to reset your password, you put the original sethc.exe file back. Reboot your computer form the installation CD and then open the command prompt by taking steps above. Next type “copy /y c:sethc.exe c:windowssystem32sethc.exe” and press Enter.
+<br /><br />2. By taking this method, you will lose access to encrypted files, encrypted email messages, and stored passwords for Internet Explorer and network resources. Remember to back up your important data regularly.
+<br /><br />Reset Windows 7 password without a installation disc
+<br /><br />Don’t have an installation disc at hand? Don’t worry! You still have opportunities to reset your forgotten Windows 7 password. That’s to use Rekeysoft Windows Password Recovery. This Windows password reset app allows you to burn a bootable password reset CD/DVD/USB and reset the forgotten password instantly. 100% security is guaranteed.
+<br /><br />1. Download and install <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS8_" target="_blank">Rekeysoft Windows Password Recovery</a> in any other PC.
+<br /><br />2. Burn a bootable Windows password reset disk with a CD/DVD or USB flash drive in seconds.
+<br /><br />3. Boot the computer that you want to reset password of from the password reset CD/DVD/USB.
+<br /><br />4. Reset your forgotten password to blank by following the instructions of DOS command prompt. This takes you only 1-2 minutes.
+<br /><br />5. Reboot computer and log into your computer without password.
+]]>
+		</document>
+		<document id="244dddd5cef2aac984e887094a7ab52c" url=""><![CDATA[Forgot Acer Aspire Password? How to Reset It?<br/><br/>Question: I forgot my Acer Aspire password and I cannot get in it now. It runs on Windows XP, and it doesn’t have a CD ROM. How can I reset my password and gain access to my laptop again?
+<br /><br />Since the Acer Aspire runs on Windows XP, you can try to get back in it by pressing Crl+Alt+Del twice on the logon screen. On the following dialog box, enter “administrator” in the user name box and press Enter. If the built-in administrator is not password protected, you’ll be able to access the Acer computer again.
+<br /><br />After logging into your Acer, you can start to reset the forgotten Acer password. To do this, log into that accessible admin account, type “lusrmgr.msc” in the Run box. Press Enter to bring the Local users and groups window. Next expand the folder named users and it will display all the user accounts on this computer. Right-click the target user and select Set password to assign a new password for the target user account.
+<br /><br />Don’t work? Don’t worry! You still have opportunities to regain access to your computer. That’s to reset the Windows XP password on the Acer with additional <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS8_" target="_blank">Windows password recovery</a> tools.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS8_" target="_blank">Rekeysoft Windows Password Recovery</a> is a great Windows password recovery apps used by over 89,065 customers. It offers you an easy, instant and secure way to reset your forgotten login passwords to Windows 7/Vista/XP and Windows servers. It’s easy and fast to use for everyone, even newbie. What’s better, it lets you reset Windows password in 5 minutes without any data loss or damage. The password reset rate is 100%?
+<br /><br />Requirement: USB flash drive; a PC for software download and install.
+<br /><br />How-to:
+<br />Step 1. Download and install Rekeysoft Windows Password Recovery in any PC that you can login as admin.
+<br />Step 2. Burn a bootable password reset disk with a USB flash drive in seconds.
+<br />Step 3. Start the PC that you want to reset password of form the bootable disk and reset the forgotten Windows password to blank.
+]]>
+		</document>
+		<document id="a1b96cae08735fcace87f5e2ad3d53b9" url=""><![CDATA[What to Do If You Forgot Computer Administrator Password?<br/><br/>If you lost or forgot your computer admin password, you can reset or remove it in order to regain access to your computer again. In this article, it will tell you how to remove computer admin password after forgetting it on Windows and Mac.
+<br /><br />For Windows Users
+<br /><br />Being a Windows 7/Vista/XP user, you are able to create a password reset disk for the admin account after adding a password to it. So when you forgot the admin password, you can change the <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS9mb3Jnb3Qtd2luZG93cy03LXBhc3N3b3JkLmh0bWw_" target="_blank">forgotten Windows password</a> in seconds.
+<br /><br />If you never create a password reset disk in advance, it doesn’t matter as long as you can log into your Windows through another user account with admin privileges. After logging to this user account, you can type “lusrmgr.msc” in the Start search box to bring up the Local Users and Groups window. Next expand the User folder and you’ll see the administrator account, right-click it and select Reset password to reset its password to a new one.
+<br /><br />Never feel frustrated if the above information doesn’t do you a favor. Efficient Windows password reset applications are always out there to fix your problem. Take <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS8_" target="_blank">Rekeysoft Windows Password Recovery</a> for example, it allows you to burn a bootable password reset USB or CD/DVD in any computer. To reset your forgotten computer administrator password, you just need to boot the target computer from the disk for password reset. It will cost you a few minutes. 100% secure is guaranteed. No data loss or damage.
+<br /><br />For Mac users
+<br /><br />If you are running a Mac, the Administrator account is enabled by default. This account is not required to be named “administrator”, but it does have administrative privileges that enable you to make any changes on the computer system. When you forgot the admin password, you can take advantage of the installation CD/DVD to remove it.
+<br /><br />1. Insert the Mac OS X installation CD/DVD and restart your computer.
+<br />2. Hold in the “C” key immediately after the Mac startup sound comes on to boot from the disc.
+<br />4. Click the desired display language, and then click the “Next” button.
+<br />5. Click the “Utilities” menu.
+<br />6. Click “Reset password”.
+<br />7. Click the Apple computer’s internal hard drive.
+<br />8. Click the administrative account from which you want to remove the password.
+<br />9. Leave the password boxes clear and click the “Save” button to remove the password.
+<br />10. Click “OK” and restart the computer.
+]]>
+		</document>
+		<document id="299bbcf47a17b37857d891f820e6d582" url=""><![CDATA[How to Change Your User Password in Windows Vista?<br/><br/>How to change your Windows Vista user password?
+<br /><br />In the previous article, we’ve discussed about how to change your Windows 7 user account password. So here will talk about what if you want to change user password in Windows Vista. The methods I can figure out are listed as below.
+<br /><br />Method 1. Use Control Panel
+<br />Step 1.Click Start button, Control Panel, Family Safety and User Accounts, User Accounts.
+<br />Step 2. Click “change your password” under Make changes to your user account.
+<br />Step 3. Type your old password, type your new password, type your new password again to confirm it, and then click Change password button.
+<br /><br />Method 2. Use Ctrl+Alt+Del
+<br />Step 1. Press Ctrl+Alt+Del, and then click “Change a password” in the following window.
+<br />Step 2. Type the old password, type a new password, type the new password again to confirm it, and then press Enter.
+<br /><br />Method 3. Use ”control userpasswords2”
+<br />Step 1. Press Windows + R to bring up the Run box.
+<br />Step 2. Enter ”control userpasswords2” in the Run box and click OK.
+<br />Step 3. Select your target user account and click “Reset Password” button.
+<br />Step 4. Type your new password, type the new password again to confirm it, and press Enter.
+<br /><br />Method 4. Use” lusrmgr.msc”
+<br />Step 1. Click Start button, enter ” lusrmgr.msc” in the text search box and press Enter.
+<br />Step 2. On the coming Local Groups and Users window, expand Users folder.
+<br />Step 3. Right-click your target user account, and then select “Set Passwords”.
+<br />Step 4. Click Proceed, and then enter and confirm your new password.
+<br /><br />Tips: If you need to change Windows Vista password as you forgot it, you can use the password reset disk or <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS8_" target="_blank">Rekeysoft Windows password recovery</a> to work around it.
+]]>
+		</document>
+		<document id="15a22c91e913d4151a3b72826be070db" url=""><![CDATA[How to Find My Forgotten Vista User Password?<br/><br/>Problem: I’m looking to find the password to an account on a Windows Vista computer. Remember, Vista. I forgot the password. I’m not looking to reset/change the password, but I’d like to know what the password is. Is there anyway to find this? If possible, I’d like to do this without creating another user.
+<br /><br />Solution: Find Vista password using Windows Password Cracker
+<br />Generally speaking, most lost Windows Vista password users prefer to use a <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS8_" target="_blank">Rekeysoft Windows Password Recovery</a> to reset or change the lost password rather than to crack it as it’s more convenient and less time-consuming. But if you insist on cracking your lost Vista password, chances are still there as long as you can find a powerful Windows Vista password cracker. Here will recommend 2 free Windows password crackers for you.
+<br /><br />1. Ophcrack
+<br />Ophcrack is by far the most popular free Windows password cracker available. The program basically uses something called a Rainbow Table which will go through a list or dictionary of computer hashes and passwords trying to crack the password located in the Windows SAMs file (file containing all user passwords).
+<br /><br />With Ophcrack, you don’t need any access to Windows to be able to recover your lost passwords. Simply visit the site, download the free ISO image, burn it to a CD and boot from the CD. The Ophcrack program starts, locates the Windows user accounts, and proceeds to recover (crack) the passwords – all automatically.
+<br /><br />2. Cain &amp; Abel
+<br />Cain &amp; Abel is a <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS8_" target="_blank">Windows password recovery</a> tool for Microsoft operating systems. It allows easy recovery of various kinds of passwords by sniffing the network, cracking encrypted passwords using dictionary and brute force attacks, decoding scrambled passwords, revealing password boxes, uncovering cached passwords and analyzing routing protocols.
+<br /><br />1. Download a rainbow table before using Cain &amp; Abel.
+<br /><br />2. Open the “Cain” program and then click on the Cracker tab.
+<br /><br />3. On the left, click on the LM &amp; LTLM Hashes and then click the big blue plus sign on the Cain toolbar. Make sure the Import Hashes from local system radio button is checked and click Next. All the user accounts will be loaded to the right.
+<br /><br />4. Right-click on the username you need the password for, choose Cryptanalysis Attack , LM Hashes, via RainbowTables.
+<br /><br />5. In the LM Hashes cryptanalysis window, click the … button and choose the folder you extracted the free rainbow tables to.
+<br /><br />6. Click OK and then Start.
+]]>
+		</document>
+		<document id="819d11ccb84a0f2ea0a20b340e8dfb1c" url=""><![CDATA[Forgot Windows Server Password?<br/><br/>Losing a password for a Windows account can be anything from a pain to a disaster. Fortunately, we are able to make preparations for such an eventuality by creating a password reset disk through the built-in tools of Windows 7/Vista/7.
+<br /><br />Here comes another problem: what if your computer runs on Windows server 2008(R2)/2003(R2)? What will you do to reset or recover lost Windows server password? It seems to be impossible for one to create a password reset disk in Windows servers.
+<br /><br />If you come across a forgotten Windows server password in reality, my suggestion is to use <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS9yZXNldC13aW5kb3dzLXBhc3N3b3JkLmh0bWw_" target="_blank">Rekeysoft Windows Password Recovery Enterprise</a>, which lets you to reset any forgotten Windows server password instantly in a few minutes without any reformatting disk, data loss or damage. No matter whether you forgot domain administrator password or local administrator password, it will work well for you.
+<br /><br />Rekeysoft Windows Password Recovery Enterprise is professionally designed to reset forgotten Windows local administrator password, domain administrator password and other user account passwords by creating a bootable password reset disk with a CD/DVD or USB flash drive. It supports Windows server 2008 (R2)/2003(R2)/2000. Besides, it also works for Windows 7/Vista/XP. By resetting forgotten Windows server password through this powerful utility, no any data or computer settings loss or damage issues appear.
+<br /><br />Before getting start, it’s required to prepare the following things:
+<br />1. A PC that allows you to download and install the <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS8_" target="_blank">Windows password recovery</a> tool
+<br />2. A USB flash drive or CD/DVD
+<br /><br />Note: A CD drive is required for CD/DVD.
+<br /><br />When the things are ready, get started by following the steps listed below:
+<br />1. Download and install Rekeysoft Windows Password Recovery Enterprise.
+<br /><br />2. Create a password reset disk with a CD/DVD or USB drive.
+<br /><br />3. Set BIOS of your locked server machine to boot from CD/DVD or USB.
+<br /><br />4. Reset Windows server password within a few clicks.
+]]>
+		</document>
+		<document id="2bcce1f8eed8ab1ea360d222b6ebde2c" url=""><![CDATA[Windows 7 Tips Everyone Should Know<br/><br/>If you’ve just updated to Windows 7 from Windows Vista or Windows XP, please remember to add a strong Windows password to protect your PC from authorized users. The following are 4 simple tips if you intend to set a Windows 7 password.
+<br />1. Add a strong Windows 7 password
+<br /><br />Using a strong password is among the most important steps you can take to protect your computer from hackers and unauthorized users. For a strong Windows 7 password, it should be 8 characters long at least, consisting of letters, numbers and symbols. Please never set a common password like “123456? and “password”, and please don’t use your Windows 7 password everywhere.
+<br /><br />Step 1. Open the User Accounts window by clicking Start button, Control Panel, Family Safety and User Accounts, User Accounts.
+<br /><br />Step 2. Click on Create a password for your account link.
+<br /><br />Step 3. Type your password, type your password again to confirm it, type password hint and then click the Create Password button.
+<br />2. Create a password reset disk
+<br /><br />When you <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS9mb3Jnb3Qtd2luZG93cy03LXBhc3N3b3JkLmh0bWw_" target="_blank">forgot Windows 7 password</a>, a password reset disk allows you to change the lost password to a new one in seconds sothat you can access computer files again. The only problem is that you have to create the password reset disk before your Windows 7 password is forgotten. Otherwise, you have to look for other solutions to resolving your problem.
+<br /><br />Step 1. Open the User Accounts window by clicking Start button, Control Panel, Family Safety and User Accounts, User Accounts.
+<br /><br />Step 2. In the left pane, click Create a password reset disk, and then follow the instructions.
+<br /><br />Tip: Make sure you store the password reset disk in a safe place as everyone can use it to change your password if he can get physical access to it.
+<br />3. Change your Windows 7 password regularly
+<br /><br />A good password is the first line of defense against those who wish to gain access to our computers and the important data they contain. But you can keep your PC more secure by changing your password on a regular basis.
+<br /><br />Step 1. Press CTRL+ALT+DELETE, and then click Change a password.
+<br /><br />Step 2. Type your old password, type your new password, type your new password again to confirm it, and then press ENTER.
+<br />4. Reset forgotten Windows 7 password
+<br /><br />The easiest way to reset forgotten Windows 7 password is to use the password reset disk as mentioned above. But many Windows 7 users forgot to create a password reset disk in advance. Under this circumstance, the most effective solution to solving the problem is to seek for a powerful Windows password reset tool, like <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5hbnlwYXNzd29yZHJlY292ZXJ5LmNvbS8_" target="_blank">Rekeysoft Windows Password Recovery</a> which allows you to instantly reset forgotten Windows 7 password by creating a bootable password reset USB/CD/DVD in 5 minutes.
+]]>
+		</document>
+	</documents>
+</author>

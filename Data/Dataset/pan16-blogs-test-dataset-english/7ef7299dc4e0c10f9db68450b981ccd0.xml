@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><author age_group="xx" gender="xx" lang="EN" type="blog" url="www.tonicebrian.com">
+	<documents count="10">
+		<document id="3d3f4a84a36d35e395e11883b488b56" url="http://www.tonicebrian.com/2011/09/05/my-working-environment-with-xmonad/"><![CDATA[Fire a terminal, fire another terminal and tail some logs, open your browser and point to the web page you are developing, open your IDE and open three or four tabs with the code you suspect is causing the bug, put some breakpoints, alt-tab to the first terminal start your system under test, connect your [&#8230;]
+]]>
+		</document>
+		<document id="9ccfcd1de192b4327d2477def8a16728" url="http://www.tonicebrian.com/2011/09/13/getting-started-with-jags-for-bayesian-modelling/"><![CDATA[In the past if you wanted to do some Bayesian Modelling using a Gibbs sampler you had to rely on Winbugs but it isn&#8217;t open source and it only runs in Windows. The JAGS project started as a full feature alternative for the Linux platform. Here are some instructions for getting started First install the [&#8230;]
+]]>
+		</document>
+		<document id="9decc6f17957aba027531294d4875fda" url="http://www.tonicebrian.com/2011/11/28/implementing-lda/"><![CDATA[Lately I was playing with Latent Dirichlet Allocation (LDA) for a project at work. If for whatever reason you need to implement such algorithm perhaps you will save some time reading the walkthrough I did. First you must be sure that LDA is the algorithm you are looking for. From a corpus of documents you [&#8230;]
+]]>
+		</document>
+		<document id="b3c0b25168d701ebd3f977441c2cbd49" url="http://www.tonicebrian.com/2011/12/28/csv-parser-in-c-with-boost-and-template-metaprogramming/"><![CDATA[One common situation when analyzing big chunks of data is to parse big CSV files with a record structure on each line. That is, all lines conform to a fixed schema where each line represents a record and each record has several columns of different types. Your objective is to parse and fill a data structure like this [&#8230;]
+]]>
+		</document>
+		<document id="eafa874ea96da5c27b9b70691d1eee66" url="http://www.tonicebrian.com/2012/02/15/scala-project-template-sbt-0-11-2/"><![CDATA[Some months ago I wrote a post about setting up a Scala project with SBT. SBT has evolved and the new version differs from the 0.7.7 instructions. There is a Github repository with the updated version for SBT 0.11.2. Download the sbt jar and create the script as it is explained here Create the project [&#8230;]
+]]>
+		</document>
+		<document id="e06f0346f3b38215d47f0defa53b564f" url="http://www.tonicebrian.com/2012/02/23/parser-combinators-in-scala/"><![CDATA[Lately, I&#8217;ve been writing some matrix factorization code for a video recommender system. I&#8217;m a big fan of Test Driven Development but it is a technique that is difficult for me to apply to the numerical or algorithmic domain. In order to make sure that the code I write is correct what I&#8217;m doing is the Oracle [&#8230;]
+]]>
+		</document>
+		<document id="d48d1eb07b15c36cde31aea55507309d" url="http://www.tonicebrian.com/2012/05/23/thread-pool-in-c/"><![CDATA[I needed to convert user ids spread across a lot of files into a fixed range [0..N] where N was the total number of Ids in the dataset. First I though that since those files came from a Hadoop cluster I should write a MR job to do the task. But since recoding ids needs [&#8230;]
+]]>
+		</document>
+		<document id="36a7d0131dd34c50ed8b3aa2e99306b1" url="http://www.tonicebrian.com/2012/11/05/training-gradient-boosting-trees-with-python/"><![CDATA[I&#8217;ve been doing some data mining lately and specially looking into Gradient Boosting Trees since it is claimed that this is one of the techniques with best performance out of the box. In order to have a better understanding of the technique I&#8217;ve reproduced the example of section 10.14.1 California Housing in the book The [&#8230;]
+]]>
+		</document>
+		<document id="1f8d5066342068558c763efd7c286099" url="http://www.tonicebrian.com/2013/03/11/introduction-to-the-minhash-algorithm/"><![CDATA[Say that you have a collection of N objects and you want to want to compare each object against each other. Maybe you are interested in the distance between objects in an Euclidean Space or just the number of attributes or features they share. If you need to perform each comparison, you&#8217;ll need to perform [&#8230;]
+]]>
+		</document>
+		<document id="a4b02b08141b338e924248678839cfc6" url="http://www.tonicebrian.com/2013/11/06/recsys-2013/"><![CDATA[It has been 3 years since I attended my last RecSys and last week I went again to that conference in Hong Kong. I came back home with lots of useful insights although to get those gems I had to go through lots of boring to death presentations. Hey guys, presenting to an audience doesn&#8217;t [&#8230;]
+]]>
+		</document>
+	</documents>
+</author>

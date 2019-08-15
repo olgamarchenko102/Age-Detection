@@ -1,0 +1,184 @@
+<author type="socialmedia" lang="en" gender="xx" age_group="xx" url="">
+	<documents count="15">
+		<document id="f9608427d89bca3d07198c5320db1b3b" url=""><![CDATA[William´s Motto<br/><br/>&quot;If Music be the food of Love,play on ! &quot;
+]]>
+		</document>
+		<document id="515a0c13114c211bc3d663278ed19778" url=""><![CDATA[Thanks Mario Quintana !<br/><br/>&quot; Our worst problem is that nobody have nothing to do with it ! &quot;
+]]>
+		</document>
+		<document id="d8bf0eb9cc3d8bedd1cf57e09df35403" url=""><![CDATA[La fiesta de cumpleaños de La Cruz !<br/><br/><img class="smiley" src="http://www.pan.net/smilies/afro.gif" alt=":)" /> Hi !
+<br /><br />This weekend I was at a  wonderful party in Berlin.. and it was truly amazing!!! 
+<br /> <img class="smiley" src="http://www.pan.net/smilies/fool.gif" alt=":)" />The energy, <img class="smiley" src="http://www.pan.net/smilies/rock.gif" alt=":)" /> spirit and feeling <img class="smiley" src="http://www.pan.net/smilies/angel.gif" alt=":)" /> in the air was electric  <img class="smiley" src="http://www.pan.net/smilies/music.gif" alt=":)" />! Great ! E viva la Chica ! <img class="smiley" src="http://www.pan.net/smilies/kiss.gif" alt=":)" /> 
+<br />I´ve just uploaded  some pictures and... enjoy !
+<br /><br />LAO
+<br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL2xhb211c2ljLm1zLmJy" target="_blank"><img src="http://www.pan.net/en/p/oo/16483582_14005797_16551656.jpg" /></a>
+]]>
+		</document>
+		<document id="8c72b82ea63595994f9f0cbb16338efa" url=""><![CDATA[New Design online !<br/><br/>September 3, 2008
+<br /><br />[centerc]<a href="http://en.pan.netcom/go/out/url=-aHR0cDovL2xhb211c2kuYnIubXM_" target="_blank"><img src="http://www.pan.net/en/p/oo/16483582_801420_16999636.jpg" /></a>][/center]
+<br /><br />Today we started a new <strong>PHP Project of Form Processing </strong>and using Spry and AJAX , linked to a mySQL Database that process this Form.
+<br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL2hvbWUuYXJjb3IuZGUvbGFvbXVzaWMvTEFPcyUyMHRlc3RhREIvaW5kZXguaHRtbA__" target="_blank">LAOMUSIC ARTS PHP Project</a>
+]]>
+		</document>
+		<document id="75e661abdf9de4797981475e878860e2" url=""><![CDATA[New Photography web template out !<br/><br/>September 4, 2008
+<br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5zc2VuZ2UuZGU_" target="_blank"><img src="http://www.pan.net/en/p/oo/16483582_9353003_17038640.jpg" /></a>
+<br /><br />Today we have a brand new Web Design Template for
+<br />you photographers out there ! 
+<br /><br />Check it at:
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL2hvbWUuYXJjb3IuZGUvbGFvbXVzaWMvTEFPc01pbGVzR2FsbGVyeS8_" target="_blank">Our new template</a> 
+<br /><br />and please drop us an email with your opinion.
+<br /><br />Enjoy ! 
+<br /><br />LAOMUSIC ARTS
+]]>
+		</document>
+		<document id="c4711710e1497fd04347915400299078" url=""><![CDATA[German´s Media and the Obama Phenomen<br/><br/>Germans news are now full of racist words agaisnt Barack Obama, ranging  from the light version &quot;colored&quot; up to comparing Obama with Uncle Tom, a subservient slave wich refers to Harriet Beecher Stowe's 1852 anti-slavery novel &quot;Uncle Tom's Cabin,&quot; which has become controversial due to its perceived stereotyping of African-Americans.
+<br />The novel led to the expression &quot;Uncle Tom&quot; being used to pejoratively refer to an African-American who is subservient to whites.
+<br />. 
+<br />They are propagating an image of black people as submissive and uneducated people.
+<br />As a black person living among then for over 20 years, I am sure that most germans are were clearly displeased
+<br />against these kind of racist ideias and expressions. But the true is that Europe is seeing its share of insensitive racial blunders. Even the Chanceler Angela Merkel said this morning on a TV interview that &quot;... she is happy that a colored achieved that position...&quot;.Also a leading Austrian television journalist said on camera that he &quot;wouldn't want the Western world to be directed by a black man.&quot; A Polish lawmaker stood up in Parliament and called the election result &quot;the end of the white man's civilization.&quot; Italian Prime Minister Silvio Berlusconi , during a visit to Moscow, praised Obama for being &quot;young, handsome and even suntanned.&quot; 
+<br /><br />On the other hand, visitors to Berlin are often surprised to find there is a subway station in the city called Onkel Toms Hütte, after a residential district which was named in tribute to the novel.
+]]>
+		</document>
+		<document id="b84ccad215551860935639132a780c9d" url=""><![CDATA[LAOMUSIC ARTS Microsoft Word Runtime Error !<br/><br/>I had a BIG problem recently with MS Word application from Office XP doing a 
+<br />&quot; request the Runtime to terminate it in an unusual way &quot; Runtime Error.
+<br /><br />The main reasons for that are:
+<br /><br />Program or TSR conflict
+<br />Software issue 
+<br />Computer Virus 
+<br />Memory issue 
+<br /><br />In my case it was an Add-on to Word (PDFMaker) causing it to quit.
+<br />Because that was my first &quot;suspect&quot;, I went to:
+<br /><br />Start/regedit
+<br /><br />and under the key: [HKEY_LOCAL_MACHINESOFTWAREMicrosoftOfficeWordAddinsPDFMaker.OfficeAddin]
+<br />RMC(RightMouseClick) and after export the key (that´s safer !!)  just send it to the &quot;Data Paradise&quot;(delete it !!).
+<br /><br />It helps me ! So I hope this helps others too !
+<br /><br />If you have any question, just post me a message!
+<br /><br />Enjoy &amp; have fun !
+<br /><br /><strong>LAOMUSIC ARTS</strong>
+]]>
+		</document>
+		<document id="5797b28f0f3c19f4a1c00d0d5f9faac2" url=""><![CDATA[New credentials<br/><br/><img class="smiley" src="http://www.pan.net/smilies/thumbsup.gif" alt=":)" /><strong>Greetings !</strong>
+<br /><br />Today we received shared test credentials for an <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL2RldmVsb3Blci5hdXRob3JpemUubmV0Lw__" target="_blank">Authorize.Net</a>  test account and all the items we need to begin testing our integration to their payment gateway with PHP/mySQL .
+<br />Great support for all Web Developers out there !
+<br /><br />Enjoy !
+<br /><strong>
+<br />LAO</strong>
+]]>
+		</document>
+		<document id="9570b4ec4a854b06325901de4538be06" url=""><![CDATA[How to turn off the Low Space Warning in Win XP<br/><br/>If Windows detects that one of your drives has too little free space, a warning appears, 
+<br />asking to run the &quot;Disk CleanUp Utility&quot; and that may be pretty annoying. To turn that off, do as follow:
+<br /><br />- Go to &quot;Start&quot; , run and write &quot;regedit&quot;
+<br />- on the left side, look for this path: HKEY CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionPoliciesExplorer
+<br />- then on the right-side, right-mouse click(RMC) and create a new DWORD named NoLowDiskSpaceChecks
+<br />- Double-click that and enter the value 1 and press &quot;OK&quot;.
+<br /><br />Enjoy !
+<br /><br />LAO
+]]>
+		</document>
+		<document id="96bfd4995f7375f496842f6ef7b16f" url=""><![CDATA[Burn IMG image DVD<br/><br/>I was having a trouble the other day with an DVD image file with an
+<br />&quot;.img&quot; extension instead of the most common &quot;.iso&quot; format and started
+<br />to search for a fast solution when finally come up with this:
+<br />just rename the extension to ISO and use your burning software
+<br /><br />Hope this helps someone !
+<br /><br />LAO
+]]>
+		</document>
+		<document id="92638322a2d65e722fa151a1beb7d805" url=""><![CDATA[Pat Metheny´s Orchestrion<br/><br/>Pat Metheny´s Orchestrion...at 8pm ! 
+<br />Here ! 
+<br />I´ll be there ! 
+<br />GREAT !!!
+<br /><br />Wish you all were here !!! <img class="smiley" src="http://www.pan.net/smilies/hug.gif" alt=":)" />
+]]>
+		</document>
+		<document id="709b1f91d629ce9fa166c71c5098b51a" url=""><![CDATA[Speed up your Firefox<br/><br/><strong>LAOMUSIC ARTS </strong>speed up your Firefox
+<br /><br />This procedure will boost the performance of your brwonser, allowing more simultaneous connections
+<br />to web servers.
+<br /><strong>But  Remember : Do it that your own risk !</strong>
+<br /><br />- type about:config as an address
+<br /><strong>- read the warning !</strong>
+<br />- at the tp search look for: network.http.pipelining.maxrequests
+<br />- double click it and give it a 10 value (standard is 4)
+<br />- same as above for:
+<br />	network.http.max-connections = 30
+<br />	network.http.max-connections-per-server = 15
+<br />	network.http.max-persistent-connections-per-proxy=8
+<br />	network.http.max-persistent-connections-per-server=10
+<br /><br />Firefox has an initial page delay from 0.25secs before it starts to draw
+<br />webpages.In order to reduce this, you may also want to<strong> ( remember,Do it that your own risk !) :</strong>
+<br /><br />- type about:config as an address
+<br /><strong>- read the warning !</strong>
+<br />- Right-click anywhere in a blank space inside the page and choose NEW and the STRING
+<br />- name the new string nglayout.initialpaint.delay and press OK 
+<br />- set the value in the next window to anything between 0 and 50 (we are dealing here with an Integer for miliseconds)
+<br /><br />RE-START you Firefox !
+<br /><br />Enjoy !
+<br /><br />LAOMUSIC ARTS
+]]>
+		</document>
+		<document id="de5095eb772dae813d9491755b10a16e" url=""><![CDATA[iTunes "Album Artwork Not Modifiable" LAOMUSIC A<br/><br/>Have you been unable to find a solution ? So here is my sugestion :
+<br />- do the obvious and reset permission &amp; restart
+<br />- make sure to have the latest version of iTunes
+<br />- ask yourself if you imported the song/songs in .wav format
+<br />- check your import encoder preferences under :
+<br />	Edit &gt; Preferences &gt; Advanced &gt; Importing &gt; Import Using : MP3 Encoder or Apple Lossless
+<br />-  delete the imported song/songs and add then again.
+<br /><br />That´s it and goo luck !
+<br /><br />LAO
+<br />LAOMUSIC ARTS
+<br /><a href="http://en.pan.netcom/go/out/url=http%3A%2F%2Flaomusic.br.ms"target="_blank" rel="nofollow">http://laomusic.br.ms</a>
+]]>
+		</document>
+		<document id="e0c0be2e9569968fc7a10f8463ad44d1" url=""><![CDATA[Migrate Outlook/OE contacts to OSX Address Book<br/><br/><strong>Migrate Outlook/OE contacts to OSX Address Book</strong><em></em>
+<br /><br />If you are migrating from Win(PC) to OSX(Mac), chances are that you´ll need your contacts to stick with you.
+<br />So here is my suggestion :
+<br />- there´s no real solution to this without using an extra software !
+<br />You need a workaround :
+<br />1- install Thunderbird from Mozilla (<a href="http://en.pan.netcom/go/out/url=http%3A%2F%2Fwww.mozillamessaging.com%2Fen-US%2Fthunderbird%2F"target="_blank" rel="nofollow">http://www.mozillamessaging.com/en-US/thunderbird/</a>) in your Windows,which is a free cross-platform email client.
+<br />2 - start Thunderbird and under Tools /Import select the Address Book option, click Next and choose Outlook and click Next. You just imported your Outlook contacts into Thunderbird !
+<br />3 - select all your contacts in Thunderbird and choose Tools/Export. choose LDIF (from the Save as...) and save the file after naming it.
+<br />4 - transfer this file to your Mac, launch Address Book, and choose File/Import/LDIF. Point to the LDIF file you brought over from Windows. 
+<br /><br />Your Outlook/OE contacts are now under Address Book !
+<br /><br />Enjoy !
+<br /><br /><strong>LAOMUSIC ARTS</strong>
+<br /><a href="http://en.pan.netcom/go/out/url=http%3A%2F%2Flaomusic.br.ms"target="_blank" rel="nofollow">http://laomusic.br.ms</a>
+]]>
+		</document>
+		<document id="2966eff167df1972333795e0a7913439" url=""><![CDATA[iTunes 10.5 update and weird Audio Playback !<br/><br/><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL2xhb211c2ljLmJyLm1z" target="_blank">LAOMUSIC ARTS</a>
+<br />&lt;pre&gt;
+<br />This topic is incredible cause even Apple did not to send a global e-mail admitting to this problem and that a repair is forthcoming !
+<br /><br />Due to the SSE2/SSE3 Standards compliant the new iTunes updatet cause an error with older PC hardware that make songs sound like &quot;The Chipmunks on acid with an alien back-up band&quot;......HORRIBLE !,specially:
+<br />SSE2 is an extension of the IA-32 architecture. Therefore any architecture that does not support IA-32 does not support SSE2. x86-64 CPUs all implement IA-32. All known x86-64 CPUs also implement SSE2.[citation needed] Since IA-32 predates SSE2, early IA-32 CPUs did not implement it. SSE2 and the other SIMD instruction sets were intended primarily to improve CPU support for realtime graphics, notably gaming. A CPU that is not marketed for this purpose or that has an alternative SIMD instruction set has no need for SSE2.
+<br />The following CPUs implemented IA-32 after SSE2 was developed, but did not implement SSE2:
+<br />    •    AMD CPUs prior to Athlon 64, including all Socket A-based CPUs
+<br />    •    Intel CPUs prior to Pentium 4
+<br />    •    VIA C3
+<br />    •    Transmeta Crusoe
+<br /><br />Everything works fine for me after following these downgrade instructions :
+<br /><br />Until Apple comes out with a fix, I downgraded to iTunes 10.4 32bit (Warning - all libraries and playlists must be rebuilt using this method):
+<br />	1.	Copy My Music/iTunes folder to a safe location
+<br />	2.	Control Panel - Add/Remove Programs - Uninstall iTunes
+<br />	3.	Control Panel - Add/Remove Programs - Uninstall QuickTime
+<br />	4.	Run CCleaner Registry Cleaner and restart (recommended)
+<br />	5.	Download iTunes 10.4 from FileHippo.com (<a href="http://en.pan.netcom/go/out/url=http%3A%2F%2Fwww.filehippo.com%2Fdownload_itunes_32%2F10448%2F"target="_blank" rel="nofollow">http://www.filehippo.com/download_itunes_32/10448/</a>)
+<br />	6.	Run iTunes installer
+<br />	7.	Import music file containing mp3s (iTunes - File - Add File to library)
+<br />	8.	Test playback of file.
+<br />	9.	Download Quicktime 7.6 (<a href="http://en.pan.netcom/go/out/url=http%3A%2F%2Fsupport.apple.com%2Fkb%2FDL762"target="_blank" rel="nofollow">http://support.apple.com/kb/DL762</a>)
+<br />	10.	Run QuickTime Installer
+<br />	11.	Restore the files you saved in Step 1.  Create &amp; Copy folders from back-up file to the following folders.
+<br />	?	Automatically Add to iTunes
+<br />	?	Books
+<br />	?	Downloads
+<br />	?	Mobile Applications
+<br />	?	Music
+<br />	?	Podcasts
+<br />	?	
+<br />Restart iTunes and you should be back in business.  If your iPhone is iOS 5, you will need to refrain from syncing until Apple sorts this out.??Enjoy !
+<br /><br />LAO
+<br />LAOMUSIC ARTS 2011
+<br /><a href="http://en.pan.netcom/go/out/url=http%3A%2F%2Flaomusic.br.ms%26lt%3B%2Fpre%26gt"target="_blank" rel="nofollow">http://laomusic.br.ms&lt;/pre&gt</a>;
+]]>
+		</document>
+	</documents>
+</author>

@@ -1,0 +1,788 @@
+<author type="socialmedia" lang="en" gender="xx" age_group="xx" url="">
+	<documents count="20">
+		<document id="76d7edef01ae23614fb7f8f8b74caf41" url=""><![CDATA[wood r4 www.29 released for r4i 3ds and r4 ds card<br/><br/>Wood r4 V1.29 was released on May 30th
+<br />Latest wood r4 kernel - V1.29 was released yesterday. It is the latest software for <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3Byb2R1Y3RzL1I0aS0zRFMtZ29sZC1jYXJkLXdpdGgtOEdCLUtpbmdzdG9uLWZvci1OaW50ZW5kby0zRFMtYW5kLURTaS1WMS40LjEuaHRtbA__" target="_blank">R4i  3DS</a> card. New wood r4 V1.29 fixed some bugs and added 10 games. Thanks to wood r4 team, their hard work brings more joy to players.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL1I0LUtlcm5lbC5odG1s" target="_blank">Wood R4 Download</a>
+<br />Wood R4 kernel compatibility
+<br />Though wood r4 is an unofficial software, it offers very good compatibility. It support following flashcard:
+<br /><br />R4 DS card from r4ds.com. (now official website change to r4ds.me).
+<br />R4i Gold V1.4.1 card and R4i Gold 3DS card from r4ids.cn.
+<br />R4idsn card and R4idsn 3DS card from r4idsn.com.
+<br /><br />Wood R4 V1.29 update content
+<br />This Wood R4 kernel fixed below 10 new game roms.
+<br />4678 - 'bejeweled twist'
+<br />5659 - 'cosmetick paradise princess life (japan)'
+<br />5655 - 'rio'
+<br />5574 - save size to 512K for 'radiant historia'.
+<br />5654 - 'tinker bell and the great fairy rescue (usa)'
+<br />5651 - 'wizards of waverly place - spellbound (usa)'
+<br />5648 - 'wizards of waverly place - spellbound (europe)'
+<br />4292 - 'mario &amp; sonic at the olympic winter games'
+<br />5639 - 'chronicles of mystery - the secret tree of life (usa)'
+<br />0056 - soft-reset in 'super mario 64'
+<br /><br />Wood R4 kernel update log
+<br />unofficial r4 kernel updated very fast and regularly. It is widely loved by r4 ds card users.    
+<br /><br />Wood R4 V1.28 released (4-01-2011)
+<br />Wood R4 V1.27 released (3-15-2011)
+<br />Wood R4 V1.26 released (3-04-2011)
+<br />Wood R4 V1.25 released (2-25-2011)
+<br />Wood R4 V1.24 released (2-14-2011)
+<br />Wood R4 V1.23 released (1-22-2011)
+<br />Wood R4 V1.22 released (1-12-2011)
+<br />Wood R4 V1.21 released (1-02-2011)
+<br /><br />How to install wood r4 kernel
+<br />Before kernel update, please confirm the &quot;r4ids.com&quot; mark on the package, Only original r4 ds card with &quot;SDTF-2GB&quot; supports wood R4 kernel. Other imitation may cause failer.
+<br />     1. Download Latest Wood R4 kernel patch.
+<br />     2. Release the patch into several files.
+<br />     3. Connect the MicroSD card to the computer by a MicroSD reader.
+<br />     4. Copy all files to the boot directoy of the MicroSD card.
+<br />     5. kernel installation finished, if you like, you may also copy some games of media files to the TF card for use.
+]]>
+		</document>
+		<document id="8be74d30c39fe7a983434a1369b2fc66" url=""><![CDATA[latest dstt kernel v6.58 added 54 new games<br/><br/>New DSTT kernel V6.58 released on May 1st
+<br />unofficial DSTT kernel -YSMenu V6.58 was released few days before. It fixed many new games on DSTT and DSTTi card (ndstt.net). Famous YSMenu team always bring suprise to players. Though it is an unofficial DSTT kernel, it makes <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL2NhdGVnb3JpZXMvRFNUVC1EU1RUaS8_" target="_blank">DSTT</a> card more powerfull and more attractive.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL0RTVFQtS2VybmVsLmh0bWw_" target="_blank">DSTT kernel download</a>
+<br /><br />DSTT V6.58 udpated content:
+<br />This DSTT YSMenu Kernel fixed game roms below.
+<br />removed intro bypass 5024 - Smart Kids Mega Game Mix (U)(SUXXORS)
+<br />removed intro bypass 5044 - The Princess and the Frog (U)(SUXXORS)
+<br />4982 - Backyard Sports Sandlot Sluggers (U)
+<br />5237 - MySims Sky Heroes (E)
+<br />5476 - Monster Jam Path of Destruction (U)
+<br />5503 - Cabelas Dangerous Hunts 2011 (U)
+<br />5509 - MySims Sky Heroes (U)
+<br />5584 - Pokemon Volt White (E)
+<br />5585 - Pokemon Blaze Black (E)
+<br />5604 - Monster Jam Path of Destruction (E)
+<br />5626 - Tron Evolution (U)
+<br />5628 - Logic Cubes (E)
+<br />5629 - Hidden Object Show (E)
+<br />5630 - Nanami no Oshiete English DS Mezase TOEIC Master (J)
+<br />5631 - Deer Drive (U)
+<br />5632 - Scooby-Doo And the Spooky Swamp (U)
+<br />5633 - Dragon Quest Monsters Joker 2 Professional (J)
+<br />5634 - Lost Identities (E)
+<br />5636 - Der Fluch der Osterinsel (G)
+<br />5637 - Witches &amp; Vampires Ghost Pirates of Ashburry (E)
+<br />5638 - Emily the Strange Strangerous (E)
+<br />5639 - Chronicles of Mystery The Secret Tree of Life (U)
+<br />5640 - Witches and Vampires The Secrets of Ashburry (U)
+<br />5642 - Megamind The Blue Defender (U)
+<br />5643 - Duke Nukem Critical Mass (E)
+<br />5644 - LEGO Star Wars III The Clone Wars (U)
+<br />5647 - Magical Zhu Zhu Princess Carriages and Castles (U)
+<br />5648 - Wizards of Waverly Place Spellbound (E)
+<br />5649 - Sailor Moon La Luna Splende (I)
+<br />5650 - Dungeon Raiders (U)
+<br />5651 - Wizards of Waverly Place Spellbound (U)
+<br />5653 - Johnny Test (U)
+<br />5654 - Tinkerbell and The Great Fairy Rescue (U)
+<br />5655 - Rio (E)
+<br />5656 - Diddl in Cheesecakeland (E)
+<br />5657 - Emergency Kids (G)
+<br />5659 - Cosmetick Paradise Princess Life (J)
+<br />5660 - Mister Donut DS (J)
+<br />5661 - LEGO Battles Ninjago (U)
+<br />5662 - Lego Ninjago (E)
+<br />5663 - Style Lab Fashion Design (U)
+<br />5664 - Midnight Mysteries The Edgar Allan Poe Conspiracy (U)
+<br />5565 - Hollywood Files Deadly Intrigues (E)
+<br />5669 - Battle &amp; Get Pokemon Typing DS (J)
+<br />5671 - 100 Classic Games (E)
+<br />5672 - Minute to Win It (U)
+<br />5673 - Mystery Tales Time Travel (U)
+<br />5674 - Sesame Street Cookies Counting Carnival (U)
+<br />XXXX - Natalie Brooks Treasure of the Lost Kingdom (E)
+<br />XXXX - Emily Archer and the Curse of Tutankhamun (E)
+<br />XXXX - Chronicles of Mystery The Secret Tree of Life (E)
+<br />XXXX - Pokemon Black (K)
+<br />XXXX - Pokemon White (K)
+<br />XXXX - Bejeweled Twist (E)
+<br />XXXX - ATV Quad Kings (E)
+<br />XXXX - Real Crimes Jack the Ripper (E)
+]]>
+		</document>
+		<document id="ba2644d1e657ba665247fa4065161b65" url=""><![CDATA[Latest r4i gold kernel www.59b released from r4i-gold.com<br/><br/>Latest R4i Gold Kernel V1.59b released
+<br />R4i-gold kernel was released on May 3rd. It is the latest software for R4i-gold upgrade card and r4i-gold 3ds card.V1.59b kernel succeeds the functions of V1.58b, it become more powerfull and support more games.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL1I0aS1Hb2xkLUtlcm5lbC5odG1s" target="_blank">R4i Gold Kernel download</a>     (R4i V1.59b, English)
+<br /><br />R4i Gold V1.59b update content:
+<br />5627 - LEGO Star Wars III The Clone Wars (EU) 
+<br />5626 - Rango (US) 
+<br />5625 - Powerful Golf (JP) 
+<br />5624 - Tobidase Kagaku kun Chikyuu Daitanken Nazo no Chinkai Seibutsu ni Idome (JP) 
+<br />5623 - Hop (EU) 
+<br />5622 - Barbie Groom and Glam Pups (US) 
+<br />5621 - Rudolph The Red-Nosed Reindeer (US) 
+<br />5620 - Are You Smarter Than A 5th Grader Back to School (US) 
+<br />5619 - King Zhu (US) 
+<br />5618 - Naruto Shippuden Shinobi Rumble (US) 
+<br />5617 - Monster Tale (US) 
+<br />5586 - Pokemon Version Blanche (FR) 
+<br />5375 - Crayon Shin-Chan Shokkugan! 
+<br />R4i gold kernel news from r4i-sdhc.com
+<br />R4i www.59b released on 2011-05-03
+<br />R4i-Gold 3DS card released for Nintendo 3DS on 2011-05-03
+<br />R4i V1.58b released on 2011-03-15
+<br />R4i V1.57b released on 2010-12-21
+<br />R4i V1.56b released on 2010-12-06
+<br /><br />R4i-Gold Kernel setup method
+<br />Before the r4i gold kernel installation, you have to confirm following accessories in your package: r4i-gold 3DS card, an USB reader and an MicroSD card.
+<br /><br />1. Download latest R4i Gold Kernel patch (r4i V1.59<img class="smiley" src="http://www.pan.net/smilies/cool.gif" alt=":)" />to your computer.
+<br />2. Unzip the patch into severial files.
+<br />3. Connect the MicroSD card to the computer through a MicroSD reader..
+<br />4. Copy all files to the root directory of the MicroSD card.
+<br />5. Copy any games of medias as you like to the TF card.
+<br />6. Connect the R4i gold 3DS card to the console, power on the console to enjoy games and medias.
+]]>
+		</document>
+		<document id="68b08268657ae07b57c26b30bd0a93c0" url=""><![CDATA[R4i-Gold 3DS review - New r4 3ds card from r4i-gold.com<br/><br/>New R4i-Gold 3DS introduction
+<br />R4i-Gold 3DS is a new flashcard released by r4i-gold.com, which is also called Upgrade R4 3DS card. New R4i-Gold 3DS was released on May 3rd, it is the upgrade version of R4i-Gold V1.4.1. It succeed all functions of old r4i-gold version, and become more powerful. While Nintendo 3DS console arrived, many other [url=]R4 3DS[/url] cards were released for N3DS. But the r4i-gold.com team is working to improve the software and issue the r4i V1.58b kernel. So the R4i-gold 3DS card comes later.
+<br /><br />R4i-Gold 3DS compatibility
+<br />R4i-Gold 3DS card has very good compatibility. It supports almost all DS and DSi games. Just like other r4 3ds cards, R4i-Gold 3DS support all Nintendo console, such as: 3DS,DSi V1.4.1,DSiLL,DSiXL,DS and DS lite. But only DSi model, 3DS game is not compatible currently. What is more, this r4i-gold 3ds support Nintendo 3DS V1.1.0-1J, V1.1.0-1U USA and V1.1.0E Europe.
+<br /><br />R4i-Gold 3DS Feature
+<br />R4i-Gold 3DS contains all features of r4i-gold card. 
+<br />Support Nintendo all consoles:3DS,DSi and DS. 
+<br />Memorize and restore game or application after restarting machine and soft reset. 
+<br />Sleep mode function to save power and longer standby time. 
+<br />Support Multi-languages: Chinese, English, Japanese, French, German, Italian, Spainish. 
+<br />Friendly interface, easy to operate. 
+<br />Integrated the latest Moonshell 2.0 Beta version. 
+<br />Game compatibility: 100%. 
+<br />Support Most microSD cards (up to 32G<img class="smiley" src="http://www.pan.net/smilies/cool.gif" alt=":)" />. 
+<br />R4i-Gold 3DS card support FAT16/FAT32. Files can be transferred with PC,PDA,Cellphone,Camera. 
+<br />Support clean rom and drag-drop to play. Fast loading. 
+<br />Support NDS and iDS games. DS games can run on any DS versions. 
+<br />Files are to be saved directly to TF card, copy or restoration is not required. 
+<br />Automatically recognise saved new game types, no need to update the database. 
+<br />R4i-Gold 3DS Card support moonshell and home brew. 
+<br />Power saving design. Enter optimized mode automatically. 
+<br />Double screen UI, abbreviated picture and game title display. 
+<br />Easy to use, setting or adjustment is not required. 
+<br />Support Wi-Fi, rumble pack and browser expansion. 
+<br />UI background can be changed. 
+<br />4-level brightness adjustment. 
+<br />Support soft reset. 
+<br />R4i-Gold 3DS support AR cheat code. 
+<br />Support soft-reset of moonshell 2.0 (&quot;START&quot; button to return main menu). 
+<br />DLDI auto-patching. 
+<br />Support Download play. 
+<br /><br />R4i-Gold 3DS software
+<br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3Byb2R1Y3RzL1I0aSUyNTJkR29sZC0zRFMtY2FyZC1mcm9tLXI0aSUyNTJkZ29sZC5jb20uaHRtbA__" target="_blank">R4i-Gold 3DS</a> use it's own software - r4i kernel from r4i-gold.com. While R4i-Gold 3DS card released on May 3rd, the latest r4i V1.59b kernel was also available at the same time. This kernel support R4i-Gold V1.4.1 and R4i-Gold 3DS card. As r4i-gold.com continuously updated the software,we belive r4i-gold 3ds will be more popular.(attention: the old r4i V1.58b kernel can is not compatible with r4i-gold 3ds card).
+<br /><br />R4i-Gold 3DS Package
+<br />R4i-Gold 3DS has three kinds of packages: The economical packge,luxury package and new packge.The economical and luxury packge of R4i-Gold 3DS card succeeds the style of r4i-gold www.4.1. But for distinguish, a green &quot;3DS&quot; mark is printed on the out box. The new packge of R4i-Gold 3DS card is almost the same of R4i-Gold V1.4.1 card. For all packges, accessories inside contains:
+<br />      1 * R4i-Gold 3DS card 
+<br />      1 * USB MicroSD Adapter
+<br /><br />How to setup R4i-Gold 3DS card
+<br />Similar with other r4 3ds cards, R4i-Gold 3DS Card can be installed with 5steps:
+<br />1. Download latest R4i-Gold Kernel (r4i V1.59<img class="smiley" src="http://www.pan.net/smilies/cool.gif" alt=":)" /> to your computer. 
+<br />2. Unzip the patch into severial files. 
+<br />3. Connect the MicroSD card to computer through the USB reader.. 
+<br />4. Copy all files to the root directory of the MicroSD card. 
+<br />5. Copy any games or medias to the MicroSD card.
+]]>
+		</document>
+		<document id="1ee32c94f3a6fb5815ca091f98d00774" url=""><![CDATA[R4i-Gold 3DS review - New r4 3ds card from r4i-gold.com<br/><br/>New R4i-Gold 3DS introduction
+<br />R4i-Gold 3DS is a new flashcard released by r4i-gold.com, which is also called Upgrade R4 3DS card. New R4i-Gold 3DS was released on May 3rd, it is the upgrade version of R4i-Gold V1.4.1. It succeed all functions of old r4i-gold version, and become more powerful. While Nintendo 3DS console arrived, many other [url=]R4 3DS[/url] cards were released for N3DS. But the r4i-gold.com team is working to improve the software and issue the r4i V1.58b kernel. So the R4i-gold 3DS card comes later.
+<br /><br />R4i-Gold 3DS compatibility
+<br />R4i-Gold 3DS card has very good compatibility. It supports almost all DS and DSi games. Just like other r4 3ds cards, R4i-Gold 3DS support all Nintendo console, such as: 3DS,DSi V1.4.1,DSiLL,DSiXL,DS and DS lite. But only DSi model, 3DS game is not compatible currently. What is more, this r4i-gold 3ds support Nintendo 3DS V1.1.0-1J, V1.1.0-1U USA and V1.1.0E Europe.
+<br /><br />R4i-Gold 3DS Feature
+<br />R4i-Gold 3DS contains all features of r4i-gold card. 
+<br />Support Nintendo all consoles:3DS,DSi and DS. 
+<br />Memorize and restore game or application after restarting machine and soft reset. 
+<br />Sleep mode function to save power and longer standby time. 
+<br />Support Multi-languages: Chinese, English, Japanese, French, German, Italian, Spainish. 
+<br />Friendly interface, easy to operate. 
+<br />Integrated the latest Moonshell 2.0 Beta version. 
+<br />Game compatibility: 100%. 
+<br />Support Most microSD cards (up to 32G<img class="smiley" src="http://www.pan.net/smilies/cool.gif" alt=":)" />. 
+<br />R4i-Gold 3DS card support FAT16/FAT32. Files can be transferred with PC,PDA,Cellphone,Camera. 
+<br />Support clean rom and drag-drop to play. Fast loading. 
+<br />Support NDS and iDS games. DS games can run on any DS versions. 
+<br />Files are to be saved directly to TF card, copy or restoration is not required. 
+<br />Automatically recognise saved new game types, no need to update the database. 
+<br />R4i-Gold 3DS Card support moonshell and home brew. 
+<br />Power saving design. Enter optimized mode automatically. 
+<br />Double screen UI, abbreviated picture and game title display. 
+<br />Easy to use, setting or adjustment is not required. 
+<br />Support Wi-Fi, rumble pack and browser expansion. 
+<br />UI background can be changed. 
+<br />4-level brightness adjustment. 
+<br />Support soft reset. 
+<br />R4i-Gold 3DS support AR cheat code. 
+<br />Support soft-reset of moonshell 2.0 (&quot;START&quot; button to return main menu). 
+<br />DLDI auto-patching. 
+<br />Support Download play. 
+<br /><br />R4i-Gold 3DS software
+<br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3Byb2R1Y3RzL1I0aSUyNTJkR29sZC0zRFMtY2FyZC1mcm9tLXI0aSUyNTJkZ29sZC5jb20uaHRtbA__" target="_blank">R4i-Gold 3DS</a> use it's own software - r4i kernel from r4i-gold.com. While R4i-Gold 3DS card released on May 3rd, the latest r4i V1.59b kernel was also available at the same time. This kernel support R4i-Gold V1.4.1 and R4i-Gold 3DS card. As r4i-gold.com continuously updated the software,we belive r4i-gold 3ds will be more popular.(attention: the old r4i V1.58b kernel can is not compatible with r4i-gold 3ds card).
+<br /><br />R4i-Gold 3DS Package
+<br />R4i-Gold 3DS has three kinds of packages: The economical packge,luxury package and new packge.The economical and luxury packge of R4i-Gold 3DS card succeeds the style of r4i-gold www.4.1. But for distinguish, a green &quot;3DS&quot; mark is printed on the out box. The new packge of R4i-Gold 3DS card is almost the same of R4i-Gold V1.4.1 card. For all packges, accessories inside contains:
+<br />      1 * R4i-Gold 3DS card 
+<br />      1 * USB MicroSD Adapter
+<br /><br />How to setup R4i-Gold 3DS card
+<br />Similar with other r4 3ds cards, R4i-Gold 3DS Card can be installed with 5steps:
+<br />1. Download latest R4i-Gold Kernel (r4i V1.59<img class="smiley" src="http://www.pan.net/smilies/cool.gif" alt=":)" /> to your computer. 
+<br />2. Unzip the patch into severial files. 
+<br />3. Connect the MicroSD card to computer through the USB reader.. 
+<br />4. Copy all files to the root directory of the MicroSD card. 
+<br />5. Copy any games or medias to the MicroSD card.
+]]>
+		</document>
+		<document id="f00893043c208f43c2e07780599b7bc8" url=""><![CDATA[R4 3DS Operation<br/><br/>R4 3DS accessories checking
+<br />After get the R4 3DS package, open the box, and confirm the accessories inside. Following accessories are needed for R4 3DS card setup:
+<br />            1 X R4 3DS flash card.
+<br />            1 X Memory Card (kingston or Sandisk will be better)
+<br />            1 X MicroSD reader.
+<br /><br />R4 3DS Kernel and ROMs Download
+<br />Download latest R4 3DS kernel to computer. Each [url=]R4 3DS[/url] card has it's own software, it can be found in official website or our download page. Unzip the patch, you can get some files. The R4i SDHC 3DS kernel files are as following:
+<br />            a. R4.DAT file for game play, .
+<br />            b. Moonshl2 for video play
+<br />            c. R4iMenu file for DIY Interface function
+<br /><br />You can also download some games or medias to computer for play. There are many website offering free R4 3DS ROM for download.
+<br /><br />R4 3DS Card setup
+<br />1.Copy all R4 3DS kernel files to the root directory of MicroSD card.
+<br />2.Copy games to the MicroSD card.
+<br />3.Insert the MicroSD card to R4 3DS card.
+<br />4.Connect R4 3DS card to Nintendo console.
+<br />R4 3DS setup finished, you can power on the console to enter the main menu.
+<br /><br />Attention: The MicroSD(TF card) should be insert to R4 3DS card correctly. The front side of TF card must match back side of R4 3DS card. Do as below picture:
+<br /><br />R4 3DS Main menu operation
+<br />After power on the Nintendo console, you will enter the R4 3DS main menu straightly.You can do [url=]r4 3ds operation[/url] by pressing button or touching screen. Press &quot;right and left&quot; key to choose games or media functions. If choose game item, press A key to enter game menu; if choose media item, press A key to enter media function.
+<br /><br />R4 3DS game menu operation
+<br />If choose game item in R4 3DS main menu, and press A key, you will enter R4 3DS game menu. you can return to main menu by pressing R key.
+<br /><br />In R4 3DS game interface, press L to adjust brightness with 4 levels.
+<br /><br />In Game Interface, top screen of the console shows game messages with four items: game, cheat, setting and ROM. Bottom screen shows game name, file size and current game category. Press &quot;UP&quot; and &quot;DOWN&quot; to check current page easily, and press &quot;LEFT&quot; and &quot;RIGHT&quot; to turn over the page. Top line of bottom screen shows current file and total file qties, while bottom line of the bottom screen shows the path of the category.
+<br /><br />Press X or B, enter four items in the top screens: game, cheat, setting and ROM.
+<br /><br />Enter cheat item, the bottom screee shows current game name, cheat function setting, cheat function switch, timely reminding window and file saving. Touch Cheat off/Cheat on to run the cheat function, and touch file saving to save the file.
+<br /><br />Enter Setting item, the bottom screen shows three languages: English, Simplified Chinese and Japanese, touch file saving to save the relevant file.
+<br /><br />Enter ROM item, the top of bottom screen showes cheat, DMA, software start functions, touch the relevant file to save the file. When the Soft-Reset function is ON during game, &quot;L+R+A+B+X+Y&quot; kdy combination can be pressed to return R4-II menu.. Don't save during soft reset, otherwise &quot;archive lost&quot; will be led. It is recommended to return game main menu and then soft reset. If Soft-Reset can not be operated or the Game is impacted, please turn off the soft-reset function.
+<br /><br />R4 3DS Game Operation
+<br />Choose the game in R4 3DS game menu, press A or touch the screen to start the game.
+<br />If it is the first time to play, system will build saving file automatically, and remind &quot;file is effected&quot;. The updated date of the files will be automatically revised while playing the games each time, the updated files could be easily found by checking the latest date revision.
+<br />The name of the file are same as game, expanded name is SAV. Which can be copied to computer at any moment.
+<br /><br />R4 3DS Cheat Operation
+<br />In R4 3DS game interface, choose the game, press B or X to enter cheat menu.
+<br /><br />Game Title is showed in the top screen, while bottom screen showes reminding window, Cheat off/Cheat on, file saving, current Cheat items. Choose your expected Cheat item by pressing &quot;up&quot; and &quot;down&quot;, and open or close the item by pressing A or touching the screen. Touch &quot;Cheat on/Cheat off&quot; to operate the Cheat, and touch the screen to save the file.
+<br /><br />While the Cheat is running, you may choose the cheat code one by one by pressing &quot;up&quot; and &quot;down&quot;, and close the cheat code by pressing &quot;A&quot;. Under Cheat Code Category, press A to open/close the category. You can delete the cheat.dat file in R4iMenu category if the cheat function is not required.
+<br /><br />R4 3DS Cheat database updates: Download the newest cheat database and copy usrcheat.dat file to R4iMenu category.
+<br /><br />R4 3DS Skin change method
+<br />R4 3DS skin files are in the R4iMenu/Skin category. There are four files inside the category: TScreen.bmp, BottomInit.bmp, TScreen.bmp and BottomScreen.bmp. Their functions are as below:
+<br />       * TScreen.bmp -- R4 NDSI Top screen interface after starting the machine.
+<br />       * BottomInit.bmp -- R4 NDSI Bottom screen interface after starting the machine.
+<br />       * TScreen.bmp -- R4 NDSI Top screen interface for the file category.
+<br />       * BottomScreen.bmp -- R4 NDSI Bottom screen interface for the file category.
+<br /><br />Notice: The above files names can not be changed, picture must be in .bmp format with 8 or 24 digits, picture size must be of 256*192 pixel.
+<br /><br />By R4 3DS default setting, the skin will automatically change in each season. You can also change the skin manually. If you want to DiY your own skin. Just download the favourite picture, copy the &quot;R4imenu/skin&quot; catetory to the TF card. Then, the new pictures will cover old skin.?
+]]>
+		</document>
+		<document id="24460acb6b71bb37fb8effe1666936e4" url=""><![CDATA[R4 Gold V2.0 introduction - good gold r4 card for Nintendo<br/><br/>R4 Gold card V2.0 version introduction
+<br />R4i Gold V2.0 series card are made by branded R4idsn.com. It is also called r4i gold V2.0. V2.0 R4 Gold card is the brother card of r4i ultra. it is the first flashcard to break Nintendo DSi V1.4.1. Many plays know this famous gold card. However, R4 Gold V2.0 softwaer stop to update for a long time in 2009, this cause some lag on game update. R4 Gold V2.0 get support from AKAIO team in 2011. Regarding the software update, the compatibility has greatly been improved. New <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3Byb2R1Y3RzL1I0LUdvbGQtVjIuMC1jYXJkLWZyb20tcjRpZHMuY29tLWZvci1OaW50ZW5kby0zRFMtYW5kLURTaS5odG1s" target="_blank">R4 Gold V2.0</a> hardware updated on April 11th, it perfectly support Nintendo 3DS console.
+<br /><br />R4 Gold V2.0 compatibility
+<br />Since get support AKAIO kernel, V2.0 R4 Gold card largely improved the compatibility. It supports almost all MicroSD card up to 32 GB with good gaming speed. R4 Gold is compatible with Nintendo 3DS, DSi V1.4.1,DsiLL,DsiXL,DS and DS lite. It supports Nintendo console with all editions of different language. Such as Nintendo 3DS V1.1.0-1J, V1.1.0-1U USA and V1.1.0E Europe Versions.
+<br /><br />R4 Gold V2.0 feature
+<br />The world's first host system to support the DSi upgrade to V1.4. 
+<br />Support all Nintendo consoles, 3DS/ DSL / DSi / LL / XL. 
+<br />Supports Action Replay cheat. 
+<br />DLDI auto-patching and Built in .NoPass. 
+<br />2nd generation storage device (no booting tool required). 
+<br />R4 Gold V2.0 support FAT16 and 32. 
+<br />Supports any MicroSD card speed with no lag in game. 
+<br />Supports Clean ROM, drag and drop. Works on any OS. 
+<br />Automatically detect save type. 
+<br />Save directly to MicroSD card, not to onboard chip. 
+<br />Supports Moonshell and other homebrew. 
+<br />User friendly skinnable interface. Touchscreen or button operation. 
+<br />Support rumble pak and memory pak. 
+<br />Support the WiFi game, DS Rumble Pak, DS Browser. 
+<br />Support changes of the background of operation interface. 
+<br />R4 Gold support Skin DIY by setting background and font colors on Main Menu and Game Menu manually and automatically. 
+<br />Supports 4-scale-lightness adjustment ( DS Lite only ) 
+<br />moonshell 2.02 support Software Reset function( Press START key back to the R4 menu). 
+<br /><br />R4 Gold V2.0 kernel
+<br />Since 2010, R4 gold V2.0 card can load AKAIO kernel. The latest version is AKAIO V1.8.6a. The old R4 Gold kernel is also optional. R4ids.com will continuously update the software to enable more games on V2.0 serious r4 gold card..
+<br /><br />R4 Gold V2.0 package
+<br />R4 Gold V2.0 package are very similar with r4i gold V1.4.1 from r4ids.cn. But r4 gold card inside are different, and they use different software. For distinguish, a “V2.0” mark is pasted to the box. Users should pay attention to the mark before purchase. R4 Gold V2.0 box contains;
+<br />     1x R4 Gold card from r4ids.com.
+<br />     1x USB MicroSD 2.0 adapter
+<br />     Other <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL2NhdGVnb3JpZXMvUjQtR29sZC8_" target="_blank">R4 Gold</a> Card for purchase.
+]]>
+		</document>
+		<document id="f5da76d43f7a4684ba05190be9626cbb" url=""><![CDATA[R4i Gold firmware V1.60 updated yesterday<br/><br/>New R4i Gold Kernel released from r4i-gold.com
+<br />Latest R4i-Gold kernel updated to R4i V1.60b on May 11th. It fixed 13 new games on R4i-gold V1.4.1 and R4i-Gold 3DS card. We guess R4i-gold.com team speed up the firmware update stpes to catch up with Nintendo, as the R4i V1.59B was just issued few days before. This may be a good news to users. Players who use <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL2NhdGVnb3JpZXMvUjQtR29sZC8_" target="_blank">R4 Gold</a> card can download and install the R4i V1.60B to enjoy more games.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL1I0aS1Hb2xkLUtlcm5lbC5odG1s" target="_blank">R4i Gold Kernel download</a>
+<br /><br />R4i Gold kernel V 1.60B update content
+<br />5676 - Sesame Street Cookies Counting Carnival (US). 
+<br />5675 - Mystery Tales Time Travel (US). 
+<br />5674 - Minute to Win It (US). 
+<br />5673 - 100 Classic Games (EU). 
+<br />5671 - Battle &amp; Get Poke on Typing DS (JP). 
+<br />5668 - Hollywood Files Deadly Intrigues (EU). 
+<br />5666 - Midnight Mysteries The Edgar Allan Poe Conspiracy (US). 
+<br />5665 - Style Lab Fashion Design (US). 
+<br />5664 - Lego Ninjago (EU). 
+<br />5663 - LEGO Battles Ninjago (US). 
+<br />5662 - Mister Donut DS (JP). 
+<br />5661 - Cosmetick Paradise Princess Life (JP). 
+<br />5659 - Emergency Kids (GE) 
+<br /><br />R4i gold kernel news from r4i-sdhc.com
+<br />R4i www.59b released on 2011-05-03
+<br />R4i-Gold 3DS card released for Nintendo 3DS on 2011-05-03
+<br />R4i V1.58b released on 2011-03-15
+<br />R4i V1.57b released on 2010-12-21
+<br />R4i V1.56b released on 2010-12-06
+<br /><br />R4i-Gold Kernel setup method
+<br />Before the r4i gold kernel installation, you have to confirm following accessories in your package: r4i-gold 3DS card, an USB reader and an MicroSD card.
+<br /><br />1. Download latest R4i Gold Kernel patch (r4i V1.60<img class="smiley" src="http://www.pan.net/smilies/cool.gif" alt=":)" />to your computer.
+<br />2. Unzip the patch into severial files.
+<br />3. Connect the MicroSD card to the computer through a MicroSD reader..
+<br />4. Copy all files to the root directory of the MicroSD card.
+<br />5. Copy any games of medias as you like to the TF card.
+<br />6. Connect the R4i gold 3DS card to the console, power on the console to enjoy games and medias.
+]]>
+		</document>
+		<document id="c8a67545b78879d124bf3f2650721857" url=""><![CDATA[r4 3ds card for Nintendo DSi V1.4.2 were issued<br/><br/>Nintendo DSi V1.4.2 updated to halt flashcard
+<br />Nintendo updated DSi firmware to V1.4.2 few days before. Almost all flashcards were halt except Cyclo iEvo. It means, if you are a <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNC0zZHMtcjQuY29t" target="_blank">R4 3DS cards</a> users, you can't update your DSi console to V1.4.2, orelse, the R4 3DS card will can't run.
+<br /><br />R4 3DS card hacked DSi V1.4.2
+<br />But this problem was solved yesterday. Most R4 3DS cards successfully broke Nintendo DSi V1.4.2 on May 11th. By download and install V1.4.2 update patch, many kinds of r4 3ds cards can run in DSi V1.4.2 console now.  These R4 3DS cards contains: R4i SDHC 3DS from r4i-sdhc.com, R4i Gold 3DS from r4ids.cn, R4idsn 3DS from r4idsn.com and R4itt 3DS from r4itt.net.
+<br /><br />R4i SDHC V1.4.2 news
+<br />IMPORTANT: Products labeled &quot;V1.4.2&quot; support NDSi V1.4.2 hardware upgrade. Meanwhile, the upgrade kernel of the previous products for NDSi V1.4.2 is under testing, it will be released in the short term.
+<br /><br />R4idsn V1.4.2 news
+<br />The updating patch for NDSi V1.4.2 has been released!(2011-05-12)!
+<br /><br />R4idsn has broken NDSi V1.4.2 sucessfully!(2011-05-11)!
+<br /><br />R4iDSN V1.4.2 Patch Released 2011-05-12
+<br />Attention: If your NDSi has been updated to V1.4.2 and your R4iDSN can not work on it.Please update your R4iDSN with this patch.Please read readme.txt attached firstly.Just do as the procedures listed in readme.txt.If you meet any questions, please send mails to r4idsn@ 163.com
+<br /><br />R4i Gold V1.4.2 news
+<br />R4iDS Update:R4ids gold V1.4.2 Updating Patch is released,please download for your R4i Gold 3DS. (2011-05-12).
+<br />R4iDS will release NDSi firmware V1.4.2 Updating Patch for R4i GOLD 3DS in later this week. (2011-05-12).
+<br /><br />R4ids gold V1.4.2 Updating Patch is released 2011-05-12 
+<br />Attention:If your NDSi has been updated to V1.4.2 and your R4i GOLD 3DS card can not work on it.Please update your R4i GOLD 3DS card with this patch.Please read readme.txt attached firstly.Just do as the procedures listed in readme.txt .
+<br /><br />R4iTT V1.4.2 news
+<br />Dsi V1.4.2 upgrade package of purple R4iTT
+<br /><br />this is dsi(1.42) upgrade package, if yourpurple r4itt card can not run on dsi(1.42) console,please use this dsi(1.42) upgrade package to upgrade your r4itt card by ndsdsldsidsilldsixl3ds for running on dsi(1.42) console.
+<br /><br />Dsi V1.4.2 upgrade package of black R4iTT 3DS
+<br /><br />this is dsi(1.42) upgrade package, if your black r4itt2 can not run on dsi(1.42) console,please use this dsi(1.42) upgrade package to upgrade your black r4itt2 card by nds/dsl/dsi/dsill/dsixl/3ds for running on dsi(1.42) console.
+]]>
+		</document>
+		<document id="1bd6d9e9e0f69f34e43c7b1381fe13e3" url=""><![CDATA[Latest R4i SDHC Kernel - R4i V1.37b was issued yesterday<br/><br/>R4i SDHC Kernel updated to r4i www.37b
+<br />New R4i SDHC Kernel - R4i V1.37b released from r4i-sdhc.com on May 15th. It is the latest software for <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3Byb2R1Y3RzL1I0aS1TREhDLTNEUy1jYXJkLWZvci1OaW50ZW5kby0zRFMtY29uc29sZS5odG1s" target="_blank">R4i SDHC 3DS</a> and R4i SDHC card. 11 new games were fixed in the new R4i SDHC kernel. What is more, the R4i SDHC upgraded to support DSi V1.4.2 console, and the R4 SDHC kernel updated to R4 SDHC V1.37b for R4 SDHC card. Users can download mentioned software in below adress for installation:
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL1I0aS1TREhDLUtlcm5lbC5odG1s" target="_blank">R4i SDHC Kernel download</a>
+<br /><br />R4i V1.37b update content:
+<br />1.New R4i SDHC kernel V1.37b supports R4i-SDHC 3DS and R4i series products:
+<br />2.Solved following issues of games:
+<br />5689 - LEGO Pirates of the Caribbean: The Video Game (EU)
+<br />5686 - THOR: God of Thunder (US)
+<br />5685 - Pocket Monsters : Black (KR)
+<br />5684 - Pocket Monsters: White (KR)
+<br />5680 - Dora's Cooking Club (US)
+<br />5676 - Sesame Street Cookies Counting Carnival (US)
+<br />5671 - Battle &amp; Get! Pokemon Typing DS (JP)
+<br />5668 - Hollywood Files Deadly Intrigues (EU)
+<br />5661 - Cosmetic Paradise: Princess Life (JP)
+<br />5658 - Diddl in Cheesecakeland (EU)
+<br />5656 - Disney Fairies: Tinker Bell and the Great Fairy Rescue (US)
+<br /><br />R4i SDHC Kernel updated log
+<br />R4i www.37b released on May 15th, 2011.
+<br />R4i V1.36b released on Apr 20th, 2011.
+<br />R4i V1.35b released on Mar 24th, 2011.
+<br />R4i V1.34b released on Mar 14th, 2011
+<br />R4i V1.33b released on Feb 25th, 2011
+<br />R4i V1.32b released on Jan 27th, 2011
+<br />R4i V1.31b released on Jan 08th, 2011
+<br /><br />R4i SDHC Kernel updated news from r4i-sdhc.com
+<br />*From 15 May 2010, products labeled &quot;V1.4.1&quot; support NDSI V1.4.2 hardware upgrade, please download V1.37b kernel. 
+<br />*From 02 Mar 2011, products labeled &quot;3DS&quot; full support all version N3DS console (include European version), please download V1.37b kernel.
+<br /><br />R4i SDHC V1.4.2 upgrade method
+<br />1. First, reformatting the MicroSD card,go to r4i-sdhc.com to download the latest kernel r4i www.37b.
+<br />2. Unzip and copy the files(R4iMenu,moonshl2,moonmemo,r4.DAT) to the root of MicroSD card.
+<br />3. Go to r4i-sdhc.com to download the dsi(1.42) upgrade package of purple r4i-sdhc.
+<br />Unzip and copy the files(fwup142.nds ) to the root of MicroSD card.
+<br />4. Insert MicroSD card into r4i-sdhc card, insert r4i-sdhc card into ndsdsldsidsilldsixl
+<br />5. Turn on console and press &quot;A&quot; button to run the upgrade file fwup142.nds. Note:When upgrading the r4i-sdhc card, it is not allowed to turn off power or pull out r4i- sdhc,otherwise it will damage the r4i-sdhc card.
+]]>
+		</document>
+		<document id="ebc835918a7769cd3ffcf318259e8df9" url=""><![CDATA[R4i Gold V1.4.2 updated for Nintendo DSi V1.4.2 firmware<br/><br/>R4i Gold is a most famoust gold r4 Cartridges in the world. It is made by r4ids.cn. The before version is r4i gold V1.4.1. On May 2011, it upgraded to R4i Gold V1.4.2 to support Nintendo DSi V1.4.2. By loading V1.4.2 update patch, this r4i gold V1.4.2 card perfectly run games and medias on Nintendo DS, DS lite and DSi V1.4.2. Many people like to call it <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL2NhdGVnb3JpZXMvUjQtR29sZC8_" target="_blank">R4 Gold</a> card, as it’s gold package. The upgrade version of r4 gold card is R4i Gold 3DS card. It supports all Nintendo consoles, including 3DS. N3DS users can choose it for use.
+<br /><br />R4i Gold V1.4.2 Features:
+<br />Compatible with all DS and DSi editions(DSi V1.4.1 and DSi V1.4.2) of different languages. 
+<br />R4i Gold V1.4.2 Supports Action Replay cheat 
+<br />DLDI auto-patching 
+<br />Support SDHC (up to 32 G<img class="smiley" src="http://www.pan.net/smilies/cool.gif" alt=":)" /> 
+<br />2nd generation storage device (no booting tool required) 
+<br />Flush fitting slot 1 card 
+<br />Uses MicroSD card, FAT16 or 32 
+<br />Supports any MicroSD card speed with no lag in game 
+<br />R4i Gold www.4.2 Supports Clean ROM, drag and drop. Works on any OS 
+<br />Automatically detect save type 
+<br />Save directly to MicroSD card, not to onboard chip 
+<br />Supports Moonshell and other homebrew. 
+<br />User friendly skinnable interface. Touchscreen or button operation 
+<br />Supports rumble pak and memory pak 
+<br />R4i Gold V1.4.2 Supports the WiFi game, DS Rumble Pak, DS Browser 
+<br />Supports changes of the background of Operation Interface 
+<br />Support Skin DIY by setting background and font colors on Main Menu and Game Menu manually and automatically 
+<br />Supports 4-scale-lightness adjustment ( DS Lite only ) 
+<br />R4 Gold card Supports the Soft Reset. 
+<br />moonshell 1.71 support Software Reset function( Press START key back to the R4 menu).       
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3Byb2R1Y3RzL1I0aS1Hb2xkLVYxLjQuMi1mcm9tLXI0aWRzLmNuLWZvci1EU2ktVjEuNC4yLmh0bWw_" target="_blank">R4i Gold V1.4.2</a> package
+<br />1 x R4 Gold DSi Card 
+<br />1 x MicroSD card reader 
+<br />1 x Case for the adapter 
+<br /><br />R4i Gold Kernel
+<br />There are two R4i gold kernel available for r4i gold card, the r4i kernel and wood r4 kernel. Latest r4i kernel is r4i www.51b which was released on April 1st. Latest wood r4 kernel is wood r4 V1.29, which was issuded on May 2nd. Both of them can run perfecty on r4 gold card and support DSi V1.4.2. Users can download any of them for installation.
+<br /><br />R4 Gold News from r4ids.cn
+<br />Wood R4 V1.28 released for r4i 3DS gold card on April 1st, 2011.
+<br />R4i Gold 3DS works well with V1.1.0-1U and V1.1.0-1E on 3DS. (2011-03-29).
+<br />R4i Gold 3DS works perfect with the new firmware 1.1.0-1J update on 3DS. (2011-03-03).
+<br />Wood R4 V1.28 released for r4i 3DS gold card on April 1st, 2011.
+<br />Wood R4 V1.29 releaesd for r4 gold card (r4i gold www.4.2 and r4i gold 3ds) on April 30th, 2011.
+<br />New R4i Gold 3DS version released from r4ids.cn, it is under testing and review, will on sale later.
+<br />R4i Gold V1.4.2 updated for Nintendo DSi V1.4.2 firmware on May 11th, 2011.
+]]>
+		</document>
+		<document id="afe359ea11eb1491004f77927182bde7" url=""><![CDATA[R4i Gold kernel udpated to wood r4 www.30 on May 19th<br/><br/>Latest wood r4 www.30 released today
+<br />Wood r4 is a unofficial software in Nintendo world. It can be used in many R4i Gold, R4 Gold and R4 cards. Being famous for the good compatibility and fast update speed, Wood r4 team improve the software continuously and regularly, which fixed more games and bring more joy to flashcard users. The latest wood r4 V1.30b is issued today, it is improved in the core, user interface and game roms.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL1I0LUtlcm5lbC5odG1s" target="_blank">Wood r4 download</a>
+<br /><br />Wood R4 compatibility
+<br />Wood r4 kernel is compatible with r4 card, <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL2NhdGVnb3JpZXMvUjRpLUdvbGQv" target="_blank">R4i Gold</a> and <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL2NhdGVnb3JpZXMvUjQtR29sZC8_" target="_blank">R4 Gold</a> cards. Below flashcards can run wood r4 V1.30:
+<br />R4i Gold V1.4.1, R4i Gold V1.4.2 and R4i Gold 3DS card from r4ids.cn.
+<br />R4idsn 3DS card from r4idsn.com.
+<br />R4 DS card from r4ids.me.
+<br /><br />Wood R4 V1.30 Update
+<br />Wood Firmware Core
+<br />- Some parts of ui rewritten
+<br />- Softreset updated
+<br /><br />User Interface
+<br />- czech translation added ( Thanks to plazmas )
+<br />- fixed trash at screen then language option in language file is set to wrong value.
+<br /><br />DS game ROMs Compatibility
+<br />V1.30 update has fixed gaming problem, and lists some of them below.
+<br />5669 - 'battle &amp; get! pokemon typing ds (JP)'
+<br />5676 - 'petz catz playground (US)'
+<br />5680 - 'minna to kimi no piramekino! (JP)'
+<br />5682 - 'pocket monsters - white (KR)'
+<br />5683 - 'pocket monsters - black (KR)'
+<br />5686 - 'sports collection (US)'
+<br />5688 - 'murder in venice (EU)'
+<br />5689 - 'pucca power up (EU)'
+<br />5692 - 'dragon quest vi - realms of revelation (EU)'
+<br />- bug that caused very rare freeze in 'final fantasy iii'
+<br /><br />Wood r4 kernel installation
+<br />For different flashcard, the files inside wood r4 kernel are different. But the installation method are very similar:
+<br />1. Download latest Wood R4 kernel patch.
+<br />2. Release the patch into several files.
+<br />3. Connect the MicroSD card to the computer through a MicroSD reader.
+<br />4. Copy all files to the root directoy of the MicroSD card.
+]]>
+		</document>
+		<document id="a83785d18b14cdb8a0b1b4495cd6ebda" url=""><![CDATA[R4i SDHC Kernel V1.38b version released yesterday<br/><br/>Latest R4i SDHC kernel V1.38b released
+<br />New R4i V1.38b is released from r4i-sdhc.com. It is the latest software for R4i SDHC and <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3Byb2R1Y3RzL1I0aS1TREhDLTNEUy1jYXJkLWZvci1OaW50ZW5kby0zRFMtY29uc29sZS5odG1s" target="_blank">R4i SDHC 3DS</a>card. (R4 V1.38b for R4 SDHC card). R4i SDHC kernel update very fast. Since R4i V1.37b issued on May 15th, the R4i V1.38b released only 4 days later. There is not many change in V1.38b R4i SDHC kernel, just 11 new games are added. Thanks to r4i-sdhc.com team.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL1I0aS1TREhDLUtlcm5lbC5odG1s" target="_blank">R4i SDHC Kernel download</a>
+<br /><br />R4i V1.38b Update content
+<br />1.support R4i SDHC 3DS and R4i SDHC V1.4.2  series products:
+<br />2.Solved following issues of games:
+<br />5689 - LEGO Pirates of the Caribbean: The Video Games
+<br />5686 - THOR: God of Thunder (US)
+<br />5685 - Pocket Monsters : Black (KR)
+<br />5684 - Pocket Monsters: White (KR)
+<br />5680 - Dora's Cooking Club (US)
+<br />5676 - Sesame Street Cookies Counting Carnival (US)
+<br />5671 - Battle &amp; Get! Pokemon Typing DS (JP)
+<br />5668 - Hollywood Files Deadly Intrigues (EU)
+<br />5661 - Cosmetic Paradise: Princess Life (JP)
+<br />5658 - Diddl in Cheesecakeland (EU)
+<br />5656 - Disney Fairies: Tinker Bell and the Great Fairy Rescue (US)
+<br /><br />R4i SDHC Kernel updated news from r4i-sdhc.com
+<br />*From 15 May 2010, products labeled &quot;V1.4.1&quot; support NDSI V1.4.2 hardware upgrade, please download V1.37b kernel. 
+<br />*From 02 Mar 2011, products labeled &quot;3DS&quot; full support all version N3DS console (include European version), please download V1.37b kernel.
+<br />* IMPORTANT: Because of the problems with testing, R4i-sdhc.com decided to hold up on the updating patch for NDSi V1.4.2, it can be resolved in the short term, sorry for the inconvenience caused to customers.
+<br /><br />R4i SDHC kernel installation
+<br />It is easy to install the R4i SDHC kernel into r4i-sdhc card with several steps:
+<br />1. Download the latest R4i V1.38b (r4 V1.38<img class="smiley" src="http://www.pan.net/smilies/cool.gif" alt=":)" /> kernel to the computer. You will get a zipped patch.
+<br />2. Unzip the patch into several files.
+<br />3. Format the TF card, and copy all files to the root directory of the TF card.
+<br />4. Download some ROMs, and copy any games or medias you like to the TF card.
+<br />5. Insert the TF card to red r4i card, and connect the r4 card to Nintendo console, power on the console to play game.
+]]>
+		</document>
+		<document id="16b5a1bdf77dee80de1470c156b899bd" url=""><![CDATA[R4 XL & R4i XL card run games on Nintendo DSi<br/><br/>R4 XL card introducion
+<br />R4 XL is also called R4i XL card. It is made by r4i-ndsill.com on 2009. Nintendo R4 XL is a SLOT-1 flash cards for NDS console series, it perfectly support Nintendo DSi,DsiXL,DsiLL,DS and DS lite. R4 XL DSi card(r4i XL) is the upgrade versions of original R4 DS with multi-media features. But it offers more functions, such as support SDHC and run most games and homebrews. Though there are many flash cards which can also support Nintendo DsiLL and DsiXL, the R4 XL card is a very good choice for players.
+<br /><br />R4 XL card main functions
+<br />1. R4 XL is compatible with all Nintendo DSiXL/DSiLL/DSi V1.4.1/DSL/DS games
+<br />2. Suport internet, IP phone?MSN, Email functions
+<br />3. Update languages and themes online
+<br />4. R4 XL support Background music and key music
+<br />5. Backup Save file online
+<br />6. R4 XL card support music,movies,E-book,picture and other media functions.
+<br />7. Nintendo 3DS and DSi V1.4.2 is not support currently.
+<br /><br />R4 XL card setup method
+<br />Like other R4 cards, it is easy to setup R4 XL card with following steps:
+<br /><br />1. Download latest R4 XL kernel to computer from official website.
+<br />2. Unzip the patch, you can get some files.
+<br />3. Connect the MicroSD card to the computer through a TF card reader.
+<br />4. Copy the R4.DAT file to your TF card. It is for game kernel upload.
+<br />5. Copy the Moonshl2 to your TF card. It is for Vode kernel upload.
+<br />6. Copy the R4iMenu to your TF card. It is for DIY Interface function upload.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3Byb2R1Y3RzL1I0LVhMLWNhcmQtZm9yLU5pbnRlbmRvLURTaS1WMS40LjEtRFNpTEwtYW5kLURTaVhMLmh0bWw_" target="_blank">R4 XL</a> card Operation
+<br />AR cheat on R4 XL
+<br />Download the latest AR cheat data base, then copy the &quot;usrcheat.dat&quot; file to&quot;R4iMenu&quot; file.
+<br /><br />R4 XL skin Change/theme DIY
+<br />Download R4 XL skins/theme from official web site. unzip and copy it to the TF card (SD card) &quot;R4i/Menuskin&quot; folder. Maximum allow skins/themes was up to 8. After power on the NSDI/NDSL switch to the setting mode (most right button) to configure and select skins / themes setting. There is a file call &quot;color.ini&quot; which locate at the skin/thems folder, you can use it to manually customize the skin/themes setting. For more detail description please refer to official website.
+<br /><br />R4 XL Main menu operation
+<br />Insert the TF card to R4 XL card, and connect the R4i XL card to Nintendo console. Power on the machine, you will enter the main menu straightly. By pressing (right and left) key or touching screens, you can choose the games or media function, press A key for relative function.
+<br /><br />R4 XL Game Operation
+<br />Choose your expected game in the game menu, press A or touch the screen to play games.
+<br />In the first operation, it will remind “ file is effected”
+<br />The updated date of the files will be automatically revised while playing the games each time, the updated files could be easily found by checking the latest date revision.
+<br />The names of the files are the same as which of the games, expanded name is SAV. Which can be copied to computer at any moment.
+<br /><br />R4 XL software
+<br />R4 XL card use is own software – R4i XL kernel. The latest version is r4i V2.30, which was released on December 7th,2010. there are many language versions of r4 xl kernel can be download in official website. It contains: Chinese, English, franch, dutch, German, Italian, spanish, and so on. R4 XL technical team will keep on update the R4 XL software to make it more powerfull and more attractive. 
+<br /><br />R4 XL card package
+<br />R4 XL card use a classical Avatar package. It is beautiful and unique in the world. This makes R4 XL card more attractive and widely loved by children. Accessories inside the box contains:
+<br />      1 X R4 XL card (R4i XL) from r4i-ndsill.com 
+<br />      1 X USB reader / writer 
+<br />      1 X protective case 
+<br />Attention: As this R4 XL card can’t support 3DS and DSi V1.4.2, we kindly recommend players to buy R4 Gold card or R4i SDHC 3DS card instead.
+<br /><br />R4 XL update news
+<br />* Latest R4i XL kernel – R4i V2.30 was released on December 7, 2010
+<br />* All the DSi flash card just can work on DSi ver2.30 or under version in currently!
+<br />* Good news , Avatar R4 XL ( <a href="http://en.pan.netcom/go/out/url=http%3A%2F%2Fwww.r4i-ndsill.com"target="_blank" rel="nofollow">www.r4i-ndsill.com</a>) kernel update.
+<br />* The latest r4 XL card can support harry potter games,kernel update frequently
+<br />* From 2010-01-01, R4 XL card will change to pink plastic casing 
+<br />* From 2010-01-01, all r4 xl cards are stuck the indentification label on the back, Tear labeling surface,In the &quot;forgery- proof search&quot;page enter the product labeling code inquires the authenticity of products.
+]]>
+		</document>
+		<document id="84d656db6f167104c18c2f18681bdc16" url=""><![CDATA[Latest R4i-Gold V1.61b kernel released on May 24th<br/><br/>R4i-Gold kernel updated to R4i V1.61b
+<br />R4i-Gold.com released latest R4i-Gold Kernel on May 24th. It is the latest software for R4i-Gold V1.4.1 and R4i-Gold 3DS card. 13 new games were added to the R4i V1.61b, which makes <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL2NhdGVnb3JpZXMvUjQtR29sZC8_" target="_blank">R4 Gold</a> card to be more powerfull, and more enjoyable. What is more, R4i-Gold V1.4.2 Patch was issued to support latest Nintendo DSi V1.4.2 version.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL1I0aS1Hb2xkLUtlcm5lbC5odG1s" target="_blank">R4i Gold Kernel download</a>
+<br /><br />R4i V 1.61B update content
+<br />new R4i-Gold kernel fixed following new game roms: 
+<br />5676 - Sesame Street Cookies Counting Carnival (US) 
+<br />5675 - Mystery Tales Time Travel (US) 
+<br />5674 - Minute to Win It (US) 
+<br />5673 - 100 Classic Games (EU) 
+<br />5671 - Battle &amp; Get Poke on Typing DS (JP) 
+<br />5668 - Hollywood Files Deadly Intrigues (EU) 
+<br />5666 - Midnight Mysteries The Edgar Allan Poe Conspiracy (US) 
+<br />5665 - Style Lab Fashion Design (US) 
+<br />5664 - Lego Ninjago (EU) 
+<br />5663 - LEGO Battles Ninjago (US) 
+<br />5662 - Mister Donut DS (JP) 
+<br />5661 - Cosmetick Paradise Princess Life (JP) 
+<br />5659 - Emergency Kids (GE) 
+<br /><br />R4i-Gold kernel update log
+<br />R4i V1.60b released on 2011-05-11.
+<br />R4i www.59b released on 2011-05-03
+<br />R4i-Gold 3DS card released for Nintendo 3DS on 2011-05-03
+<br />R4i V1.58b released on 2011-03-15
+<br />R4i V1.57b released on 2010-12-21
+<br /><br />How to upgrade R4i-Gold V1.4.2 and R4i-Gold 3DS card for DSi V1.4.2
+<br />hardware upgrade: 
+<br />1. make sure nds fully charged, better with external power pluged. 
+<br />2. |First, reformatting the MicroSD card, download the latest kernel R4i V1.61b. 
+<br />3. Unzip and copy the files(R4iMenu,moonshl2, moonmemo,r4.DAT) to the root of MicroSD card. 
+<br />4. Download the latest upgrading programs. Unzip and copy the file(fwup142c.nds) to the root of MicroSD card. 
+<br />5. Inset MicroSD card into r4i-gold card, insert r4i-gold card into ndsdsldsidsixl3DS 
+<br />6. Turn on console and press “a” button to run the upgrade file fwup142c.nds. Note: When upgrading the r4i-gold card, it is not allowed to turn off power or pull out r4-gold, otherwise it will damage the r4i-gold card.
+]]>
+		</document>
+		<document id="9cf292544893e76543d9635806ca2d9e" url=""><![CDATA[Nintendo DSi V1.4.2 and 3DS jailbreak - r4itt 3ds card<br/><br/>R4iTT is one of the most famous flashcard in Nintendo world. It is made by r4itt.net. The before version is R4iTT 3D upgrade card, which support Nintendo DSi V1.4.1,DS and DS lite. In Feb, 2011, r4itt.net released new product - R4iTT 3DS card for Nintendo 3DS console. And three month later, all R4itt card were updated to support DSi V1.4.2 perfectly. Now, <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3Byb2R1Y3RzL1I0aVRULTNEUy13aXRoLUtpbmdzdG9uLTRHQi1mb3ItTjNEUy1hbmQtRFNpLVYxLjQuMi5odG1s" target="_blank">R4iTT</a> card is getting more and more powerful. More and more players choose R4itt 3DS or R4itt V1.4.2 card for entertainment.. If you are considering to select a good flashcard, we kindly recommend the R4itt 3DS, r4 gold or r4i sdhc card.
+<br /><br />R4iTT 3DS feature
+<br />* R4iTT 3DS is one of the first Nintendo R4 3DS Flash card.
+<br />* Support 3DS/DSI/NDS
+<br />* Download the latest kernel and put into root of tf card 
+<br />* put r4i_flashdata.bin and UpdateToolerV13.nds into root of tf card
+<br />* power on NDS
+<br />* enter game list and choose update button
+<br />* run UpdateToolerV13.nds
+<br />* do it by clew on screen
+<br />* R4iTT card support Download play
+<br /><br /><a href="http://en.pan.netcom/lijacy/photo/photoid=38328712" target="_blank"><img src="http://www.pan.net/en/p/oo/164726506_16633339_38328712.jpg" /></a>        
+<br /><br />R4iTT 3DS functions
+<br />Able to memorize and restore to the previously selected game or application after restarting machine and soft reset. 
+<br />Sleep mode function, for power saving and longer standby time. 
+<br />Multi-languages are optional, they are Simplified Chinese, complicated Chinese, English, Japanese, French, German, Italian, Spainish and Dutch. 
+<br />Friendly interface, easy to operate. 
+<br />Realtime smart help windows. 
+<br />Integrated the latest Moonshell 2.0 Beta version. 
+<br />Game compatibility: 100%. 
+<br />No need to flash. Built-in launch Slot-2 (gba) function. 
+<br />Support SDHC micro sd cards (4GB?8GB?16GB?32G<img class="smiley" src="http://www.pan.net/smilies/cool.gif" alt=":)" />. 
+<br />Support DMA read and no lag while using any microSD card. 
+<br />Support FAT16 and FAT32. Files can be transferred with PC, PDA, Cellphone and Camera. 
+<br />Support clean rom and drag-drop to play. Fast loading. 
+<br />Support NDS and iDS games. DS games can run on any DS versions. 
+<br />Files are to be saved directly to TF card, copy or restoration is not required. 
+<br />Automatically recognise saved new game types, no need to update the database. 
+<br />Support moonshell and home brew. 
+<br />Power saving design. Enter optimized mode automatically. 
+<br />Double screen UI, abbreviated picture and game title display, button and touch operations. 
+<br />Easy to use, setting or adjustment is not required. 
+<br />Support Wi-Fi, rumble pack and browser expansion. 
+<br />UI background can be changed. 
+<br />4-level brightness adjustment. 
+<br />Support soft reset. 
+<br />Support AR cheat code. 
+<br />Support soft-reset of moonshell 2.0 (back to main menu of R4 NDSI by pressing START button). 
+<br />DLDI auto-patching. 
+<br />Support Download play. 
+<br /><br />R4iTT software
+<br />R4itt.net offers 2 kinds of software. The R4itt kernel is special for r4itt V1.4.2 card, latest version is r4itt v2.20, which was released on April 25th.. R4itt-rts kernel is designed for r4itt 3ds card, Latest version is r4itt-rts V1.01. They are different software, and not compatible with each other. User should pay attention to his card version before download and install the kernel.  R4iTT Installation.
+<br /><br />R4iTT 3DS card 4GB package
+<br />We kindly recommend this 4GB packge to users, as the R4iTT has a large size kernel. (aout 40M<img class="smiley" src="http://www.pan.net/smilies/cool.gif" alt=":)" />. Users not only need to arrange some cubic for the kernel, but also some memory for games roms. 4GB MicroSDHC card usually can load 8 to 10 games. The r4itt 3DS card 4GB bulk contains:
+<br />     1 X R4iTT 3DS card
+<br />     1 X 4GB Kingston memory card
+<br />     1 X MicroSDHC reader / writer
+<br /><br />R4iTT latest news from r4itt.net
+<br />* Latest r4itt V2.20 kernel released on April 25th.
+<br />* Latest R4iTT 3DS kernel - r4itt-rts English 1.01: was released on 2011-03-23.
+<br />* R4iTT 3DS V1.4.2 udpated to support Nintendo DSi V1.4.2 firmware on May 11th.
+]]>
+		</document>
+		<document id="a37b6a5268a59a50079c837289e8fdbd" url=""><![CDATA[Latest R4i SDHC V1.39b kernel is available<br/><br/>latest R4i V1.39b released from r4i-sdhc.com
+<br />R4i-sdhc.com released new software for R4i sdhc card yesterday. There are 3 kernel available: the R4i V1.39b for R4i SDHC V1.4.2, R4i SDHC V1.4.1 and R4i SDHC V1.4 card; the R4i 3DS V1.39b for <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3Byb2R1Y3RzL1I0aS1TREhDLTNEUy1jYXJkLWZvci1OaW50ZW5kby0zRFMtY29uc29sZS5odG1s" target="_blank">R4i SDHC 3DS</a> card; the R4 SDHC V1.39b for R4 SDHC card. 12 new games are added to the new kernel. As the R4 3DS market is depressing, red r4i team hope to get better sales by improving the software and hardware of r4i sdhc card.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL1I0aS1TREhDLUtlcm5lbC5odG1s" target="_blank">R4i SDHC Kernel Download</a>
+<br /><br />R4i V1.39b update content
+<br />1. Support Nintendo DSi V1.4.2 firmware upgrade
+<br />2. Support R4i SDHC 3DS and red R4i series products:
+<br />3.Solved following issues of games:
+<br />5702 - Tangled (US)
+<br />5700 - Original Story from Fairy Tail: Gekitotsu! Kardia Daiseidou (JP)
+<br />5698 - Yu-Gi-Oh! 5D's World Championship 2011: Over the Nexus (EU)
+<br />5694 - Dragon Quest VI: Realms of Reverie (EU)
+<br />5691 - Pucca Power Up (EU)
+<br />5690 - Murder in Venice (EU)
+<br />5688 - Sports Collection (US)
+<br />5682 - Minna to Kimi no Piramekino! (JP)
+<br />5678 - Petz Catz Playground (US)
+<br />5657 - Rio (US)
+<br />5653 - Wizards of Waverly Place Spellbound (US)
+<br />5636 - Lost Identities (EU)
+<br /><br />R4i SDHC kernel installation
+<br />It is easy to install the R4i SDHC kernel into r4i-sdhc card with several steps:
+<br />1. Download the latest R4i V1.39b (R4i 3DS V1.39b for R4i SDHC 3Ds card and R4 V1.39b for R4 sdhc card) to the computer. You will get a zipped patch.
+<br />2. Unzip the patch into several files.
+<br />3. Format the TF card, and copy all files to the root directory of the TF card.
+<br />4. Download some games or medias to the TF card.
+<br />5. Insert the TF card to red r4i card, and connect the r4i sdhc card to Nintendo console, power on the console to play game.
+]]>
+		</document>
+		<document id="1b6d10138e8da8caf445415f48855c73" url=""><![CDATA[latest r4itt kernel - r4itt v2.23 is issued yesterday<br/><br/>New R4iTT V2.23 and R4iTT-RTS V1.02 released
+<br />R4iTT.net updated software for R4iTT card on yesterday. The R4iTT V2.23 is released for R4iTT V1.4.2 card and R4iTT-RTS V1.02 is released for R4iTT 3DS card. 38 new games are fixed in the new kernel. Thanks to r4itt.net team, their hard work makes r4itt card more and more powerful. And more and more people will choose the <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL2NhdGVnb3JpZXMvUjRpVFQv" target="_blank">R4iTT</a> card to play games on Nintendo 3DS,DSi and DS console.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL1I0aVRULUtlcm5lbC5odG1s" target="_blank">R4iTT Kernel download</a>
+<br /><br />R4iTT Kernel updated content on June 1st:
+<br />Following games are added to the R4iTT V2.23 and R4iTT-RTS V1.02 kernel:
+<br />5500-Zombie Daisuki
+<br />5499-Kaiju Busters Powered
+<br />5498-Go, Diego, Go! Mega Bloks Build Rescue
+<br />5497-Jewel Match
+<br />5496-Eindeloos Backgammon
+<br />5495-Plants vs. Zombies DS
+<br />5494-Wario Ware Touched!
+<br />5493-Pirates- Duels on the High Seas
+<br />5492-Jewel Quest Mysteries
+<br />5491-Imagine- Fashion Designer World Tour
+<br />5490-Dream Salon
+<br />5489-Dragons Lair
+<br />5488-Suzuki Super-bikes II- Riding Challenge
+<br />5487-Littlest Pet Shop 3- Pink Team
+<br />5486-Emily Archer- La Malediction de Toutankhamon
+<br />5485-Batman- The Brave and the Bold
+<br />5484-Caspers Scare School- Classroom Capers
+<br />5483-Puzzle Expedition
+<br />5482-Shining Stars- Super Starcade
+<br />5481-Garfield Gets Real
+<br />5480-Animaniacs- Lights, Camera, Action!
+<br />5479-Littlest Pet Shop 3- Purple Team
+<br />5478-Das Haus Anubis- Das Geheimnis des Osiris
+<br />5477-Ghost Trick
+<br />5476-Yogi Bear- The Video Game
+<br />5475-Monster Jam- Path of Destruction
+<br />5474-Shawn Johnson Gymnastics
+<br />5473-Kingdom Hearts- Recoded
+<br />5472-Kingdom Hearts- Recoded
+<br />5471-Golden Eye 007
+<br />5470-Zorro Quest For Justice
+<br />5469-Kunio-kun No chou Nekketsu!Dai Undoukai
+<br />5468-Jewel Pet Mahou no Heya de Isshoni Asobou!
+<br />5467-Naruto Shippuden- Naruto vs. Sasuke
+<br />5466-Tomicar Hero- Rescue Force DS
+<br />5465-Tomicar Hero- Rescue Force DS
+<br />5464-Pucca Power Up
+<br />5463-Wagamama Fashion Girls Mode
+<br /><br />R4iTT Kernel installation
+<br />1. Download latest R4iTT kernel to the computer from official webside or our download page. 
+<br />2. Unzip the patch into several files. 
+<br />3. Connect the MicroSD card to the computer througha MicroSD reader.
+<br />4. Copy all files to the root directory of the MicroSD card. (TF card).
+<br />5. Copy some game Rom to the TF card.
+]]>
+		</document>
+		<document id="ccf0c43e6e68312131383aeabc6161b8" url=""><![CDATA[Which DSi card is better for Nintendo?<br/><br/>What is DSi Card
+<br />DSi card is a slot-1 flashcard for Nintendo DSi, DSiLL and DSiXL. It is a good engine for games and multi-medias. Different with DS card, DSi card offers very good compatibility. It supports a MicroSDHC card (up to 32G<img class="smiley" src="http://www.pan.net/smilies/cool.gif" alt=":)" /> to play games, listen music, watch music, E-book and so on. Except the original DSi card from Nintendo, there are also many other R4 cards for DSi in the market. All these DSi cards are compatible with DSiLL, DSiXL, DSi, DS and DS lite console.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL0RTaS1DYXJkLmh0bWw_" target="_blank"><img src="http://www.pan.net/en/p/oo/164726506_7820517_38655111.jpg" /></a>
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL0RTaS1DYXJkLmh0bWw_" target="_blank">DSi card</a> overview
+<br />There are many DSi cards in the market currently. Such as Acekard 2i from acekard.cc, Supercard Dstwo from supercard.com, M3i zero from M3adapter.com, DSTTi from ndstt.com, R4i SDHC card from r4i-sdhc.com, R4i Gold from r4ids.cn, R4itt from r4itt.net, R4i Gold V2.0 from r4ids.com and so many other R4i series flashcards. All these flashcard are same size as original DSi card, and run well in Nintendo DSi console. Within them, Acekard 2i, R4i SDHC and R4i Gold card are most famous. However, Acekard is little more expensive, and it update software not very fast. If you want to buy a high quality DSi card with low price, and enjoy most of the new Nintendo games, you can choose the R4i sdhc or R4i Gold card.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3BhZ2VzL0RTaS1DYXJkLmh0bWw_" target="_blank"><img src="http://www.pan.net/en/p/oo/164726506_12535726_38655108.jpg" /></a>
+<br /><br />DSi card V1.4 version for Nintendo DSi V1.4 firmware
+<br />Nintendo updated DSi firmware to V1.4 version on 2008, which allows users to post photos on social networking websites. As a result of this firmware upgrade, a lot of DSi cards stopped working. Some of the excellent manufactured cards were able to be upgraded using a firmware upgrade of their own, but many other cards simply could not work on DSi consoles after the upgrade. The DSi cards which broke Ninendo DSi V1.4 firmware were called DSi V1.4 card.
+<br /><br />DSi card V1.4.1 version for Nintendo DSi V1.4.1 firmware
+<br />Another update of DSi firmware is on Sep,2009. Nintendo upgraded firmware to DSi V1.4.1 version, and halt all DSi cards. How ever, within 1 week, r4i-sdhc.com released new r4i-sdhc V1.4.1 card, and it successfully run on DSi V1.4.1. Few days later, more and more DSi cards broke DSi V1.4.1 firmware. Some other flashcards, which can’t run on DSi V1.4.1 disappeared in the market. Now, almost all DSi cards you can see, is the DSi card V1.4.1 version.
+<br /><br />DSi card V1.4.2 version for Nintendo DSi V1.4.2 firmware
+<br />The latest update for Nintendo DSi firmware is on May 7th, 2010. Nintendo released DSi V1.4.2, and halt most DSi Cards except Cyclo iEvo. But this limitation only last 4 days. R4idsn 3DS card from r4idsn.com successfully broke DSi V1.4.2 on May 11th. And few days later, many other DSi cards were upgraded to V1.4.2 version. Now, the DSi cards which support Nintendo DSi V1.4.2 firmware contain: R4idsn 3DS, R4i Gold V1.4.2, R4i Gold 3DS, R4i-SDHC V1.4.2, R4i-SDHC 3DS, R4iTT V1.4.2, R4iTT 3DS, R4i-Gold V1.4.2, R4i-Gold 3DS, Acekard 2i, Supercard DStwo, M3i Zero. We belive, more and more DSi card will support Nintendo DSi V1.4.2 later.
+]]>
+		</document>
+		<document id="cac3c99cbb6ade52858389b4d3844787" url=""><![CDATA[Do you konw r4i sdhc V1.4.2?<br/><br/>R4i SDHC V1.4.2 review
+<br />R4i SDHC V1.4.2 card is made by famous r4i-sdhc.com team. It is the upgrade version of R4i SDHC V1.4.1. In May, Nintendo updated the firmware to DSi V1.4.2, and halt most flashcard. Few days later, this R4i SDHC V1.4.2 card was released from r4i-sdhc.com to support NDSi V1.4.2. It contains all functions of r4i sdhc before version. Since June 1st, <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5yNHRvd24uY29tL3Byb2R1Y3RzL1I0aS1TREhDLVYxLjQuMi1mb3ItTmludGVuZG8tRFNpLVYxLjQuMi1EUy1hbmQtRFMtbGl0ZS5odG1s" target="_blank">R4i SDHC V1.4.2</a> will replace R4i sdhc V1.4.1 card and before version. All orders will be shipped out with R4i SDHC V1.4.2 card.
+<br /><br />R4i SDHC V1.4.2 compatibility
+<br />R4i SDHC V1.4.2 card supports Nintendo DSi V1.4.2, DSi V1.4.1, DSILL, DSiXL, DS and DS lite. popular among European, American, Asian, Australia users. However, it is not compatible with 3DS console. If you have a 3DS, please buy R4i SDHC 3DS cad instead.
+<br /><br />R4i SDHC V1.4.2 functions
+<br />Compatible with all DSi and DS editions for different languages 
+<br />Compatible with all DSi and DS editions for different languages 
+<br />R4i SDHC V1.4.2 Support MicroSDHC up to 32GB. 
+<br />2nd generation storage device(no booting tool required) 
+<br />Uses MicroSD card, FAT16 or 32 
+<br />Supports any MicroSD card speed with no lag in game 
+<br />Supports Clean ROM,drag and drop. Works on any OS 
+<br />Automatically detect save type 
+<br />Save directly to MicroSD card,not to onboard chip 
+<br />R4i SDHC V1.4.2 supports Moonshell and other homebrew 
+<br />Supports WiFi-game. DS Rumbel Pak, DS browser 
+<br />User friendly skinnable interface. Touchscreen or button operation, easy to operate 
+<br />Supports changes of the background of Operation Interface 
+<br />Supports Skin DIY manually and automatically 
+<br />Supports 4-scale-lightness adjust ment(DS Lite only) 
+<br />R4i SDHC V1.4.2 supports the Soft Reset and built in Nopass 
+<br />Supports Action Replay cheat and DLDI auto-patcing 
+<br />Moonshell 2.01 supports Software Reset function 
+<br /><br />R4i SDHC V1.4.2 Operation
+<br />The Operation of R4i SDHC V1.4.2 card is very similar with R4i SDHC V1.4.1 and R4i SDHC 3DS card.
+<br />1. Dowload latest r4i sdhc kernel to your computer. 
+<br />2. Unzip the patch, and copy all files to the root directory of TF card. 
+<br />3. Download some ROMs, and copy the games or media files to the TF card. 
+<br />4. Insert TF card to R4i SDHC V1.4.2 card, and put r4i card to Nintendo console. 
+<br />5. Turn on the console, you will enter the R4i SDHC main menu. 
+<br />6. Three item are optional on main menu, Games, medias and relative functions. Choose any item with right and left key, press A to enter game menu straightly. 
+<br />7. On game menu, choose any games you like, press A key to run. 
+<br /><br />R4i SDHC V1.4.2 Skins DIY
+<br />It is easy to change R4i SDHC V1.4.2 skin, or download and install your favourite theme to R4i sdhc V1.4.2 card.
+<br />1. Insert MicroSD card into USB SD Adapter, and plug the adapter to a USB port on your computer.
+<br />2. Download your preferred skin / theme from the R4i SDHC official website, Extract the zipped file and get a folder named &quot;R4i_skin_x&quot; ( x is the series number).
+<br />3. Navigate and find the directory F:R4iMenuskin (Suppose your TF card displayed on computer is H: driver).
+<br />4. Copy R4i_skin_x folder into this skin folder above.
+<br />5. Skin installation complete, put TF card to R4i SDHC V1.4.2, and run the DSi console with R4i card
+<br />6. Set and Select skins is shown below.
+<br /><br />R4i SDHC V1.4.2 kernel
+<br />The latest kernel for R4i SDHC V1.4.2 card is R4i V1.39b, which is relesed on June 1st. The size of R4i V1.39b is 29.8MB. after unzip, it will be larger. Please arrange more than 40MB memory to install R4i SDHC kernel.
+<br /><br />There are 3 folders in each version of R4i SDHC kernel: moonmemo,moonshl2,R4iMenu and a R4.dat file.
+<br />R4.dat - Game kernel, fixing newest DS game ROMs;
+<br />R4iMenu folder - DIY interface function package, designing your additional applications, skins, wifi and so on;
+<br />moonshl2 folder - video kernel, enable MP3/MP4/3GP music and movies;
+<br />moonmemo folder - Note book. How ? Press multimedia icon at R4i SDHC homepage -&gt; console loads into moonshell ver2.00 -&gt; Press Start button -&gt; Select Notebook.
+<br />R4i V1.39b kernel can be used in r4i sdhc V1.4.2, r4i sdhc www.4.1 and r4i sdhc V1.4 card. (attention: R4i V1.39b is different from R4i 3DS V1.39<img class="smiley" src="http://www.pan.net/smilies/cool.gif" alt=":)" />
+<br /><br />R4i SDHC V1.4.2 package
+<br />R4i SDHC V1.4.2 package is very similar with before version – R4i SDHC V1.4.1. r4i-sdhc.com just change the “V1.4.1” mark into “V1.4.2”. How ever, since June, all orders will be shipped out with R4i SDHC V1.4.2 card. Accessories inside the package contains:
+<br /><br />1x R4i SDHC V1.4.2 card 
+<br />1x USB Micro adapter (High speed 2.0) 
+<br />1x Pink protective Case
+]]>
+		</document>
+	</documents>
+</author>

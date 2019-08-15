@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><author age_group="xx" gender="xx" lang="EN" type="blog" url="blog.srstrong.com">
+	<documents count="7">
+		<document id="1223170643dcf8528aa9caa7bc84a76a" url="http://blog.srstrong.com/2010/06/22/the-task-parallel-library-series-introduction/"><![CDATA[One of the key parts of .Net 4.0 is the Task Parallel Library, a new set of types that provide a higher level of abstraction for concurrent programming than the previous System.Threading namespace. This is the first of a small series of posts giving an overview of the library and how to use it; hopefully [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=blog.srstrong.com&#038;blog=12054657&#038;post=5&#038;subd=srstrong&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+		</document>
+		<document id="7e09daa0c46e326fedbd53076f115c4c" url="http://blog.srstrong.com/2010/06/25/the-task-parallel-library-series-data-parallelism/"><![CDATA[One of the approaches that can be taken to introduce concurrency into your applications is through data parallelism. This approach distributes data across multiple cores, where each core executes the same instructions on different items from the data set. As an example, consider some simple algorithm that processes the pixels of an image. You may [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=blog.srstrong.com&#038;blog=12054657&#038;post=6&#038;subd=srstrong&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+		</document>
+		<document id="3c947ff27698a1aaaf08ade0bf5254d9" url="http://blog.srstrong.com/2010/07/01/the-task-parallel-library-series-parallel-for-parallel-foreach/"><![CDATA[In the previous post we discussed the principles behind data parallelism, in this one we&#8217;ll show how to implement it in .Net 4.0. This will probably be a short post, since it&#8217;s really simple. Here&#8217;s a regular sequential loop: And here&#8217;s the parallelised version: Pretty simple stuff, and highly readable. Just switch from the C# [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=blog.srstrong.com&#038;blog=12054657&#038;post=14&#038;subd=srstrong&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+		</document>
+		<document id="1a4a5755ced6bb150c2b385cc5e752c6" url="http://blog.srstrong.com/2010/07/07/ndc-2010/"><![CDATA[Last week I was lucky enough to attend this year&#8217;s Norwegian Developer Conference, NDC2010, in the great city of Oslo. In contrast to last year&#8217;s conference where I was an attendee, this year I was lucky enough to be one of the speakers. I had 3 sessions on the first day, all on the topic [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=blog.srstrong.com&#038;blog=12054657&#038;post=13&#038;subd=srstrong&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+		</document>
+		<document id="5321bf7a5c232a748efb48bf248e08b3" url="http://blog.srstrong.com/2010/07/12/the-task-parallel-library-series-task-parallelism/"><![CDATA[So far, we&#8217;ve looked the the motivations behind concurrency and Data Parallelism as a technique to introduce concurrency into your code. We&#8217;ve also looked at some simple examples of Parallel.For() and Parallel.ForEach(). In this post we&#8217;re going to explore the other main way that concurrency can be harnessed, Task Parallelism. Data parallelism was all about [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=blog.srstrong.com&#038;blog=12054657&#038;post=15&#038;subd=srstrong&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+		</document>
+		<document id="bb66bdb14641b2dbcb792bc97fe55b14" url="http://blog.srstrong.com/2010/08/30/the-task-parallel-library-series-the-task-class/"><![CDATA[Now that we understand the principles of Task Parallelism, let&#8217;s see how to do it in .Net 4. In previous versions of .Net, there were two main options. One was to launch a new thread for each task: The other was to make use of the built-in thread pool1: Which of these was best? Well, [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=blog.srstrong.com&#038;blog=12054657&#038;post=20&#038;subd=srstrong&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+		</document>
+		<document id="d4c5aba0509d84f4ec8bab1280f13e7a" url="http://blog.srstrong.com/2013/03/19/its-been-a-while/"><![CDATA[Hmm. Looks like I’ve neglected this blog somewhat; last entry was over 2 years ago, and quite a lot has happened since then! Some highlights: * Left my role as CTO at iMeta. I loved my time there and it was a big decision to move on, but in hindsight I’ve no doubt it was [&#8230;]<img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=blog.srstrong.com&#038;blog=12054657&#038;post=24&#038;subd=srstrong&#038;ref=&#038;feed=1" width="1" height="1" />
+]]>
+		</document>
+	</documents>
+</author>

@@ -1,0 +1,384 @@
+<author type="socialmedia" lang="en" gender="xx" age_group="xx" url="">
+	<documents count="10">
+		<document id="b3ad354f698c957e9601dd19fdd3103f" url=""><![CDATA[Remove Nava Shield (Description and removal instructions)<br/><br/>Nava Shield is a rogue anti-spyware program that may give false or exaggerated reports of threats on your computer. The official website of this misleading program is navashield.com. A trial version is free for one week. After that it will prompt you to pay for a full version of the program to protect your computer against malware.
+<br />It will open up explorer windows and display fake security warnings about dangerous infections found on your computer. Furthermore, it will play very annoying sound all the time. It has some non-working features as well. It claims that Nava Shield can actually hide your IP address but that’s not true. Because of these non-working functions, fake alerts, pop-ups and horrible sound Nava Shield has been classified as a rogue program. If you find that your computer is infected with this malware then use the removal instructions below to remove Nava Shield either manually or with an automatic removal tool.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9yZW1vdmUtbmF2YS1zaGllbGQtZGVzY3JpcHRpb24tYW5kLXJlbW92YWwtaW5zdHJ1Y3Rpb25z" target="_blank">for more details about this</a>
+<br /><br />Nava Shield properties:
+<br />• Changes browser settings.
+<br />• Shows commercial adverts.
+<br />• Connects itself to the internet.
+<br />• Stays resident in background.
+<br />Manual removal:
+<br />Kill processes:
+<br />NavaShield.exe
+<br />NavaUpdater.exe
+<br />NavaBridge.exe
+<br />NavaDebugger.exe
+<br />Delete files:
+<br />NavaShield.exe
+<br />NavaUpdater.exe
+<br />NavaBridge.exe
+<br />NavaDebugger.exe
+<br />Delete directories:
+<br />C<img class="smiley" src="http://www.pan.net/smilies/tongue.gif" alt=":)" />rogram FilesNava Shield
+<br />Delete Nava Shield registry entries:
+<br />HKEY_CURRENT_USERSoftwareMicrosoftInternet ExplorerPhishingFilter “Enabled” = “0?
+<br />HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionInternet Settings “ProxyOverride” = “”
+<br />HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionInternet Settings “ProxyServer” = “http=127.0.0.1:5643?
+<br />HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionInternet Settings “ProxyEnable” = “1?
+]]>
+		</document>
+		<document id="234222aa28c1d9e01c3d966a1a96e268" url=""><![CDATA[Notebook battery drain procedure.<br/><br/><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9ub3RlYm9vay1iYXR0ZXJ5LWRyYWluLXByb2NlZHVyZQ__" target="_blank">Here are the instructions to drain the battery.</a>
+<br />Note: This is a general procedure, it may vary for different brand and model. Please refer the product manual.
+<br />To recalibrate the battery, complete the following steps:
+<br />1. Plug in the AC adapter.
+<br />2. Allow the battery to charge until the Battery Charge light turns off, showing that the battery is fully charged.
+<br />3. After the Battery Charge light turns off, unplug the AC adapter.
+<br />4. Turn on or restart your Notebook.
+<br />: Steps 5 through 8 prevent your Notebook from entering Sleep mode. These steps also allow the battery to drain faster.
+<br />Note
+<br />5. Click Start and then Control Panel.
+<br />6. Click the Power Options icon to display the Power Options Properties dialog box.
+<br />7. Click the Power Schemes tab and select the Portable/Laptop scheme.
+<br />8. From the Running on batteries column:
+<br />a. In the Turn off monitor drop-down list, select Never.
+<br />b. In the Turn off hard disks drop-down list, select Never.
+<br />c. In the System standby drop-down list, select Never.
+<br />d. In the System hibernates drop-down list, select Never.
+<br />9. Let the battery drain until your Notebook reaches Hibernation and turns off.
+<br />10. Plug in the AC adapter and restart your Notebook.
+<br />11. Return to the Power Options Properties dialog box, and re-enter your power savings settings to the desired level.
+<br />Note: Battery charging time will vary based on the initial battery charge, the type of battery, and the activity of your Notebook while charging. Your Notebook’s batteries charge much faster if the Notebook is off while charging.
+<br />After performing the above steps, please reset the BIOS and perform the Power Drain. Please follow the steps to perform these steps:
+<br />Reset the BIOS:
+<br />1. Restart the notebook.
+<br />2. Tap the F2 key as soon as the manufacturer logo appears.
+<br />3. Using the arrow keys, navigate to Exit menu and select Get defaults values.
+<br />4. Navigate to Exit menu and select Save Changes and Exit.
+<br />Power Drain:
+<br />Why and how do we need do power drain in notebook?
+<br />Why:
+<br />Due to regular usage of the notebook, some static charges tend to stay in the computer Mother Board, this sometimes results in not allowing the computer to function properly.
+<br />In order to isolate the issue, we request you to perform Power Drain to discharge the static charges from the notebook capacitors:
+<br />How:
+<br />Please follow the power drain procedure.
+<br />1. Disconnect the AC Adapter.
+<br />2. Remove the Battery.
+<br />3. Hold the Power button down for 45 seconds to 1 minute.
+<br />4. Reconnect the AC adapter.
+<br />5. Turn on the Notebook power.
+<br />Try restarting the computer only with the AC power, without the battery &amp; vice-versa.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9ub3RlYm9vay1iYXR0ZXJ5LWRyYWluLXByb2NlZHVyZQ__" target="_blank">FORE MORE DETAILS CLICK HERE</a>
+]]>
+		</document>
+		<document id="1116d89b6f248322edd051ef4a8b478" url=""><![CDATA[“Publisher cannot be verified” error – “Unknown Publ<br/><br/><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9wdWJsaXNoZXItY2Fubm90LWJlLXZlcmlmaWVkLWVycm9yLXVua25vd24tcHVibGlzaGVy" target="_blank"><span style="text-decoration:underline"><strong>“Publisher cannot be verified” error – “Unknown Publisher”</strong></span></a>
+<br /><br />click on the title for image description. 
+<br /><br />“Publisher cannot be verified” error – “Unknown Publisher”
+<br /><br />Description:
+<br /><br />This is the result of Microsoft trying to protect users from malicious programs. The message will appear for any shortcut or executable that is hosted on a network share. The reason why you get the warning in the first place is because the windows new feature called Attachment Manager. This feature was added to help protect your computer from unsafe file attachments. This include accessing files across your network (e.g servernameshare), files that you might receive with an e-mail message and from unsafe files that you might save from the Internet.
+<br /><br />If the Attachment Manager identifies an attachment that might be unsafe, the Attachment Manager prevents you from opening the file, or it warns you before you open the file.
+<br /><br />Here are the steps to bypass the warning using Attachment Manager Group Policy. Also we have included the registry key modified by the policy.
+<br /><br />Workaround 1:
+<br /><br />From Start Run type: gpedit.msc
+<br /><br />From User Configuration&gt; Administrative Template&gt; Windows Components&gt; Attachment Manager
+<br /><br />Set the following:
+<br /><br />Configuration Settings:
+<br /><br />&gt; Default risk level for file attachments: Set it to Enabled and Set the default risk level to[Low Risk]
+<br /><br />&gt; Inclusion list for low file types: Set it to Enabled and add the file extension [.exe;.vbs;.msi]
+<br /><br />&gt; Do not preserve zone information in file attachments: Set it to Enabled.
+<br /><br />Close Gpedit.msc and run gpupdate /force
+<br /><br />Screenshot:
+<br /><br />Publisher cannot be verified error Unknown Publisher
+<br />Final Step:
+<br /><br />&gt; Add the UNC to Local Intranet or Trusted Sites
+<br /><br />&gt; Log off and log back in
+<br /><br />&gt; Test accessing the UNC share
+<br /><br />Registry keys:
+<br /><br />[HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionPolicies]
+<br /><br />[HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionPoliciesAssociations]
+<br /><br />“LowRiskFileTypes”=”.exe;.vbs;.msi”
+<br /><br />“DefaultFileTypeRisk”=dword:00001808
+<br /><br />[HKEY_CURRENT_USERSoftwareMicrosoftWindowsCurrentVersionPoliciesAttachments]
+<br /><br />“SaveZoneInformation”=dword:00000001
+<br /><br />Workaround 2:
+<br /><br />This is the preferred way:
+<br /><br />First, determine what server the shortcut is hosted on. For our example we will allow only shortcuts that are pointing to server1 to be launched without the warning.
+<br /><br />Open Internet Explorer.
+<br /><br />Click on Tools, then Internet Options. Click on the Security tab.
+<br /><br />Once you are on this tab. Make sure you first click “Local Intranet”, and then the “Sites” button should light up. Click it.
+<br /><br />Publisher cannot be verified error Unknown Publisher
+<br /><br />On the form that is displayed, click Advanced
+<br /><br />Publisher cannot be verified error Unknown Publisher
+<br /><br />You will be shown a list of sites that are in the “Local Intranet”
+<br /><br />To add your server to the list. Type file://server where ‘server’ is the name of your server. We will put server1 here
+<br /><br />Publisher cannot be verified error Unknown Publisher
+<br /><br />Click on Add.
+<br /><br />Click OK, on the rest of the dialogs to get out of the settings for Internet Explorer.
+]]>
+		</document>
+		<document id="55287066d686479b276dcb0c4b90eb47" url=""><![CDATA[Speed up your Computer’s Booting and Shutdown processes.<br/><br/><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9zcGVlZC11cC15b3VyLWNvbXB1dGVycy1ib290aW5nLWFuZC1zaHV0ZG93bi1wcm9jZXNzZXM_" target="_blank"><strong>Speed up your Computer’s Booting and Shutdown processes.</strong></a>
+<br /><br /><strong>Important</strong>: This article contains information about how to modify the registry. Make sure that you know how to restore the registry if a problem occurs. For more information about how to back up, restore, and modify the registry, click the following link:  How to back up and restore the registry in Windows?
+<br />Shutdown Your PC in Few Seconds Magic:
+<br />Press Ctrl+Alt+Del. It opens task manager.
+<br />Go to shutdown Tab.
+<br />Now Press and HOLD Ctrl key and then click TURN OFF option.
+<br />Note: Now your computer will turn off within few seconds.
+<br />Speed up Booting:
+<br />Start Registry Editor (Regedit.exe).
+<br />Locate the following key in the registry:
+<br />HKEY_LOCAL_MACHINESYSTEMCurrentControlSetControlSessionManagerMemoryManagementPrefetchParameters
+<br />Make sure you backup the keys by exporting them to a .reg file.
+<br />On the EnablePrefetcher value, change the setting from 3 to 5 (decimal).
+<br />Close the registry editor.
+]]>
+		</document>
+		<document id="4a54b10b1cfee8e9671d5c52cde0526c" url=""><![CDATA[Easy2resolve.com - for an error free computer!<br/><br/><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tLw__" target="_blank">easy2resolve.com</a>  
+<br /><br />Computers are part of our lives. Computer problems occur frequently in our day to day life. Many of them take lots of our time and may alter our daily activities and providing stress. Most of these problems are not new and are common i.e. The problem that you have encountered today might have been a problem for one or many of your friends or colleagues. Many of these are recursive.
+<br /><br />Have you ever thought of a place where a group of experts providing solutions to your common computer related problems and thereby making your lives easier?  
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tLw__" target="_blank">WHY EASY2RESOLVE.COM</a>
+<br /><br />We provide easy and step by step procedure to resolve commonly occurring problems within your computer.  It varies from problems in your operating system to the programming language. It includes resolving the common problems that occur in operating systems such as Windows, Linux, Mac etc.
+<br /><br />Virus attacks are very frequent these days. It includes spyware to Trojan. We provide solutions to solve the problems without formatting the entire hard disk and losing your data. We also provide advises and suggestions to avoid virus attacks and keep you notified about the important updates that has been released by an antivirus software.
+<br /><br />Another commonly occurring problem is with the office software’s Such as MS Word, MS Excel, and Power Point etc. Some of these errors that will halt our day to day activities, sometimes simple but sometimes complicated. We provide easy solutions to these problems.
+<br /><br />We mainly focus on pictorial solutions which are easily understandable to the common users of any age and profession. We also keep you updated about the important updates that have been recently released by commonly used software’s such as antivirus, MS Office etc.
+<br /><br />Life has been made simple with  <a href="http://en.pan.netcom/go/out/url=http%3A%2F%2Fwww.easy2resolve.com"target="_blank" rel="nofollow">http://www.easy2resolve.com</a>.
+]]>
+		</document>
+		<document id="656dd8ab6d2d91ad25e729034c9b008" url=""><![CDATA[General Keyboard Shortcuts<br/><br/><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9nZW5lcmFsLWtleWJvYXJkLXNob3J0Y3V0cw__" target="_blank">General Keyboard Shortcuts</a>
+<br /><br />CTRL+C (Copy)
+<br />• CTRL+X (Cut)
+<br />• CTRL+V (Paste)
+<br />• CTRL+Z (Undo)
+<br />• DELETE (Delete)
+<br />• SHIFT+DELETE (Delete the selected item permanently without placing the item in the Recycle Bin)
+<br />• CTRL while dragging an item (Copy the selected item)
+<br />• CTRL+SHIFT while dragging an item (Create a shortcut to the selected item)
+<br />• F2 key (Rename the selected item)
+<br />• CTRL+RIGHT ARROW (Move the insertion point to the beginning of the next word)
+<br />• CTRL+LEFT ARROW (Move the insertion point to the beginning of the previous word)
+<br />• CTRL+DOWN ARROW (Move the insertion point to the beginning of the next paragraph)
+<br />• CTRL+UP ARROW (Move the insertion point to the beginning of the previous paragraph)
+<br />• CTRL+SHIFT with any of the arrow keys (Highlight a block of text)
+<br />• SHIFT with any of the arrow keys (Select more than one item in a window or on the desktop, or select text in a document)
+<br />• CTRL+A (Select all)
+<br />• F3 key (Search for a file or a folder)
+<br />• ALT+ENTER (View the properties for the selected item)
+<br />• ALT+F4 (Close the active item, or quit the active program)
+<br />• ALT+ENTER (Display the properties of the selected object)
+<br />• ALT+SPACEBAR (Open the shortcut menu for the active window)
+<br />• CTRL+F4 (Close the active document in programs that enable you to have multiple documents open simultaneously)
+<br />• ALT+TAB (Switch between the open items)
+<br />• ALT+ESC (Cycle through items in the order that they had been opened)
+<br />• F6 key (Cycle through the screen elements in a window or on the desktop)
+<br />• F4 key (Display the Address bar list in My Computer or Windows Explorer)
+<br />• SHIFT+F10 (Display the shortcut menu for the selected item)
+<br />• ALT+SPACEBAR (Display the System menu for the active window)
+<br />• CTRL+ESC (Display the Start menu)
+<br />• ALT+Underlined letter in a menu name (Display the corresponding menu)
+<br />• Underlined letter in a command name on an open menu (Perform the corresponding command)
+<br />• F10 key (Activate the menu bar in the active program)
+<br />• RIGHT ARROW (Open the next menu to the right, or open a submenu)
+<br />• LEFT ARROW (Open the next menu to the left, or close a submenu)
+<br />• F5 key (Update the active window)
+<br />• BACKSPACE (View the folder one level up in My Computer or Windows Explorer)
+<br />• ESC (Cancel the current task)
+<br />• SHIFT when you insert a CD-ROM into the CD-ROM drive (Prevent the CD-ROM from automatically playing)
+<br />• CTRL+SHIFT+ESC (Open Task Manager)
+<br /><br />Dialog box keyboard shortcuts
+<br /><br />If you press SHIFT+F8 in extended selection list boxes, you enable extended selection mode. In this mode, you can use an arrow key to move a cursor without changing the selection. You can press CTRL+SPACEBAR or SHIFT+SPACEBAR to adjust the selection. To cancel extended selection mode, press SHIFT+F8 again. Extended selection mode cancels itself when you move the focus to another control.• CTRL+TAB (Move forward through the tabs)
+<br />• CTRL+SHIFT+TAB (Move backward through the tabs)
+<br />• TAB (Move forward through the options)
+<br />• SHIFT+TAB (Move backward through the options)
+<br />• ALT+Underlined letter (Perform the corresponding command or select the corresponding option)
+<br />• ENTER (Perform the command for the active option or button)
+<br />• SPACEBAR (Select or clear the check box if the active option is a check box)
+<br />• Arrow keys (Select a button if the active option is a group of option buttons)
+<br />• F1 key (Display Help)
+<br />• F4 key (Display the items in the active list)
+<br />• BACKSPACE (Open a folder one level up if a folder is selected in the Save As or Open dialog box)
+<br /><br />Microsoft natural keyboard shortcuts
+<br /><br />• Windows Logo (Display or hide the Start menu)
+<br />• Windows Logo+BREAK (Display the System Properties dialog box)
+<br />• Windows Logo+D (Display the desktop)
+<br />• Windows Logo+M (Minimize all of the windows)
+<br />• Windows Logo+SHIFT+M (Restore the minimized windows)
+<br />• Windows Logo+E (Open My Computer)
+<br />• Windows Logo+F (Search for a file or a folder)
+<br />• CTRL+Windows Logo+F (Search for computers)
+<br />• Windows Logo+F1 (Display Windows Help)
+<br />• Windows Logo+ L (Lock the keyboard)
+<br />• Windows Logo+R (Open the Run dialog box)
+<br />• Windows Logo+U (Open Utility Manager)
+<br /><br />Accessibility keyboard shortcuts
+<br /><br />• Right SHIFT for eight seconds (Switch FilterKeys either on or off)
+<br />• Left ALT+left SHIFT+PRINT SCREEN (Switch High Contrast either on or off)
+<br />• Left ALT+left SHIFT+NUM LOCK (Switch the MouseKeys either on or off)
+<br />• SHIFT five times (Switch the StickyKeys either on or off)
+<br />• NUM LOCK for five seconds (Switch the ToggleKeys either on or off)
+<br />• Windows Logo +U (Open Utility Manager)
+<br /><br />Windows Explorer keyboard shortcuts
+<br /><br />• END (Display the bottom of the active window)
+<br />• HOME (Display the top of the active window)
+<br />• NUM LOCK+Asterisk sign (*) (Display all of the subfolders that are under the selected folder)
+<br />• NUM LOCK+Plus sign (+) (Display the contents of the selected folder)
+<br />• NUM LOCK+Minus sign (-) (Collapse the selected folder)
+<br />• LEFT ARROW (Collapse the current selection if it is expanded, or select the parent folder)
+<br />• RIGHT ARROW (Display the current selection if it is collapsed, or select the first subfolder)
+<br /><br />Shortcut keys for Character Map
+<br /><br />After you double-click a character on the grid of characters, you can move through the grid by using the keyboard shortcuts: • RIGHT ARROW (Move to the right or to the beginning of the next line)
+<br />• LEFT ARROW (Move to the left or to the end of the previous line)
+<br />• UP ARROW (Move up one row)
+<br />• DOWN ARROW (Move down one row)
+<br />• PAGE UP (Move up one screen at a time)
+<br />• PAGE DOWN (Move down one screen at a time)
+<br />• HOME (Move to the beginning of the line)
+<br />• END (Move to the end of the line)
+<br />• CTRL+HOME (Move to the first character)
+<br />• CTRL+END (Move to the last character)
+<br />• SPACEBAR (Switch between Enlarged and Normal mode when a character is selected)
+<br /><br />Microsoft Management Console (MMC) main window keyboard shortcuts
+<br />• CTRL+O (Open a saved console)
+<br />• CTRL+N (Open a new console)
+<br />• CTRL+S (Save the open console)
+<br />• CTRL+M (Add or remove a console item)
+<br />• CTRL+W (Open a new window)
+<br />• F5 key (Update the content of all console windows)
+<br />• ALT+SPACEBAR (Display the MMC window menu)
+<br />• ALT+F4 (Close the console)
+<br />• ALT+A (Display the Action menu)
+<br />• ALT+V (Display the View menu)
+<br />• ALT+F (Display the File menu)
+<br />• ALT+O (Display the Favorites menu)
+<br /><br />MMC console window keyboard shortcuts
+<br /><br />• CTRL+P (Print the current page or active pane)
+<br />• ALT+Minus sign (-) (Display the window menu for the active console window)
+<br />• SHIFT+F10 (Display the Action shortcut menu for the selected item)
+<br />• F1 key (Open the Help topic, if any, for the selected item)
+<br />• F5 key (Update the content of all console windows)
+<br />• CTRL+F10 (Maximize the active console window)
+<br />• CTRL+F5 (Restore the active console window)
+<br />• ALT+ENTER (Display the Properties dialog box, if any, for the selected item)
+<br />• F2 key (Rename the selected item)
+<br />• CTRL+F4 (Close the active console window. When a console has only one console window, this shortcut closes the console)
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tLw__" target="_blank">Remote desktop connection navigation</a>
+<br /><br />• CTRL+ALT+END (Open the Microsoft Windows NT Security dialog box)
+<br />• ALT+PAGE UP (Switch between programs from left to right)
+<br />• ALT+PAGE DOWN (Switch between programs from right to left)
+<br />• ALT+INSERT (Cycle through the programs in most recently use
+<br /><br />for more details log on to <a href="http://en.pan.netcom/go/out/url=http%3A%2F%2Fwww.easy2resolve.com"target="_blank" rel="nofollow">http://www.easy2resolve.com</a> - for an error free computer!!!
+]]>
+		</document>
+		<document id="1e6af11450ee47443e265025a4f3eb2" url=""><![CDATA[Why EASY2RESOLVE.COM ??<br/><br/><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tLw__" target="_blank">Why easy2resolve.com ??</a>
+<br /><br />Computers are part of our lives. Computer problems occur frequently in our day to day life. Many of them take lots of our time and may alter our daily activities and providing stress. Most of these problems are not new and are common i.e. The problem that you have encountered today might have been a problem for one or many of your friends or colleagues. Many of these are recursive.
+<br /><br />Have you ever thought of a place where a group of experts providing solutions to your common computer related problems and thereby making your lives easier?  
+<br /><br />We provide easy and step by step procedure to resolve commonly occurring problems within your computer.  It varies from problems in your operating system to the programming language. It includes resolving the common problems that occur in operating systems such as Windows, Linux, Mac etc.
+<br /><br />Virus attacks are very frequent these days. It includes spyware to Trojan. We provide solutions to solve the problems without formatting the entire hard disk and losing your data. We also provide advises and suggestions to avoid virus attacks and keep you notified about the important updates that has been released by an antivirus software.
+<br /><br />Another commonly occurring problem is with the office software’s Such as MS Word, MS Excel, and Power Point etc. Some of these errors that will halt our day to day activities, sometimes simple but sometimes complicated. We provide easy solutions to these problems.
+<br /><br />We mainly focus on pictorial solutions which are easily understandable to the common users of any age and profession. We also keep you updated about the important updates that have been recently released by commonly used software’s such as antivirus, MS Office etc.
+<br /><br />Life has been made simple with  <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tLw__" target="_blank">EASY2RESOLVE.COM</a>.
+]]>
+		</document>
+		<document id="bff923b7e2b0e7b46e7d4b3f0761497f" url=""><![CDATA[Windows 7 Troubleshooters<br/><br/><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy93aW5kb3dzLTctdHJvdWJsZXNob290ZXJz" target="_blank"><strong>Windows 7 Troubleshooters</strong></a>
+<br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy93aW5kb3dzLTctdHJvdWJsZXNob290ZXJz" target="_blank"><img src="http://www.pan.net/en/p/oo/181127342_15155090_47916222.jpg" /></a>
+<br />One of the best features in Windows 7 that you should know is Windows troubleshooting platform. With Windows troubleshooters you can resolve most of the Windows problems automatically in a few clicks.
+<br /><br />Can’t print? Internet down? Windows Troubleshooting can automatically pinpoint and fix common problems so you don’t have to.
+<br /><br />It’s in Control Panel and equipped with more than a dozen troubleshooters for problems with networking, Internet, audio and video, and program compatibility. Windows Troubleshooting isn’t designed to solve every issue, but it can often save you time and headaches.
+<br /><br />It can also help head off trouble by providing basic scheduled maintenance, such as cleaning up temporary files or scanning your hard disk for errors. If something suspicious turns up, you’ll get a notification in Action Center.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy93aW5kb3dzLTctdHJvdWJsZXNob290ZXJz" target="_blank">Here is the list of built-in Windows 7 troubleshooters:</a>
+<br /><br />1. Aero – Troubleshoot problems that prevent you from experiencing Aero animations and effects.
+<br />2. Browse the Web – Troubleshoot problems that prevent you from browsing the web with IE.
+<br />3. Connection to a Shared Folder – Access shared folder and folders on other PCs.
+<br />4. Connection to a workplace Using Direct Access – Troubleshoot problems that prevent you from connecting to your workplace     network over the Internet using Direct Access.
+<br />5. Hardware and Devices – Troubleshoot problems with hardware and devices.
+<br />6. Home Group Networking – Troubleshoot problems that prevent you from viewing PC or shared files in a home group.
+<br />7. Incoming Connection to this computer – Allow other PCs to connect to this computer.
+<br />8. Internet Connections – Connect to the Internet or to a particular Web Site.
+<br />9. Maintenance – Cleanup unused files and shortcuts, and perform other maintenance tasks.
+<br />10. Networking Adapter – Troubleshoot Ethernet, wireless, or other network adapters.
+<br />11. Performance – Adjust settings in Windows than can help improve overall speed and performance.
+<br />12. Play a DVD in Windows Media Player – Troubleshoot problems that prevent a DVD from playing in Windows Media Player.
+<br />13. Play Sound – Troubleshoot problems that prevent your PC from playing sound.
+<br />14. Power – Adjust power settings to improve battery life and reduce power consumption.
+<br />15. Printer – Troubleshoot problems that prevent you from using a printer.
+<br />16. Program Compatibility Troubleshooter – Troubleshoot a program that doesn’t work in this version of Windows.
+<br />17. Record Sound – Troubleshoot problems that prevent your PC from recording sound.
+<br />18. Web Browsing Safety – Adjust settings for browser safety in Internet Explorer.
+<br />19. Windows Media Player Library – Troubleshoot problems that prevent music and movies from being shown in the Windows Media Player Library.
+<br />20. Windows Media Player Settings – Reset Windows Media Player back to default settings.
+]]>
+		</document>
+		<document id="43577390c7662ba40c30d8376bfaaac8" url=""><![CDATA[How to remove Security Tool (SecurityToolFraud)?<br/><br/><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9ob3ctdG8tcmVtb3ZlLXNlY3VyaXR5LXRvb2wtc2VjdXJpdHl0b29sZnJhdWQ_" target="_blank"><strong>How to remove Security Tool (SecurityToolFraud)?</strong></a>
+<br /><br />How to remove Security Tool (SecurityToolFraud)?
+<br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9ob3ctdG8tcmVtb3ZlLXNlY3VyaXR5LXRvb2wtc2VjdXJpdHl0b29sZnJhdWQ_" target="_blank"><img src="http://www.pan.net/en/p/oo/181127342_13720140_47948375.jpg" /></a>
+<br />Symptoms of Security Tool (SecurityToolFraud)
+<br /><br />•         Hijack web browsers and block certain security websites obviously to protect itself from being deleted.
+<br />•         Changes browser settings.
+<br />•         Shows commercial adverts popup.
+<br />•         Stays resident in background running in the processes.
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9ob3ctdG8tcmVtb3ZlLXNlY3VyaXR5LXRvb2wtc2VjdXJpdHl0b29sZnJhdWQ_" target="_blank">Delete the following Registry Entries:</a>
+<br /><br />HKEY_CURRENT_USERSoftwareSecurity Tool
+<br />HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindowsCurrent VersionRun “4946550101?
+<br /><br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9ob3ctdG8tcmVtb3ZlLXNlY3VyaXR5LXRvb2wtc2VjdXJpdHl0b29sZnJhdWQ_" target="_blank">Delete the following Infected files:</a>
+<br /><br />C<img class="smiley" src="http://www.pan.net/smilies/biggrin.gif" alt=":)" />ocuments and Settings[User Name]Application Data4946550101
+<br />C<img class="smiley" src="http://www.pan.net/smilies/biggrin.gif" alt=":)" />ocuments and Settings[User Name]Application Data49465501014946550101.bat
+<br />C<img class="smiley" src="http://www.pan.net/smilies/biggrin.gif" alt=":)" />ocuments and Settings[User Name]Application Data49465501014946550101.cfg
+<br />C<img class="smiley" src="http://www.pan.net/smilies/biggrin.gif" alt=":)" />ocuments and Settings[User Name]Application Data49465501014946550101.exe
+<br />C<img class="smiley" src="http://www.pan.net/smilies/biggrin.gif" alt=":)" />ocuments and Settings[User Name]Application Data4946550101doguzeri.dll
+<br />C<img class="smiley" src="http://www.pan.net/smilies/biggrin.gif" alt=":)" />ocuments and Settings[User Name]DesktopSecurity Tool.lnk
+<br />C<img class="smiley" src="http://www.pan.net/smilies/biggrin.gif" alt=":)" />ocuments and Settings[User Name]Start MenuProgramsSecurity Tool.lnk
+<br /><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9ob3ctdG8tcmVtb3ZlLXNlY3VyaXR5LXRvb2wtc2VjdXJpdHl0b29sZnJhdWQ_" target="_blank">Delete directories:</a>
+<br /><br />VISTA/7: C:USERUserProfileApplication Data4946550101
+<br /><br />XP: C<img class="smiley" src="http://www.pan.net/smilies/biggrin.gif" alt=":)" />ocuments and SettingsUserProfileApplication Data4946550101
+<br /><br />Note: The random numbers folder and file may vary according to the issues.
+<br /><br />Manual Remediation for Security Tool
+<br /><br />1.Kill the [random numbers].exe from Task Manager&gt; Processes
+<br />- Run the VRQTOOL and fix the above said entries to perform Full Mode cleanup and reboot reconnect back in normal mode
+<br />- Delete the above said entries manually (Registry/Physical) if they are unhandled by VRQTOOL
+<br /><br />2. Remove Registry entries that the threat added. You MUST BACKUP YOUR REGISTRY FIRST.
+<br /><br />Click here for the steps to back up your registry
+<br /><br />- Click Start &gt; Run
+<br />- Type in the field, regedit
+<br />- Navigate and look for the registry entries mentioned above and delete if necessary
+<br /><br />3. Delete malicious files that the threat is located:
+<br />- Navigate to the location above, browse and delete the file
+<br />- Unregister the .DLL file [Start&gt;Run&gt;regsvr32 /u &lt;file name&gt;], if unable to delete it.
+<br />- Try even CMD to remove the file by using CACLS, if required
+<br /><br />4. Delete the unwanted files
+<br />- Delete Temp /Prefetch
+<br />- Reset the IE web settings
+<br />- Run the disk cleanup
+<br /><br />5. Scan computer with Antivirus Program
+<br />- Run the Live update on installed Norton Product
+<br />- Initiate the Full Scan and delete all detected threats.
+<br />- Disable the System Restore, Reboot the PC
+<br />- Enable the System Restore and make sure system is stable with no popup and symptoms of infection.
+]]>
+		</document>
+		<document id="782bf92c3186211ba1f32bb4a0f2ed2a" url=""><![CDATA[How to Create a System Image in Windows 7 & Windows Vist<br/><br/><a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9ob3ctdG8tY3JlYXRlLWEtc3lzdGVtLWltYWdlLWluLXdpbmRvd3MtNy13aW5kb3dzLXZpc3Rh" target="_blank"><strong>How to Create a System Image in Windows 7 &amp; Windows Vista?</strong></a>
+<br /><br />This article explains how to create a system image in Windows 7 &amp; Windows Vista.
+<br /><br />Creating an Image in Windows 7
+<br /><br />Click on Start go to Getting Started and then select Back up your files.
+<br /><br />How to Create a System Image in Windows 7 &amp; Windows Vista?
+<br /><br />Next click on the Create a system image hyperlink.
+<br /><br />How to Create a System Image in Windows 7 &amp; Windows Vista?
+<br /><br />Decide where you want to save the image. You can choose an external drive, burn to multiple DVD’s, or store it on a network location.
+<br /><br />How to Create a System Image in Windows 7 &amp; Windows Vista?
+<br /><br />You can include other drives if you want as well but remember that will add to the size of the final image.
+<br /><br />How to Create a System Image in Windows 7 &amp; Windows Vista?
+<br /><br />At the confirmation screen notice the amount of space the image may take. If something doesn’t look right you can still go back from this point and make adjustments.
+<br /><br />How to Create a System Image in Windows 7 &amp; Windows Vista?
+<br /><br />A progress meter is displayed while the images is created and backed up. In this example a disk of about 15GB in size took under 20 minutes backed up to an external drive. Times will vary depending on your system and where you’re backing it up to.
+<br /><br />How to Create a System Image in Windows 7 &amp; Windows Vista?
+<br /><br />After the process is complete you get the option to create a system repair disc which you should do and make sure to save it in a secure location.
+<br /><br />How to Create a System Image in Windows 7 &amp; Windows Vista?
+<br /><br />When it comes time to restore the image, you will be able to use the System Recovery Options to get the system back.
+<br /><br />How to Create a System Image in Windows 7 &amp; Windows Vista?
+<br /><br />Image in Windows Vista
+<br /><br />Vista Ultimate, Business, and Enterprise allow you to create an image, but Vista Home and Home Premium users do not have the option. The process is similar in Vista, type backup into the search bar and click on Backup and Restore Center.
+<br /><br />How to Create a System Image in Windows 7 &amp; Windows Vista?
+<br /><br />Then click on Back up computer and the wizard will guide you through the process.
+<br /><br />How to Create a System Image in Windows 7 &amp; Windows Vista?
+<br /><br />For pictorial representation click on <a href="http://en.pan.netcom/go/out/url=-aHR0cDovL3d3dy5lYXN5MnJlc29sdmUuY29tL3NvZnR3YXJlLWlzc3Vlcy9ob3ctdG8tY3JlYXRlLWEtc3lzdGVtLWltYWdlLWluLXdpbmRvd3MtNy13aW5kb3dzLXZpc3Rh" target="_blank">HERE</a>
+]]>
+		</document>
+	</documents>
+</author>

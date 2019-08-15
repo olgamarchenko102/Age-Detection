@@ -17,7 +17,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import GridSearchCV
 from sklearn.feature_selection import VarianceThreshold
-from sklearn.feature_selection import SelectKBest, f_classif
+from sklearn.feature_selection import SelectKBest, f_classifa
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 warnings.filterwarnings('ignore')
 

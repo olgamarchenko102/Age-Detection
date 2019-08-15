@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><author age_group="xx" gender="xx" lang="EN" type="blog" url="laurentzuijdwijk.com">
+	<documents count="1">
+		<document id="b9940b34c995127c13b1e582f6b63318" url="http://laurentzuijdwijk.com/#/post/50a7aeac9dbd7f2a03000002"><![CDATA[It is not as easy as it should be to create rich web forms which will give your users a consistent experience across browsers. When it comes to form validation, older browsers don't support the HTML5 required attribute for input elements and the newer browsers give a mixed and sometimes undesirable result when it comes to newer input types like date and range.
+Google Chrome tries hard to implement the HTML5 standard for date elements, but in practice it's calender view is nearly unusable, mostly because of the lack of custom date formats.
+I have been working on a Javascript library that aims to integrate the HTML5 spec across browsers. It sticks to the spec as clodely as possible and is easy to integrate and not obtrusive.
+It couldn't be easier to implement. Just add the Javascript file to your HTML and invoke the plugin function to you form.
+$('form').html5form();
+
+Now you will be able to use semantic markup for your forms, including date, number and range attributes.
+Have a look at the demo or view the source code on Github
+]]>
+		</document>
+	</documents>
+</author>
