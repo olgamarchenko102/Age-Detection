@@ -21,13 +21,18 @@ def config_arg_parser():
     :return: parse arguments
     """
     parser = argparse.ArgumentParser(description='Splitting data set on test and train.')
-    parser.add_argument('-dir_path', required=True, help="root directory, which contains "
-                                                         "subdirectories with genre data sets")
-    parser.add_argument('-language', required=True, help="dataset language")
-    parser.add_argument('-random_state', required=True, type=int, help="")
+    parser.add_argument('-dir_path', required=True, help="Root directory, which contains subdirectories with genre data sets")
+    parser.add_argument('-language', required=True, help="Dataset language")
+    parser.add_argument('-random_state', required=True, type=int, help="Random state value")
     return parser.parse_args()
 
+
 def config(file, log_level=logging.INFO):
+    """
+    configure logging and logging message format
+    :param file: log file name
+    :param log_level:  logging level
+    """
     logging.basicConfig(level=log_level, format='%(asctime)s  %(message)s', datefmt='%Y-%m-%d %H:%M:%S',
                         filename=file, filemode='w')
     formatter = logging.Formatter('%(asctime)s  %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
@@ -38,6 +43,11 @@ def config(file, log_level=logging.INFO):
 
 
 def init_logging(input_dir, file_name):
+    """
+    Create Log directory and set log level
+    :param input_dir: root log dir
+    :param file_name: log file name
+    """
     create_dir(input_dir)
     config(file_name, log_level=logging.DEBUG)
 
@@ -105,7 +115,6 @@ def get_label(truth_file, author_id):
     """
     Get label
     :param truth_file: truth file
-
     :param author_id: author id
     :return: label
     """
@@ -119,7 +128,6 @@ def get_label(truth_file, author_id):
 def create_corpora_dirs(language_corpus_dir):
     """
     Create directories for text and train datasets
-
     :return: train directory name,  test directory name
     """
     test__dir = os.path.join(language_corpus_dir, "test-corpus")
@@ -153,6 +161,11 @@ def report_test_train_splitting(y, y_train, y_test):
 
 
 def report_genre_splitting(y, X):
+    """
+    Report splitting of dataset by genres
+    :param y: list of labels
+    :param X: list of [autrhor_ids, genres, dir_names]
+    """
     logging.info(str.format("-" * 60))
     logger.info("{0:<10}{1:>10}{2:>16}{3:>12}{4:>10}".format("Age label", "Blogs", "Social media", "Twitter", "Total"))
     logging.info(str.format("-" * 60))
@@ -201,7 +214,6 @@ def merge_datasets(language_corpus_dir):
                           [author_n, genre] ]
     and label matrix y = [label_1, label_x, label_k]
     2) Generate dataset JSON-file
-
     :return: matrix X, matrix y
     """
     dataset_dict = {}
@@ -250,7 +262,6 @@ def distribute_dataset(X, target_dir):
     """
     Distribute full dataset txt-files
     to test and train folders
-
     :param X: Dataset
     :param target_dir: target folder
     """
@@ -261,8 +272,6 @@ def distribute_dataset(X, target_dir):
         source_file = open(os.path.join(file_root, file_name), "r", encoding='utf-8')
         content = extract_text(source_file)
         target_path = os.path.join(target_dir, file_name)
-        # target_file = open(target_path, "w")
-        # target_file.write(str(content.encode("utf-8")))
         target_file = codecs.open(target_path, "a", "utf-8")
         target_file.write(str(content))
         target_file.close()
@@ -287,13 +296,18 @@ def compile_truth_file(X, y, target_dir):
     truth_file.close()
 
 
-
 def create_doc_corpus_dir(project_root_dir):
+    """
+    Create document language corpus directory
+    :param project_root_dir: root directory pyth
+    :return: language corpus directory name
+    """
     root_dir = os.path.join(project_root_dir, "Document-Corpus")
     language_dir = os.path.join(root_dir, arguments.language)
     create_dir(root_dir)
     create_dir(language_dir)
     return language_dir
+
 
 if __name__ == "__main__":
     start = time.time()

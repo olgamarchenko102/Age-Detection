@@ -4,36 +4,42 @@ import json
 import time
 import logging
 import argparse
+import itertools
 import numpy as np
+import pandas as pd
+from sklearn.svm import SVC
 from time import gmtime, strftime
 from sklearn.metrics import f1_score
+from matplotlib import pyplot as plt
 from sklearn.preprocessing import normalize
 from sklearn.metrics import confusion_matrix
-import pandas as pd
-from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
-import itertools
-from matplotlib import pyplot as plt
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 logger = logging.getLogger()
-
 LABELS = ["18-24", "25-34", "35-49", "50-64", "65-xx"]
 
 
 def config_arg_parser():
+    """
+    Set Parameters to argument parser
+    :return: parser arguments
+    """
     parser = argparse.ArgumentParser(description='')
     parser.add_argument('-train_path', required=True, help="path to train data set feature collection")
     parser.add_argument('-test_path', required=True, help="path to test data set feature collection")
-    parser.add_argument('-setting_file', required=True, help="path to json file with parameters")
-    parser.add_argument('-full_dataset', required=True, help="")
+    parser.add_argument('-setting_file', required=True, help="path to json file with hyperparameters for classificators")
     return parser.parse_args()
 
 
-# Region "Logging" ================================
 def config(file, log_level=logging.INFO):
+    """
+    configure logging and logging message format
+    :param file: log file name
+    :param log_level:  logging level
+    """
     logging.basicConfig(level=log_level, format='%(asctime)s  %(message)s', datefmt='%Y-%m-%d %H:%M:%S',
                         filename=file, filemode='w')
     formatter = logging.Formatter('%(asctime)s  %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
@@ -44,24 +50,40 @@ def config(file, log_level=logging.INFO):
 
 
 def init_logging(input_dir, file_name):
+    """
+    Create Log directory and set log level
+    :param input_dir: root log dir
+    :param file_name: log file name
+    """
     create_dir(input_dir)
     config(file_name, log_level=logging.DEBUG)
 
 
 def create_dir(dir_name):
+    """
+    Create directory
+    :param dir_path: directory path
+    """
     if not os.path.exists(dir_name):
         os.makedirs(dir_name)
 
 
-
-
-
 def append_to_file(dataset_file_path, text):
+    """
+    Write text to the textfile
+    :param dataset_file_path: destination file path
+    :param text: text
+    """
     with open(dataset_file_path, "a") as f:
         f.write(text)
 
 
 def get_scaler(scaler_name):
+    """
+    Get Scaler with its parameters
+    :param scaler_name: name of the scaler
+    :return: Scaler with setted parameters
+    """
     logger.info(str.format("Applying scaler:  {0}", scaler_name))
     if scaler_name == "MinMaxScaler":
         return MinMaxScaler(feature_range=(0, 1))
@@ -70,12 +92,23 @@ def get_scaler(scaler_name):
 
 
 def scale(X_train, scaler_name):
+    """
+    Scale/normalize the input data set
+    :param X_train: data set values
+    :param scaler_name: name of the scaler
+    :return: transformed data set
+    """
     scaler = get_scaler(scaler_name)
     scaler.fit(X_train)
     return scaler.transform(X_train)
 
 
 def load_classifier(settings):
+    """
+    Load classifier function with its parameter
+    :param settings: dictionary with setting parameters
+    :return: classification function with appropriate parameters
+    """
     if settings["classifier"] == 'knn':
         return KNeighborsClassifier(n_neighbors=settings["n_neighbors"],
                                     leaf_size=settings["leaf_size"],
@@ -89,32 +122,38 @@ def load_classifier(settings):
         return SVC(kernel='linear', C=settings["C"])
 
     elif settings["classifier"] == 'random_forest':
-        return RandomForestClassifier(min_samples_split=settings["min_samples_split"],
-                                      n_estimators=settings["n_estimators"],
-                                      max_depth=settings["max_depth"],
-                                      max_features=settings["max_features"],
-                                      min_samples_leaf=settings["min_samples_leaf"])
+        return RandomForestClassifier(n_estimators=settings["n_estimators"],
+                                      max_depth=settings["max_depth"])
 
     elif settings["classifier"] == 'logistic_regression':
-        class_weight = None
-        if "class_weight" in settings:
-            class_weight = settings["class_weight"]
+
         return LogisticRegression(multi_class='multinomial',
+                                  penalty='l2',
                                   C=settings["C"],
-                                  solver=settings["solver"],
-                                  max_iter=settings["max_iter"],
-                                  class_weight=class_weight)
+                                  solver="lbfgs",
+                                  max_iter=20,
+                                  class_weight=None)
     else:
         raise ValueError("Unknown classifier")
 
 
-# http://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
 def plot_confusion_matrix(plot_dir, cm,
                           target_names,
                           title='Confusion matrix of the classifier',
                           cmap=None,
                           normalize=True,
                           plot_name="confusion_matrix.png"):
+    """
+    Plot confusion matrix. The code of this function is based on
+    http://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
+    :param plot_dir: directory path to save plot graphic
+    :param cm: values of the confusion matrix
+    :param target_names:  label names
+    :param title: title of graphic
+    :param cmap: color setting
+    :param normalize: normalise
+    :param plot_name: name of the final file
+    """
     accuracy = np.trace(cm) / float(np.sum(cm))
     misclass = 1 - accuracy
 
@@ -151,38 +190,14 @@ def plot_confusion_matrix(plot_dir, cm,
     plt.savefig(os.path.join(plot_dir, plot_name))
 
 
-def get_genres(author_ids):
-    print(arguments.full_dataset)
-    genres = []
-    with open(arguments.full_dataset) as json_file:
-        data = json.load(json_file)
-        for author_id in author_ids:
-            values_dict = data.get(author_id)
-            genre = values_dict.get('genre')
-            genres.append(map_genre_name(genre))
-    return genres
-
-
-def get_genre_list(genres_test, genre_id):
-    result_list = []
-    for item in genres_test:
-        if item == genre_id:
-            result_list.append(1)
-        else:
-            result_list.append(0)
-    return result_list
-
-
-def map_genre_name(genre):
-    if genre == 1:
-        return "twitter"
-    if genre == 2:
-        return "blogs"
-    if genre == 3:
-        return "socialmedia"
-
-
 def create_conf_matrix(project_root_dir, y_test, y_predicted, settings):
+    """
+    Create confusion matrix figure
+    :param project_root_dir: directory path to save figure
+    :param y_test: np.array of class labels
+    :param y_predicted: np.array of data values
+    :param settings: dictionary with settings
+    """
     plot_pic_name = str.format("{0}_{1}__conf_matrix.png",
                                settings["language"], settings["classifier"])
     logger.info("Confusion matrix:")
@@ -196,26 +211,12 @@ def create_conf_matrix(project_root_dir, y_test, y_predicted, settings):
                           plot_name=plot_pic_name)
 
 
-def create_genre_conf_matrix(project_root_dir, y_test, y_predicted, twitts_test, settings, genre):
-    genre_indexes = [i for i, x in enumerate(twitts_test) if x == 1]
-    y_test_genre = y_test[genre_indexes]
-    y_predicted_genre = y_predicted[genre_indexes]
-
-    logger.info("Confusion matrix:")
-    conf_matrix = confusion_matrix(y_test_genre, y_predicted_genre)
-    logger.info(conf_matrix)
-    genre_name = map_genre_name(genre)
-    plot_pic_name = str.format("{0}_{1}_{2}__conf_matrix.png",
-                               settings["language"], settings["classifier"], genre_name)
-    plot_confusion_matrix(project_root_dir, cm=conf_matrix,
-                          normalize=False,
-                          target_names=LABELS,
-                          title=str.format("Confusion matrix of the {0} classifier ({1})",
-                                           settings['classifier'], genre_name),
-                          plot_name=plot_pic_name)
-
-
 def get_column_names(file_path):
+    """
+    Get column names from the data frame
+    :param file_path: file path to the feature collection data frame
+    :return: column names
+    """
     f = open(file_path, encoding='utf-8')
     lines = f.readlines()
     first_line = lines[0]
@@ -230,52 +231,33 @@ def get_column_names(file_path):
 
 
 def load_feature_collection(train_path, test_path):
+    """
+    Load documents' feature values and responsing lass labels
+    :param train_path: path to the training documents' feature collection
+    :param test_path: path to the test documents' feature collection
+    :return: np.array of test and train feature values,
+            and np.array of the test and train class labels
+    """
     train_feature_names = get_column_names(train_path)[2:]
     test_feature_names = get_column_names(test_path)[2:]
 
-
-    final_features = ["author_id", "lbl"] + list(set(train_feature_names) & set(test_feature_names))
-    print(len(final_features))
-
+    final_features = list(set(train_feature_names) & set(test_feature_names))
+    logger.info(str.format("Number of common features: {0}", len(final_features)))
     train_full_feature_collection = pd.read_csv(train_path, delimiter=',')
     test_full_feature_collection = pd.read_csv(test_path, delimiter=',')
 
+    X_train = np.array(train_full_feature_collection[final_features])
+    y_train = np.array(train_full_feature_collection["lbl"])
+    X_test = np.array(test_full_feature_collection[final_features])
+    y_test = np.array(test_full_feature_collection["lbl"])
 
-
-    final_train_feature_collection = train_full_feature_collection[final_features]
-    # final_test_feature_collection = test_full_feature_collection[final_features]
-    #
-    #print(final_train_feature_collection.shape)
-
-
-    # final_test_feature_collection = test_full_feature_collection[final_features]
-    # print(final_test_feature_collection.shape)
-
-    frame = train_full_feature_collection[final_features[2:]][0:]
-    print(frame.shape)
-
-    X_train = np.array(train_full_feature_collection[final_features[2:]][0:])
-    y_train = np.array(train_full_feature_collection["lbl"][0:], dtype=np.int)
-
-    X_test = np.array(test_full_feature_collection[final_features[2:]][0:])
-    y_test = np.array(test_full_feature_collection["lbl"][0:], dtype=np.int)
-
-    author_ids_test = np.array(test_full_feature_collection["author_id"][0:])
-
-    # print(X_train.shape)
-    # print(X_test.shape)
-    # print(y_train.shape)
-    # print(y_test.shape)
-    return X_train, y_train, X_test, y_test, author_ids_test
-
-
-
-
+    return X_train, y_train, X_test, y_test
 
 
 if __name__ == "__main__":
     start = time.time()
     arguments = config_arg_parser()
+    # 1) Create directories to save and log the evaluation results
     project_root_dir = os.path.join(os.path.expanduser("~/Desktop"), "Age-Detection")
     plots_dir = os.path.join(project_root_dir, "Confusion_matrices")
     log_dir = os.path.join(project_root_dir, "Log")
@@ -285,18 +267,15 @@ if __name__ == "__main__":
     log_file = os.path.join(log_dir, 'evaluation__{0}.log'.format(strftime("%Y-%m-%d__%H-%M-%S", gmtime())))
     init_logging(log_dir, log_file)
     logger.info(str.format("Evaluation started ....."))
-
     settings_file = arguments.setting_file
 
     with open(settings_file) as json_file:
         settings = json.load(json_file)
 
         # 2) Load feature collection
-        X_train, y_train, X_test, y_test, author_ids_test =load_feature_collection(arguments.train_path, arguments.test_path)
-
-
-        print(len(y_test))
-        print(len(y_test))
+        X_train, y_train, X_test, y_test =load_feature_collection(arguments.train_path, arguments.test_path)
+        logger.info(str.format("Size of training data set: {0}", X_train.shape))
+        logger.info(str.format("Size of test data set: {0}", X_test.shape))
 
         # 4) Scale data if required
         if settings["scaler_name"] is not None and settings["scaler_name"] != "":
@@ -310,10 +289,9 @@ if __name__ == "__main__":
         logger.info("Using classifier: {0}".format(settings["classifier"]))
         classifier = load_classifier(settings)
 
+        # 7) Fit classifier and predict labels for the trai dataset
         classifier.fit(X_train, y_train)
         y_predicted = classifier.predict(X_test)
-        logger.info("Target classes: {}".format(y_test))
-        logger.info("Predicted classes: {}".format(y_predicted))
 
         # 8) Count average f1-score and f1 by class
         f1_scores = f1_score(y_test, y_predicted, average=None)
@@ -324,16 +302,7 @@ if __name__ == "__main__":
         # 9) Create and save confusion matrix
         create_conf_matrix(plots_dir, y_test, y_predicted, settings)
 
-        # 10) Create and save confusion matrix by genre
-        #genres_test = get_genres(author_ids_test)
-        #twitts_test = get_genre_list(genres_test, 1)
-        # blogs_test = get_genre_list(genres_test, 2)
-        # sm_test = get_genre_list(genres_test, 3)
-        #
-        #create_genre_conf_matrix(plots_dir, y_test, y_predicted, twitts_test, settings, 1) #twitter
-        # create_genre_conf_matrix(plots_dir, y_test, y_predicted, blogs_test, settings, 2) #blogs
-        # create_genre_conf_matrix(plots_dir, y_test, y_predicted, sm_test, settings, 3) #sm
-
+    # 10) Log running time
     end = time.time()
     hours, rem = divmod(end - start, 3600)
     minutes, seconds = divmod(rem, 60)

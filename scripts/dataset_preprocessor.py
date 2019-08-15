@@ -18,7 +18,7 @@ def config_arg_parser():
     """
     parser = argparse.ArgumentParser(description='Dataset compiler.')
     parser.add_argument('-dir_path', required=True, help="Raw data directory path")
-    parser.add_argument('-language', required=True, help="Language of dataset")
+    parser.add_argument('-language', required=True, help="Dataset language")
     return parser.parse_args()
 
 
@@ -30,15 +30,6 @@ def get_xml_root(full_path):
     """
     tree = elemTree.parse(full_path)
     return tree.getroot()
-
-
-def create_dir(dir_path):
-    """
-    Create directory
-    :param dir_path: directory path
-    """
-    if not os.path.exists(dir_path):
-        os.makedirs(dir_path)
 
 
 def get_doc_id(path):
@@ -100,6 +91,27 @@ def init_logging(input_dir, file_name):
     config(file_name, log_level=logging.DEBUG)
 
 
+def create_dir(dir_path):
+    """
+    Create directory
+    :param dir_path: directory path
+    """
+    if not os.path.exists(dir_path):
+        os.makedirs(dir_path)
+
+
+def create_document_corpus_dir(project_root_dir):
+    """
+    Create document corpus directory
+    :param project_root_dir: root project directory
+    """
+    corpus_root_dir = os.path.join(project_root_dir, "Preprocessed-Corpus")
+    language_dir = os.path.join(corpus_root_dir, arguments.language.lower())
+    create_dir(corpus_root_dir)
+    create_dir(language_dir)
+    return language_dir
+
+
 class DataSetPreprocessor(BaseException, ):
     """
     The class DataSetCompiler Extracts textdata
@@ -107,7 +119,7 @@ class DataSetPreprocessor(BaseException, ):
     """
     def __init__(self):
         """
-        Initialise function
+        Initialising function
         """
         self.sub_dir = ''
         self.messages_counter = {}
@@ -175,16 +187,11 @@ class DataSetPreprocessor(BaseException, ):
         self.log_reports(len(xml_files))
 
 
-def create_feature_collection_dir(project_root_dir):
-    corpus_root_dir = os.path.join(project_root_dir, "Preprocessed-Corpus")
-    language_dir = os.path.join(corpus_root_dir, arguments.language.lower())
-    create_dir(corpus_root_dir)
-    create_dir(language_dir)
-    return language_dir
-
 if __name__ == "__main__":
     start = time.time()
     arguments = config_arg_parser()
+
+    # 1) Create directories to save and log the preprocessed files
     project_root_dir = os.path.join(os.path.expanduser("~/Desktop"), "Age-Detection")
     log_dir = os.path.join(project_root_dir, "Log")
     create_dir(project_root_dir)
@@ -192,21 +199,18 @@ if __name__ == "__main__":
     log_file = os.path.join(log_dir, 'dataset_compiling__{0}.log'.format(strftime("%Y-%m-%d__%H-%M-%S", gmtime())))
     init_logging(log_dir, log_file)
     logger.info(str.format("Started compiling data set......"))
+    document_corpus_dir = create_document_corpus_dir(project_root_dir)
 
-
-    # create directory to save preprocessed files
-    document_corpus_dir = create_feature_collection_dir(project_root_dir)
-
-    # Star Preprocessing
+    # 2) Star Preprocessing
     ds = DataSetPreprocessor()
     ds.compile(document_corpus_dir)
 
-    # Log result files and directories
+    # 3) Log result files and directories
     logger.info(str.format("Preprocessed documents have been saved to : {0}", document_corpus_dir))
     logger.info(str.format("Log file path: {0}", log_file))
     logger.info("Compiling finished")
 
-    # Log running time
+    # 4) Log running time
     end = time.time()
     hours, rem = divmod(end - start, 3600)
     minutes, seconds = divmod(rem, 60)

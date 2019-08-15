@@ -108,11 +108,18 @@ FOREIGN_WORDS_ET_AL_ES = ['ITJN', 'ACRNM', 'ALFP', 'ALFS', 'CODE', 'FO', 'PE', '
 
 
 def config_arg_parser():
+    """
+    Set Parameters to argument parser
+    :return: parser arguments
+    """
     parser = argparse.ArgumentParser(description='')
     parser.add_argument('-doc_dir', required=True, help="")
     parser.add_argument('-language', required=True, help='')
     parser.add_argument('-dataset_type', required=True, help='')
-    parser.add_argument('-feature_name', required=True, help='')
+    parser.add_argument('-feature_name', required=True, help='name of features to extract, e.g. n_grams, emoticons, '
+                                                             'misspell_ratio, stopwords_ratio, pos_features, '
+                                                             'lexical_features, punctuation_features, '
+                                                             'vocabulary_richness, readability_scores')
     parser.add_argument('-ngram', required=False, type=int, default=1, help='')
     parser.add_argument('-min_df', required=False, type=float, default=1.0, help='')
     parser.add_argument('-max_df', required=False, type=float, default=1.0, help='')
@@ -122,6 +129,11 @@ def config_arg_parser():
 
 
 def config(file, log_level=logging.INFO):
+    """
+    configure logging and logging message format
+    :param file: log file name
+    :param log_level:  logging level
+    """
     logging.basicConfig(level=log_level, format='%(asctime)s  %(message)s', datefmt='%Y-%m-%d %H:%M:%S',
                         filename=file, filemode='w')
     formatter = logging.Formatter('%(asctime)s  %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
@@ -132,27 +144,48 @@ def config(file, log_level=logging.INFO):
 
 
 def init_logging(input_dir, file_name):
+    """
+    Create Log directory and set log level
+    :param input_dir: root log dir
+    :param file_name: log file name
+    """
     create_dir(input_dir)
     config(file_name, log_level=logging.DEBUG)
 
 
 def extract_document_label(element):
+    """
+    Extract document id and class label
+    :param element: a row in truth file
+    :return: document id and class label
+    """
     doc_id, age_label = element.split(':::')
     return doc_id, age_label
 
 
 def get_raw_text(root_path, xml_files, author_id):
+    """
+    Extract raw text from xml file
+    :param root_path: directory path
+    :param xml_files: list of xml files
+    :param author_id: author id
+    :return: raw text
+    """
     html_text = extract_document_text(root_path, xml_files, author_id)
     text = remove_tabs_and_newlines(html_text)
     text = unescape_html(text)
     text = remove_urls(text)
     text = strip_markup(text) #clean all the HTML markups, this function is a part of htmllaundry
     text = remove_html_formatting(text)
-
     return text
 
 
 def unescape_html(text):
+    """
+    Replace HTML entities
+    :param text: text
+    :return: text with replaced entities
+    """
     text = text.replace("&lt;", "<")
     text = text.replace("&gt;", ">")
     text = text.replace("&quot;", '"')
@@ -160,10 +193,10 @@ def unescape_html(text):
     text = text.replace("&amp;", "&")
     return text
 
+
 def remove_tabs_and_newlines(text):
     """
     Replace tabs (\t) and  newlines (\n) by whitespace charachter
-
     :param text: input text
     :return: text without tabs and newlines
     """
@@ -171,6 +204,11 @@ def remove_tabs_and_newlines(text):
 
 
 def remove_urls(text):
+    """
+    Replace urls from text through empty space
+    :param text: text
+    :return: text without urls
+    """
     text = re.sub('<[aA] (href|HREF)=.*?</[aA]>;?', ' ', text)
     text = re.sub('<img.*?>;?',' ', text)
     text = re.sub('(http|https|ftp)://?[0-9a-zA-Z\.\/\-\_\?\:\=]*', ' ', text)
@@ -183,7 +221,12 @@ def remove_urls(text):
 
 
 def remove_html_formatting(text):
-    # get rid of bbcode formatting and remaining html markups
+    """
+    Replace HTML tags in text through white space
+    The is partially based on code from  https://github.com/ivan-bilan/author-profiling-pan-2016/blob/master/PreprocessingClass.py
+    :param text: input text
+    :return: text without html tags
+    """
     text = re.sub('[\[\<]\/?b[\]\>];?', ' ', text)
     text = re.sub('[\[\<]\/?p[\]\>];?', ' ', text)
     text = re.sub('[\[\<]\/?i[\]\>];?', ' ', text)
@@ -195,8 +238,6 @@ def remove_html_formatting(text):
     text = re.sub('\[/?nickname\]', ' ', text)
     cleanr = re.compile('<.*?>|&([a-z0-9]+|#[0-9]{1,6}|#x[0-9a-f]{1,6});')
     text = re.sub(cleanr, ' ', text)
-
-    # delete everything else that strip_markup doesn't
     text = re.sub('height=".*?"', ' ', text)
     text = re.sub('width=".*?"', ' ', text)
     text = re.sub('alt=".*?"', ' ', text)
@@ -213,6 +254,13 @@ def remove_html_formatting(text):
 
 
 def extract_document_text(root_path, xml_files, doc_id):
+    """
+    Extract text from xml document
+    :param root_path: documents root path
+    :param xml_files: list of xml_files
+    :param doc_id: document id
+    :return: extracted text
+    """
     doc_path = os.path.join(root_path, str.format('{0}.xml', doc_id))
     if doc_path in xml_files:
         with open(doc_path, 'r', encoding="utf8") as file:
@@ -220,7 +268,6 @@ def extract_document_text(root_path, xml_files, doc_id):
             return html_text
     else:
         logger.info('ERROR: doc_path ', doc_path, 'does not exist')
-
 
 
 def remove_digits(text):
@@ -235,25 +282,44 @@ def remove_digits(text):
 
 
 def strip_white_spaces(text):
+    """
+    Replace double white spaces through one
+    :param text: text
+    :return: text without spaces
+    """
     return text.replace(' ', '')
 
 
 def strip_punctuation(text):
+    """
+    Strip punctuation in text
+    :param text: text
+    :return: text without punctuation
+    """
     text = re.sub(u"[^\w\d'\s]+", ' ', text)
     text = text.replace("'", "")
     text = text.replace("\\", " ")
     reg = re.compile('_')
     text = reg.sub(' ', text)
     text = re.sub(' +', ' ', text)
-
     return text
 
 
 def strip_apostroph(text):
+    """
+    Remove apostrophs from text
+    :param text: text
+    :return: text without apostrophs
+    """
     return text.replace("‘", '').replace("’", '').replace("'", '')
 
 
 def remove_non_alphabetic_chars(raw_text):
+    """
+    Remove non alphabetic characters
+    :param raw_text: raw
+    :return: text without alphabetic characters
+    """
     reg = re.compile('[^a-zA-Z]')
     alphabetic_chars_only = reg.sub(' ', raw_text)
     return remove_multiple_spaces(alphabetic_chars_only)
@@ -268,43 +334,50 @@ def remove_multiple_spaces(text):
     return re.sub(' +', ' ', text)
 
 
-
 def remove_special_characters(text):
+    """
+    Remove special characters
+    :param text: text
+    :return: text without special characters
+    """
     return re.sub('[^A-Za-z0-9]+', ' ', text)
 
 
-
-def remove_user_mentions(text):
-    return re.sub('(^|\s)@(?!\s).+?(?=(\s|$))', '', text)
-
-
 def strip_multiple_whitespaces(text):
+    """
+    Replace multiple whitespaces by one whitespace
+    :param text: text
+    :return: text without whitespaces
+    """
     return re.sub('\s+', ' ', text).strip()
 
 
 def strip_accent_mark(text):
-    # return unidecode.unidecode(text)
+    """
+    Strip accent marks
+    :param text: text
+    :return: text without accent marks
+    """
     form = unicodedata.normalize('NFKD', text)
     return form.encode('ASCII', 'ignore').decode('ASCII')
 
 
-def strip_punctuation_but_apostrophs(text):
-    text = re.sub(u"[^\w\d'\d’\s]+", ' ', text)
-    reg = re.compile('_')
-    text = reg.sub(' ', text)
-    return text.replace('  ', ' ')
-
-
-# def strip_user_mentions(text):
-#     return re.sub(r'(?:@[\w_]+)', u'', text)
-
-
 def strip_non_latin(text):
+    """
+    Remove non latin characters
+    :param text: input text
+    :return: text without latin characters
+    """
     text = re.sub(r'[\u0627-\u064a]', u'', text)
     return re.sub(r'[\u0600-\u06FF]', u'', text)
 
 
 def alter_short_word_forms(text):
+    """
+    Replace short word forms by full word form
+    :param text: text
+    :return: text with replaced short forms
+    """
     text = text.replace("can't", "can not")
     text = text.replace("won't", "will not")
     text = text.replace("n't", " not")
@@ -318,6 +391,11 @@ def alter_short_word_forms(text):
 
 
 def alter_apostroph_prefix(text):
+    """
+    Remove prefixes with apostroph
+    :param text: input text
+    :return: filtered text
+    """
     text = text.replace("can't", "can")
     text = text.replace("won't", "will")
     text = text.replace("n't", "")
@@ -329,20 +407,21 @@ def alter_apostroph_prefix(text):
     text = text.replace("'re", "")
     return text
 
+
 def create_dir(directory):
+    """
+    Create Log directory and set log level
+    :param input_dir: root log dir
+    :param file_name: log file name
+    """
     if not os.path.exists(directory):
         os.makedirs(directory)
 
 
-# def compile_file_path(language):
-#     models_dir = os.path.join(os.path.expanduser("~/Desktop"), 'Feature-Collection')
-#     create_dir(models_dir)
-#     file_name = 'feature-collection-{0}.csv'.format(language)
-#     return os.path.join(models_dir, file_name)
-
-
-
 def log_dataset_description():
+    """
+    Log data set description
+    """
     feature = arguments.feature_name
     logger.info("=" * 70)
     logger.info("DATASET DESRIPTION")
@@ -362,6 +441,11 @@ def log_dataset_description():
 
 
 def get_stop_words(lang):
+    """
+    Get stop words by language
+    :param lang: language
+    :return: language stopwords
+    """
     if lang is "en":
         return STOP_WORDS_EN
     if lang is "es":
@@ -405,6 +489,11 @@ def combine(list_1, list_2):
 
 
 def stemm_spanish_words(tokens):
+    """
+    Get stemmed spanish tokens
+    :param tokens: list of tokens
+    :return: list of stemmed tokens
+    """
     result_tokens = []
     stemmer = SnowballStemmer('spanish')
     for word in tokens:
@@ -413,6 +502,11 @@ def stemm_spanish_words(tokens):
 
 
 def stemm_english_words(tokens):
+    """
+    Get stemmed english tokens
+    :param tokens: list of tokens
+    :return: list of stemmed tokens
+    """
     result_tokens = []
     stemmer = PorterStemmer()
     for word in tokens:
@@ -421,9 +515,14 @@ def stemm_english_words(tokens):
 
 
 def preprocess_text_for_ngramms(text, language):
+    """
+    Preprocess text befor extracting n_gram features
+    :param text: input text
+    :param language: text language
+    :return: preprocessed text
+    """
     if language == 'english':
         text = alter_short_word_forms(text)
-    #text = remove_urls(text)
     text = strip_punctuation(text)
     text = remove_digits(text)
     text = text.replace("'", "")
@@ -431,16 +530,23 @@ def preprocess_text_for_ngramms(text, language):
 
 
 def preprocess_text_for_emoticons(text):
+    """
+    Preprocess text befor extracting emoticons features
+    :param text: input text
+    :return: preprocessed text
+    """
     text = remove_urls(text)
     text = strip_accent_mark(text)
     text = text.lower()
     return text
 
 
-
 def preprocess_text_for_bow(text):
-    #text = remove_tabs_and_newlines(text)
-    #text = remove_urls(text)
+    """
+    Preprocess text for bag of words
+    :param text: input text
+    :return: preprocessed text
+    """
     text = alter_apostroph_prefix(text)
     text = strip_accent_mark(text)
     text = strip_non_latin(text)
@@ -451,8 +557,13 @@ def preprocess_text_for_bow(text):
     return text
 
 
-
 def lemmatise_tokens(bag_of_words, nlp):
+    """
+    Lemmatize input tokens
+    :param bag_of_words: list of words
+    :param nlp: nlp
+    :return: lematized tokens
+    """
     lemmas = []
     joined_tokens = " ".join(bag_of_words)
     document = nlp(joined_tokens)
@@ -462,6 +573,11 @@ def lemmatise_tokens(bag_of_words, nlp):
 
 
 def convert_lang(lang):
+    """
+    Get language abbreviation
+    :param lang: language
+    :return: language abbreviation
+    """
     language = 'en'
     if lang.lower() == "spanish":
         language = 'es'
@@ -469,12 +585,24 @@ def convert_lang(lang):
 
 
 def check_spelling(tokens, language):
+    """
+    GEt list of misspelled words
+    :param tokens: text tokens
+    :param language: text language
+    :return:
+    """
     spell = SpellChecker(convert_lang(language))
     unknown_tokens = list(spell.unknown(tokens))
     return list(spell.unknown(unknown_tokens))
 
 
 def get_misspelled_tokens(tokens, language):
+    """
+    Get misspelled tokens
+    :param tokens: list of tokens
+    :param language: language
+    :return: list of misspelled tokens
+    """
     misspelled = []
     dictionary = enchant.Dict(get_lang(language))
     for token in tokens:
@@ -484,11 +612,23 @@ def get_misspelled_tokens(tokens, language):
 
 
 def count_ratio(total_tokens, misspelled_tokens):
+    """
+    Counte ration of misspelled tokens
+    :param total_tokens: toeal number of tokens
+    :param misspelled_tokens:  total number of misspelled tokens
+    :return:
+    """
     ratio = round((misspelled_tokens / total_tokens), 2)
     return ratio
 
 
 def stemm_tokens(language, bag_of_words):
+    """
+    Stemm tokens depending on language
+    :param language: language
+    :param bag_of_words: list of words
+    :return: stemmed tokens
+    """
     stemmed_tokens = []
     if language == 'spanish':
         stemmed_tokens = stemm_spanish_words(bag_of_words)
@@ -500,6 +640,11 @@ def stemm_tokens(language, bag_of_words):
 
 
 def get_bow(text):
+    """
+    Create bag of words from text
+    :param text: input text
+    :return: text as bag of words
+    """
     bag_of_words = word_tokenize(text)
     bag_of_words = [element.lower() for element in bag_of_words]
     #bag_of_words[0] = bag_of_words[0][1:]
@@ -512,7 +657,6 @@ def get_bow(text):
 def log_processing_progress(index, corpus_size):
     """
     Logging document preprocessing progress
-
     :param index: document index
     :param corpus_size: size of corpus (number of documents)
     """
@@ -549,6 +693,11 @@ def count_stopwords_ratio(word_list, language):
 
 
 def create_tags_dict(tags):
+    """
+    Create ditionary of tags
+    :param tags: list of tags
+    :return: dictionary of tags
+    """
     tagged_tokens_dict = {}
     for tag in tags:
         splitted = tag.split('\t')
@@ -561,6 +710,11 @@ def create_tags_dict(tags):
 
 
 def map_en_pos_tag(tag):
+    """
+    Map english tag name with part of speech name
+    :param tag: tag name
+    :return: part of speech name
+    """
     if tag in NOUNS_EN:
         return 'noun'
     elif tag in VERBS_EN:
@@ -582,6 +736,11 @@ def map_en_pos_tag(tag):
 
 
 def map_es_pos_tag(tag):
+    """
+    Map spanish tag name with part of speech name
+    :param tag: tag name
+    :return: part of speech name
+    """
     if tag in NOUNS_ES:
         return 'noun'
     elif tag in VERBS_ES:
@@ -600,7 +759,13 @@ def map_es_pos_tag(tag):
         return 'foreign'
 
 
-def replace_words_through_tags(tags, language):
+def replace_words_by_tags(tags, language):
+    """
+    Replace words in text by tags
+    :param tags:
+    :param language:
+    :return:
+    """
     pos_tokens = []
     for index, tag in enumerate(tags):
         splitted_tag = ""
@@ -609,7 +774,6 @@ def replace_words_through_tags(tags, language):
             splitted_tag = map_en_pos_tag(splitted[1])
         elif language is "es":
             splitted_tag = map_es_pos_tag(splitted[1])
-
         if splitted_tag is None:
             splitted_tag = "other"
         pos_tokens.append(splitted_tag)
@@ -617,6 +781,11 @@ def replace_words_through_tags(tags, language):
 
 
 def get_language_pos_vocabulary(language):
+    """
+    Get list of english parts of speech
+    :param language: language
+    :return: list of part of speech
+    """
     if language is "en":
         return ['noun', 'verb', 'adjective', 'adverb', 'preposition', 'pronoun', 'determiner', 'particle', 'foreign']
     elif language is "es":
@@ -679,7 +848,6 @@ def count_average_sentence_length_in_chars(total_chars, total_sent):
     Count average sentence length  in characters with
     deviding the total number of characters in
     document by total number of sentences in document
-
     :param total_chars: total number of characters
     :param total_sent: total number of sentences
     :return: document average sentence length in characters
@@ -737,7 +905,6 @@ def count_capital_tokens(tokens):
 def count_total_chars(document_word_list):
     """
     Count total number of characters in the text
-
     :param document_word_list:  list of document words
     :return: total number of characters
     """
@@ -783,7 +950,6 @@ def count_punctuation_ratio(text, punctuation_mark, total_centences, msg):
 def preprocess_text_for_punct_count(text):
     """
     Preprocess input text
-
     :param text:  unprocessed text
     :return: preprocessed text
     """
@@ -795,6 +961,11 @@ def preprocess_text_for_punct_count(text):
 
 
 def preprocess_text_for_vocabulary_richness(text):
+    """
+    Preprocess text for extracting vocabulary richness features
+    :param text: input text
+    :return: preprocessed text
+    """
     text = alter_apostroph_prefix(text)
     text = strip_accent_mark(text)
     text = strip_non_latin(text)
@@ -805,6 +976,11 @@ def preprocess_text_for_vocabulary_richness(text):
 
 
 def get_unique_words(tokens):
+    """
+    Get unique words from list of words
+    :param tokens: list of words
+    :return: list of unique words
+    """
     unique_words = []
     for token in tokens:
         if token not in unique_words:
@@ -813,6 +989,11 @@ def get_unique_words(tokens):
 
 
 def build_list_dict(word_list):
+    """
+    Create dictionary of input words
+    :param word_list: list of words
+    :return: dictionary
+    """
     word_list_dict = {}
     for word in word_list:
         if word not in word_list_dict.keys():
@@ -824,6 +1005,12 @@ def build_list_dict(word_list):
 
 
 def count_legomenon(word_list_dict, number):
+    """
+    Count legomenons
+    :param word_list_dict: dictionary of words
+    :param number: legomenon length value
+    :return: number of legomenon of input length
+    """
     counter = 0
     for word, appearance in word_list_dict.items():
         if appearance == number:
@@ -832,27 +1019,51 @@ def count_legomenon(word_list_dict, number):
 
 
 def count_type_token_ratio(unique_words_total, words_total):
+    """
+    Count Type Token Ratio
+    :param unique_words_total: total number of  unique words
+    :param words_total: total number of words
+    :return: type token ration value
+    """
     ttr = unique_words_total / words_total * 100
     return round(ttr, 2)
 
 
-# #Honore Measure =(100*logN) / (1-V_1/V)
 def count_honore_measure(word_list_dict, words_total, unique_words_total):
+    """
+    Count Honore Measure value
+    Honore Measure =(100*logN) / (1-V_1/V)
+    :param word_list_dict: words' dictionary
+    :param words_total: total number of words
+    :param unique_words_total: total number of unique words
+    :return: Honore Measure value
+    """
     hapax_legomenon_of_length = count_legomenon(word_list_dict, 1)
     r = (100 * math.log10(words_total)) / (1 - hapax_legomenon_of_length / unique_words_total)
     return round(r, 2)
 
 
-# Source: https://edu.cs.uni-magdeburg.de/EC/lehre/sommersemester-2013/wissenschaftliches-schreiben-in-der-informatik/publikationen-fuer-studentische-vortraege/HooverAnotherPerspective.pdf
 def count_sichel_measure(word_list_dict, unique_words_total):
+    """
+    Count Sichel measure value
+    :param word_list_dict: dictionary of words
+    :param unique_words_total: total number of words
+    :return: Sichel measure value
+    """
     total_dis_legomenon = count_legomenon(word_list_dict, 2)
     s = total_dis_legomenon / unique_words_total
     return round(s, 2)
 
 
-# # Yule Measure K = 10000*(M-N) / N^2;     M = sum (i^2 * V_i)
-# # http://pers-www.wlv.ac.uk/~in4326/papers/$U50.pdf
 def count_yule_measure(word_list_dict, words_total):
+    """
+    Count Yule Measere value
+    Yule Measure K = 10000*(M-N) / N^2;
+    M = sum (i^2 * V_i)
+    :param word_list_dict: dictionary of words
+    :param words_total: total number of words
+    :return: Yule Measere value
+    """
     m = 0
     unique_values = set(word_list_dict.values())
     for value in unique_values:
@@ -862,20 +1073,35 @@ def count_yule_measure(word_list_dict, words_total):
 
 
 def count_syllables_es(word):
+    """
+    Count spanish syllables
+    :param word: word
+    :return: number of syllables in word
+    """
     word = re.sub(r'\W+', '', word)
     syllables = silabizer()
     return len(syllables(word))
 
 
 def count_total_syllables(tokens):
+    """
+    Count total number of syllables
+    :param tokens: input tokens
+    :return: total number of syllables
+    """
     total_syllables = 0
     for token in tokens:
         total_syllables += count_syllables_es(token)
-        # print(token, new, total_snippet_syllables)
     return total_syllables
 
 
 def get_text_snippet(full_text, word_limit):
+    """
+    Extract text snippet from full text
+    :param full_text: full text
+    :param word_limit: number of words
+    :return:
+    """
     splitted = full_text.split()
     start_index = (randint(0, len(splitted)))
     snippet_word_list = splitted[start_index:start_index + (word_limit - 1)]
@@ -885,28 +1111,47 @@ def get_text_snippet(full_text, word_limit):
         additional_word_list = rest[0:differ]
         for word in additional_word_list:
             snippet_word_list.append(word)
-    #print("Size of snippet word list", len(snippet_word_list))
     return ' '.join(snippet_word_list)
 
 
 def fernandez_huerta_index(total_syllables, total_words, total_sentences):
-    # IFH = 206.84 - (0.60 * total_syllables) - (1.02 * total_sentences)
+    """
+    Count Fernandez Huerta Index value
+    IFH = 206.84 - (0.60 * total_syllables) - (1.02 * total_sentences)
+    :param total_syllables: total number f syllables
+    :param total_words: total number of words
+    :param total_sentences: total number of sentences
+    :return: Fernandez Huerta Index value
+    """
     ifh = 206.84 - (60 * (total_syllables / total_words)) - (1.02 * total_words / total_sentences)
     print('Fernandez Huerta Index: ', round(ifh, 2))
     return round(ifh, 2)
 
 
 def flesch_szigriszt_index(total_syllables, total_words, total_sentences):
+    """
+    Count Flesch Szigriszt Index value
+    :param total_syllables: total number of syllables
+    :param total_words: total number of words
+    :param total_sentences: total number of sentences
+    :return: Flesch Szigriszt Index value
+    """
     ifs = 206.835 - (62.3 * (total_syllables / total_words)) - (total_words / total_sentences)
     print('Flesch Szigriszt Index: ', round(ifs, 2))
     return round(ifs, 2)
 
 
 def crawford_readability(total_syllables, total_words, total_sentences):
-    """ Comprensibilidad de Gutiérrez de Polini = 95,2 – (9,7 x L/P) – (0,35 x P/F)
-            Crawford's readability formula = -0,205OP + 0,049SP – 3,407
+    """
+    Count crawford_readability Score
+    Crawford's readability formula = -0,205OP + 0,049SP – 3,407
             OP = mean number of sentences per 100 words
-            SP = mean number of syllables in 100 words"""
+            SP = mean number of syllables in 100 words
+    :param total_syllables: total number of syllables
+    :param total_words: total number of words
+    :param total_sentences: total number of sentences
+    :return: crawford_readability Score
+    """
     op = total_sentences / total_words * 100
     sp = total_syllables / total_words * 100
     cr = -0.205 * op + 0.049 * sp - 3.407
@@ -915,6 +1160,13 @@ def crawford_readability(total_syllables, total_words, total_sentences):
 
 
 def gutierrez_de_poloni_score(total_letters, total_words, total_sentences):
+    """
+    Count Gutierrez de Poloni score
+    :param total_letters: total number of letters
+    :param total_words: total number of words
+    :param total_sentences: total number of sentences
+    :return: Gutierrez de Poloni score
+    """
     """Gutiérrez de Polini's readability score (1972)"""
     GPS = 95.2 - 9.7 * (total_letters / total_words) - 0.35 * (total_words / total_sentences)
     print('Gutiérrez de Polinis readability score: ', round(GPS, 2))
@@ -922,6 +1174,11 @@ def gutierrez_de_poloni_score(total_letters, total_words, total_sentences):
 
 
 def preprocess_text_snippet(text):
+    """
+    Preprocess text
+    :param text: text
+    :return: preprocessed text
+    """
     text = alter_apostroph_prefix(text)
     text = strip_accent_mark(text)
     text = strip_non_latin(text)
@@ -931,23 +1188,75 @@ def preprocess_text_snippet(text):
     return text
 
 
+def create_feature_collection_dir(project_root_dir):
+    """
+    create directory to save extracted features
+    :param project_root_dir: directory root path
+    :return: created directory name
+    """
+    root_dir = os.path.join(project_root_dir, "Feature-Collection")
+    language_dir = os.path.join(root_dir, arguments.language)
+    dataset_dir = os.path.join(language_dir, arguments.dataset_type)
+    create_dir(root_dir)
+    create_dir(language_dir)
+    create_dir(dataset_dir)
+    return dataset_dir
 
-#!/usr/bin/env python3
-# Based on Mabodo's ipython notebook (https://github.com/mabodo/sibilizador)
-# (c) Mabodo
-# CODE QUELLE: https://github.com/amunozf/separasilabas/blob/master/separasilabas.py
+
+
+class silabizer():
+    """Class count syllables in spanish texts
+    This code is based on https://github.com/amunozf/separasilabas/blob/master/separasilabas.py"""
+    def __init__(self):
+        self.grammar = []
+
+    def split(self, chars):
+        """
+        Split words
+        :param chars: characters
+        """
+        rules = [('VV', 1), ('cccc', 2), ('xcc', 1), ('ccx', 2), ('csc', 2), ('xc', 1), ('cc', 1), ('vcc', 2),
+                 ('Vcc', 2), ('sc', 1), ('cs', 1), ('Vc', 1), ('vc', 1), ('Vs', 1), ('vs', 1)]
+        for split_rule, where in rules:
+            first, second = chars.split_by(split_rule, where)
+            if second:
+                if first.type_line in set(['c', 's', 'x', 'cs']) or second.type_line in set(['c', 's', 'x', 'cs']):
+                    # print 'skip1', first.word, second.word, split_rule, chars.type_line
+                    continue
+                if first.type_line[-1] == 'c' and second.word[0] in set(['l', 'r']):
+                    continue
+                if first.word[-1] == 'l' and second.word[-1] == 'l':
+                    continue
+                if first.word[-1] == 'r' and second.word[-1] == 'r':
+                    continue
+                if first.word[-1] == 'c' and second.word[-1] == 'h':
+                    continue
+                return self.split(first) + self.split(second)
+        return [chars]
+
+    def __call__(self, word):
+        return self.split(char_line(word))
 
 class char():
     def __init__(self):
         pass
 
 class char_line():
+    """
+    Count syllybles
+    This code is based on https://github.com/amunozf/separasilabas/blob/master/separasilabas.py
+    """
     def __init__(self, word):
         self.word = word
         self.char_line = [(char, self.char_type(char)) for char in word]
         self.type_line = ''.join(chartype for char, chartype in self.char_line)
 
     def char_type(self, char):
+        """
+        Get character type
+        :param char: character
+        :return: character type
+        """
         if char in set(['a', 'á', 'e', 'é', 'o', 'ó', 'í', 'ú']):
             return 'V'  # strong vowel
         if char in set(['i', 'u', 'ü']):
@@ -979,34 +1288,6 @@ class char_line():
         return repr(self.word)
 
 
-class silabizer():
-    def __init__(self):
-        self.grammar = []
-
-    def split(self, chars):
-        rules = [('VV', 1), ('cccc', 2), ('xcc', 1), ('ccx', 2), ('csc', 2), ('xc', 1), ('cc', 1), ('vcc', 2),
-                 ('Vcc', 2), ('sc', 1), ('cs', 1), ('Vc', 1), ('vc', 1), ('Vs', 1), ('vs', 1)]
-        for split_rule, where in rules:
-            first, second = chars.split_by(split_rule, where)
-            if second:
-                if first.type_line in set(['c', 's', 'x', 'cs']) or second.type_line in set(['c', 's', 'x', 'cs']):
-                    # print 'skip1', first.word, second.word, split_rule, chars.type_line
-                    continue
-                if first.type_line[-1] == 'c' and second.word[0] in set(['l', 'r']):
-                    continue
-                if first.word[-1] == 'l' and second.word[-1] == 'l':
-                    continue
-                if first.word[-1] == 'r' and second.word[-1] == 'r':
-                    continue
-                if first.word[-1] == 'c' and second.word[-1] == 'h':
-                    continue
-                return self.split(first) + self.split(second)
-        return [chars]
-
-    def __call__(self, word):
-        return self.split(char_line(word))
-
-
 class DocCorpus:
     def __init__(self, doc_dir_path):
         self.doc_dir_path = doc_dir_path
@@ -1014,6 +1295,10 @@ class DocCorpus:
         self.documents = []
 
     def load(self):
+        """
+        Load document collection
+        :return: document collection
+        """
         logger.info("Loading corpus of documents.....")
         xml_files = glob.glob(str.format("{0}\*.xml", self.doc_dir_path))
         truth_file_list = [row.rstrip('\n') for row in open(self.truth_path)]
@@ -1031,6 +1316,9 @@ class DocCorpus:
         return self.documents
 
     def get_statistics(self):
+        """
+        Log sattistics of datatset
+        """
         age_dict = {}
         for document in self.documents:
             age = document[1]
@@ -1052,8 +1340,10 @@ class DocCorpus:
         logger.info("-" * 40)
 
 
-#  Features
 class NGramms:
+    """
+    NGramms Class extracts N-Gram features
+    """
     def __init__(self, feature_collection_dir, language, document_corpus, ):
         self.document_corpus = document_corpus
         self.language = language
@@ -1063,37 +1353,45 @@ class NGramms:
         self.corpus_dict = {}
         self.feature_collection_dir = feature_collection_dir
 
+
     def import_language_class(self):
+        """
+        Import spacy model by language
+        :return: language spacy model
+        """
         if self.language == "english":
             return English()
         elif self.language == "spanish":
             return Spanish()
 
     def compute(self, language, n, min_df, max_df, max_features):
+        """
+        Extract N Grams features
+        :param language: language
+        :param n: number of grams
+        :param min_df: minimal document frequency
+        :param max_df: maximal document frequency
+        :param max_features: maximal number of features
+        """
         nlp = self.import_language_class()
         if arguments.text_preprocessing.lower() == "lemma":
             logging.info(str.format("Loading spacy model"))
         for index, document in enumerate(self.document_corpus):
             log_processing_progress(index, len(self.document_corpus))
             self.author_id_list.append(document[0])
-            #logging.info(str.format("Author_ID: {0}", document[0]))
             self.label_list.append(document[1])
             text = preprocess_text_for_ngramms(document[2], self.language)
             bag_of_words = get_bow(text)
             # remove words, which have length <3
             bag_of_words = [w for w in bag_of_words if len(w) > 2]
 
-
             if arguments.text_preprocessing.lower() == "lemma":
                 bag_of_words = lemmatise_tokens(bag_of_words, nlp)
                 # delete digits
                 bag_of_words = [x for x in bag_of_words if not (x.isdigit()
                                                                 or x[0] == '-' and x[1:].isdigit())]
-                #logging.info(str.format("Lemmas: {0}\n", [x.encode('utf-8') for x in bag_of_words]))
-
             elif arguments.text_preprocessing.lower() == "stemm":
                 bag_of_words = stemm_tokens(language, bag_of_words)
-                #logging.info(str.format("Stemms: {0}\n", [x.encode('utf-8') for x in bag_of_words]))
             self.corpus_dict[document[0]] = ' '.join(bag_of_words)
 
         logger.info("Vectorizing")
@@ -1117,11 +1415,13 @@ class NGramms:
                 logger.info("{0:50} Score: {1}".format(element[0], element[1]))
 
         logger.info("Number of features: {0}".format(len(feature_names)))
-        #logger.info("Top 20 feature names: {0}".format(feature_names[:20]))
         logger.info(str.format("Extracted features were saved to: {0}", file_path))
 
 
 class Emoticons:
+    """
+    Extract Emoticon Features
+    """
     def __init__(self, document_corpus, feature_collection_dir):
         self.document_corpus = document_corpus
         self.labels = '18-24,18-24,35-49,50-64,65-xx'
@@ -1131,6 +1431,12 @@ class Emoticons:
         self.feature_collection_dir = feature_collection_dir
 
     def compute(self, min_df, max_df, max_features):
+        """
+        Compute emoticons features
+        :param min_df:  minimal document frequency
+        :param max_df:  maximal document frequency
+        :param max_features:  maximal features
+        """
         for index, document in enumerate(self.document_corpus):
             log_processing_progress(index, len(self.document_corpus))
             self.author_id_list.append(document[0])
@@ -1151,7 +1457,6 @@ class Emoticons:
         file_path = os.path.join(self.feature_collection_dir, filename)
         df.to_csv(file_path, sep=',', index=False, encoding='utf-8')
 
-
         logger.info("Vocabulary nGrams sorted by frequency:")
         scores = zip(emoticon_feature_names, np.asarray(emoticon_features.sum(axis=0)).ravel())
         sorted_scores = sorted(scores, key=lambda x: x[1], reverse=True)
@@ -1163,8 +1468,10 @@ class Emoticons:
         logger.info(str.format("Extracted features were saved to: {0}", file_path))
 
 
-
 class MisspellRatio:
+    """
+    Extract Misspell ratio feature
+    """
     def __init__(self, language, document_corpus, feature_collection_dir):
         self.language = language
         self.document_corpus = document_corpus
@@ -1175,6 +1482,9 @@ class MisspellRatio:
         self.feature_collection_dir = feature_collection_dir
 
     def compute(self):
+        """
+        Count Misspell ratio feature
+        """
         feature_collection = pd.DataFrame()
         for index, document in enumerate(self.document_corpus):
             log_processing_progress(index, len(self.document_corpus))
@@ -1182,9 +1492,6 @@ class MisspellRatio:
             self.label_list.append(document[1])
             logging.info(str.format("Author_id: {0}", document[0]))
             text = preprocess_text_for_bow(document[2])
-
-
-
             document_tokens = word_tokenize(text, self.language)
             unknown_tokens = check_spelling(document_tokens, self.language)
             misspelled_tokens = get_misspelled_tokens(unknown_tokens, self.language)
@@ -1200,6 +1507,9 @@ class MisspellRatio:
 
 
 class StopwordsRatio:
+    """
+    Extract Stop words ration feature
+    """
     def __init__(self, language, document_corpus, feature_collection_dir):
         self.document_corpus = document_corpus
         self.language = language
@@ -1212,8 +1522,7 @@ class StopwordsRatio:
 
     def compute(self):
         """
-         create new 'feature collection' Dataframe
-        of 'stopwords_ratio' feature and save it to csv-file.
+        compute stop words ratio
         """
         feature_collection = pd.DataFrame()
         for index, document in enumerate(self.document_corpus):
@@ -1238,6 +1547,10 @@ class StopwordsRatio:
 
 
 class PosCounter:
+    """
+    Extracts Part of Speech features and
+    saves they to the CSV-file in a Matrix form.
+    """
     def __init__(self, language, document_corpus, feature_collection_dir):
         self.language = get_lang(language)
         self.document_corpus = document_corpus
@@ -1248,48 +1561,42 @@ class PosCounter:
         self.feature_collection_dir = feature_collection_dir
 
     def compute(self):
+        """
+        Compute part of speech features
+        """
         for index, document in enumerate(self.document_corpus):
             log_processing_progress(index, len(self.document_corpus))
             self.author_id_list.append(document[0])
             self.label_list.append(document[1])
-            #logging.info(str.format("Author_id: {0}", document[0]))
             text = preprocess_text_for_bow(document[2])
-
             tagger = treetaggerwrapper.TreeTagger(TAGLANG=self.language, TAGDIR="C:/TreeTagger")
-            tagged_text = replace_words_through_tags(tagger.tag_text(text), self.language)
-
+            tagged_text = replace_words_by_tags(tagger.tag_text(text), self.language)
             self.corpus_dict[document[0]] = tagged_text
 
         logger.info("Vectorizing")
         vectorizer = TfidfVectorizer(vocabulary=get_language_pos_vocabulary(self.language))
         pos_features = vectorizer.fit_transform(self.corpus_dict.values())
         pos_features_names = vectorizer.get_feature_names()
-
         feature_collection = pd.DataFrame(np.round(pos_features.toarray(), 2), columns=pos_features_names)
         feature_collection.insert(loc=0, column='lbl', value=self.label_list)
         feature_collection.insert(loc=0, column='author_id', value=self.author_id_list)
         filename = "pos_features.csv"
         file_path = os.path.join(self.feature_collection_dir, filename)
         feature_collection.to_csv(file_path, sep=',', index=False, encoding='utf-8')
-
-
         logger.info("Vocabulary nGrams sorted by frequency:")
         scores = zip(pos_features_names, np.asarray(pos_features.sum(axis=0)).ravel())
         sorted_scores = sorted(scores, key=lambda x: x[1], reverse=True)
         for index, element in enumerate(sorted_scores):
                 logger.info("{0:50} Score: {1}".format(element[0], element[1]))
-
         logger.info("Number of features: {0}".format(len(pos_features_names)))
-        #logger.info("Feature names: {0}".format(pos_features_names))
         logger.info(str.format("Extracted features were saved to: {0}", file_path))
 
 
 class LexicalFeatures:
     """
-    LexicalFeatures class counts lexical features and
+    Counts lexical features and
     saves they to the CSV-file in a Matrix form.
     """
-
     def __init__(self, language, document_corpus, feature_collection_dir):
         self.language = language
         self.feature_collection_dir = feature_collection_dir
@@ -1311,8 +1618,7 @@ class LexicalFeatures:
 
     def compute(self):
         """
-         create new 'feature collection' Dataframe
-        and save it to csv-file.
+        Compute lexical features
         """
         feature_collection = pd.DataFrame()
         for index, document in enumerate(self.document_corpus):
@@ -1381,7 +1687,6 @@ class PunctuationCounter:
     Count how often the specific punctuation
     appears in the document
     """
-
     def __init__(self, language, document_corpus, feature_collection_dir):
         self.document_corpus = document_corpus
         self.feature_collection_dir = feature_collection_dir
@@ -1399,8 +1704,7 @@ class PunctuationCounter:
 
     def compute(self):
         """
-        create new 'feature collection' Dataframe
-        of puctuation features and save it to csv-file.
+        Count punctuation features
         """
         feature_collection = pd.DataFrame()
         for index, document in enumerate(self.document_corpus):
@@ -1453,6 +1757,7 @@ class PunctuationCounter:
 
 
 class VocabularyRichness:
+    """ Class  extracts vocabulary richness features"""
     def __init__(self, language, document_corpus, feature_collection_dir):
         self.document_corpus = document_corpus
         self.feature_collection_dir = feature_collection_dir
@@ -1466,6 +1771,9 @@ class VocabularyRichness:
         self.yule_measure = []
 
     def compute(self):
+        """
+        Compute Vocabulary richness features
+        """
         feature_collection = pd.DataFrame()
         for index, document in enumerate(self.document_corpus):
             log_processing_progress(index, len(self.document_corpus))
@@ -1501,6 +1809,7 @@ class VocabularyRichness:
 
 
 class ReadabilityScores:
+    "Extract Readability score features"
     def __init__(self, language, document_corpus, feature_collection_dir):
         self.feature_collection_dir = feature_collection_dir
         self.language = language
@@ -1583,19 +1892,31 @@ class ReadabilityScores:
 
 
 class FeaturesExtractor:
+    """
+    Feature Extractor Class
+    """
     def __init__(self):
         self.language = arguments.language
         self.feature_name = arguments.feature_name
         #self.csv_path = compile_file_path(self.language)
 
     def generate_features_dataset(self, doc_dir, feature_collection_dir):
+        """
+        Initialise feature extraction
+        :param doc_dir: directory of documents
+        :param feature_collection_dir: root directory to save features
+        """
         corpus = DocCorpus(doc_dir)
         document_corpus = corpus.load()
         self.feature_collection_dir = feature_collection_dir
-        self.count_features(document_corpus)
+        self.extract_features(document_corpus)
 
-
-    def count_features(self, document_corpus):
+    def extract_features(self, document_corpus):
+        """
+        Extract features from document corpus
+        :param document_corpus: corpus of the documents
+        :return: extracted features
+        """
         if self.feature_name == 'n_grams':
             ngrams = NGramms(self.feature_collection_dir, self.language, document_corpus)
             return ngrams.compute(arguments.language, n=arguments.ngram, min_df=arguments.min_df,
@@ -1628,19 +1949,12 @@ class FeaturesExtractor:
             raise ValueError("Unknown feature name")
 
 
-def create_feature_collection_dir(project_root_dir):
-    root_dir = os.path.join(project_root_dir, "Feature-Collection")
-    language_dir = os.path.join(root_dir, arguments.language)
-    dataset_dir = os.path.join(language_dir, arguments.dataset_type)
-    create_dir(root_dir)
-    create_dir(language_dir)
-    create_dir(dataset_dir)
-    return dataset_dir
 
 
 if __name__ == "__main__":
     start = time.time()
     arguments = config_arg_parser()
+    # 1) Create directories to save and log feature extraction
     project_root_dir = os.path.join(os.path.expanduser("~/Desktop"), "Age-Detection")
     log_dir = os.path.join(project_root_dir, "Log")
     create_dir(project_root_dir)
@@ -1648,11 +1962,10 @@ if __name__ == "__main__":
     log_file = os.path.join(log_dir, 'feature_extraction_{0}__{1}.log'.format(arguments.feature_name, strftime("%Y-%m-%d__%H-%M-%S", gmtime())))
     init_logging(log_dir, log_file)
     log_dataset_description()
+    feature_collection_dir = create_feature_collection_dir(project_root_dir)
     logger.info(str.format("Started feature extraction ....."))
 
-    # create directory to save features
-    feature_collection_dir = create_feature_collection_dir(project_root_dir)
-
+    # 2) Extract features
     db = FeaturesExtractor()
     db.generate_features_dataset(arguments.doc_dir, feature_collection_dir)
 
