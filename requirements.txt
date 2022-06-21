@@ -10,7 +10,7 @@ nltk==3.4.4
 scikit-learn==0.21.2
 htmllaudry==2.1
 ReliefF==0.1.2
-numpy==1.16.4
+numpy==1.22.0
 spacy==2.1.6
 textblob==0.15.2
 matplotlib==3.0.2
